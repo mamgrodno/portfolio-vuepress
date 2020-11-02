@@ -17,6 +17,13 @@ sections:
   templates:
   - works
 - type: directory
+  path: portfolio/projects
+  label: Projects
+  create: all
+  match: "**/*"
+  templates:
+  - projects
+- type: directory
   path: portfolio/journal
   label: Journal
   create: all
