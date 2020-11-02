@@ -25,6 +25,16 @@
         <Content/>
       </div>
 
+      <!-- Single little project -->
+      <div v-if="isSingleProj">
+        <SingleProjectHeader
+          :title="$page.frontmatter.title"
+          :year="$page.frontmatter.year.toString()"
+          :categories="$page.frontmatter.categories"
+        />
+        <Content/>
+      </div>
+
       <!-- Journal list -->
       <div v-if="$route.path === '/journal/'" class="journal-list">
         <Content />
@@ -58,7 +68,14 @@
         if (path.includes('journal') && path.length >= (journalRoute.length + 1)) {
           return true
         }
-      }
+      },
+      isSingleProj() {
+          const projRoute = '/projects/'
+          const path = this.$route.path
+          if (path.includes('projects') && path.length >= (projRoute.length + 1)) {
+            return true
+          }
+        }, 
     },
     updated() {
         // unwrap all images from paragraph tags so we can have
