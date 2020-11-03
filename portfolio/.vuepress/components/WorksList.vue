@@ -43,6 +43,11 @@
     background-repeat: no-repeat;
     margin-bottom: 5vw;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+
+  .post:hover {
+    transform: scale(1.02);
   }
 
   .info {
