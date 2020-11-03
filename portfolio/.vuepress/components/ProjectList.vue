@@ -37,7 +37,7 @@
   .project-list {
       display: grid;
       grid-gap: 1em;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 
   .post {
