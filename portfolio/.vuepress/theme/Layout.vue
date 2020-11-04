@@ -98,6 +98,7 @@
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
   :root {
     --color-black: #1c1c1c;
@@ -126,7 +127,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Circe","Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
