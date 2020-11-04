@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-
     <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
 
     <div class="container">
@@ -17,37 +16,51 @@
 
       <!-- Single project view -->
       <div v-if="isSingleProject">
+
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <SingleProjectHeader
           :title="$page.frontmatter.title"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
         />
+        </transition>
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content/>
+        </transition>
       </div>
 
       <!-- Single little project -->
       <div v-if="isSingleProj">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <SingleProjectHeader
           :title="$page.frontmatter.title"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
         />
+        </transition>
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content/>
+        </transition>
       </div>
 
       <!-- Journal list -->
       <div v-if="$route.path === '/journal/'" class="journal-list">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content />
+        </transition>
       </div>
 
       <!-- Single journal -->
       <div v-if="isSingleJournal" class="single-journal">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content/>
+        </transition>
       </div>
 
     </div>
 
     <Footer />
+
 
   </div>
 </template>
@@ -99,6 +112,7 @@
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
 
   :root {
     --color-black: #1c1c1c;

@@ -4,6 +4,7 @@
       <router-link tag="h2" :to="post.path" class="title">{{ post.frontmatter.title }}</router-link>
       <p>{{ post.frontmatter.excerpt }}</p>
     </div>
+    
   </div>
 </template>
 
@@ -20,6 +21,7 @@
 </script>
 
 <style scoped>
+
   .title {
     cursor: pointer;
   }

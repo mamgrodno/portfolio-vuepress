@@ -6,9 +6,21 @@ project_text: 'Проекты или вставить свой текст <span 
   <strong>жирный </strong>'
 
 ---
+
+<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <Hero :text="$page.frontmatter.hero_text" />
+</transition>
+
+<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <ClientOnly>
   <WorksList />
 </ClientOnly>
+</transition>
+
+<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <Hero :text="$page.frontmatter.project_text" />
+</transition>
+
+<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <ProjectList />
+</transition>
