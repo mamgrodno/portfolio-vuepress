@@ -1,27 +1,47 @@
 <template>
-  <div class="project-list">
 
-    <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in posts"
-      :key="post.title"
-      class="post"
-      :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
-    >
+  
+      <div class="project-list">
+        
 
-      <div class="info">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+
+
+    <carousel :autoplay="true"
+              :autoplayTimeout="2000"
+              :loop="true"
+              :perPage="1">
+
+      <slide v-for="post in posts"
+             :key="post.title">
+        <router-link
+          :to="post.path"
+          tag="div"
+          
+          class="post"
+          :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
+        >
+
+          <div class="info">
+            <h2>{{ post.frontmatter.title }}</h2>
+            <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+          </div>
+        </router-link>
+      </slide>
+      
+    </carousel>
+
       </div>
 
-    </router-link>
-
-  </div>
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel';
+
   export default {
+    components: {
+      Carousel,
+      Slide
+    },
     computed: {
       posts() {
         return this.$site.pages
@@ -41,7 +61,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 5vw;
     cursor: pointer;
     transition: all .2s ease-in-out;
   }

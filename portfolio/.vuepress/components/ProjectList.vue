@@ -7,10 +7,9 @@
       v-for="post in projects"
       :key="post.title"
       class="post"
-      :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
     >
-
-      <div class="info">
+      <div class="projectinfo">
+        <img :src="post.frontmatter.thumbnail" alt="">
         <h2>{{ post.frontmatter.title }}</h2>
         <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
       </div>
@@ -35,6 +34,7 @@
 <style scoped>
 
   .project-list {
+      margin-top: 5vh;
       display: grid;
       grid-gap: 1em;
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -43,17 +43,42 @@
   .post {
     position: relative;
     width: 100%;
-    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 5vw;
+    /* margin-bottom: 5vw; */
     cursor: pointer;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: #dfdfdf 1px solid;
     transition: all .2s ease-in-out;
   }
 
   .post:hover {
     transform: scale(1.04);
+  }
+
+  .projectinfo {
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectinfo img {
+    margin: 0 auto;
+  }
+
+  .projectinfo h2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  .projectinfo span {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1rem;
   }
 
   .info {

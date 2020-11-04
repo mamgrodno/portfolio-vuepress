@@ -1,5 +1,19 @@
 const config = require('../config.json');
 module.exports = {
+  // plugins: [
+  //   ['@vuepress/blog', {
+  //     directories: [
+  //       {
+  //         id: 'tag',
+  //         dirname: 'projects',
+  //         path: '/',
+  //         pagination: {
+  //            lengthPerPage: 2,
+  //          },
+  //       },
+  //     ],
+  //   }]
+  // ],
   title: config.title,
   description: config.description,
   base: "/",
@@ -15,5 +29,5 @@ module.exports = {
     anchor: {
       permalink: false
     }
-  }
+  },
 };

@@ -1,6 +1,6 @@
 ---
 works_index: true
-hero_text: "<strong>Modern Art Museum Grodno</strong>"
+hero_text: "<strong>Свободная площадка современного искусства, Гродно</strong>"
 title: Hero
 
 ---
