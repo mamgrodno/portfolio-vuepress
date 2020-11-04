@@ -1,11 +1,7 @@
 <template>
 
   
-      <div class="project-list">
-        
-
-
-
+  <div class="project-list">
     <carousel :autoplay="true"
               :autoplayTimeout="2000"
               :loop="true"
@@ -13,6 +9,7 @@
 
       <slide v-for="post in posts"
              :key="post.title">
+             
         <router-link
           :to="post.path"
           tag="div"
@@ -26,11 +23,9 @@
             <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
           </div>
         </router-link>
-      </slide>
-      
+      </slide> 
     </carousel>
-
-      </div>
+  </div>
 
 </template>
 

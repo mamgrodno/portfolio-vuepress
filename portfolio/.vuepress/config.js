@@ -1,4 +1,5 @@
 const config = require('../config.json');
+
 module.exports = {
   // plugins: [
   //   ['@vuepress/blog', {

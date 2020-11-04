@@ -5,5 +5,10 @@ title: Hero
 
 ---
 <Hero :text="$page.frontmatter.hero_text" />
-<WorksList />
+<ClientOnly>
+  <WorksList />
+</ClientOnly>
 <ProjectList />
+<!-- <ClientOnly>
+  <TestComp />
+</ClientOnly> -->
