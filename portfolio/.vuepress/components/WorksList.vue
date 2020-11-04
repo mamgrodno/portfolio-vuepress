@@ -6,17 +6,18 @@
 
 
 
-    <carousel :autoplay="true"
+    <!-- <carousel :autoplay="true"
               :autoplayTimeout="2000"
               :loop="true"
               :perPage="1">
 
       <slide v-for="post in posts"
-             :key="post.title">
+             :key="post.title"> -->
         <router-link
           :to="post.path"
           tag="div"
-          
+          v-for="post in posts"
+          :key="post.title"
           class="post"
           :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
         >
@@ -26,9 +27,9 @@
             <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
           </div>
         </router-link>
-      </slide>
+      <!-- </slide> -->
       
-    </carousel>
+    <!-- </carousel> -->
 
       </div>
 
