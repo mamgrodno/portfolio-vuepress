@@ -13,5 +13,12 @@ fields:
     wysiwyg: true
     schema:
       format: html
+  - type: textarea
+  name: project_text
+  label: Project text
+  config:
+    wysiwyg: true
+    schema:
+      format: html
 pages:
 - portfolio/index.md
