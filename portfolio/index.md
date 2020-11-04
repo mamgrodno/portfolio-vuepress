@@ -8,5 +8,5 @@ title: Hero
 <ClientOnly>
   <WorksList />
 </ClientOnly>
-текст и еще текст
+<Hero :text="$page.frontmatter.project_text" />
 <ProjectList />
