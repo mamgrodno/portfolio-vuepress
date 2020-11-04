@@ -8,7 +8,5 @@ title: Hero
 <ClientOnly>
   <WorksList />
 </ClientOnly>
+текст и еще текст
 <ProjectList />
-<!-- <ClientOnly>
-  <TestComp />
-</ClientOnly> -->
