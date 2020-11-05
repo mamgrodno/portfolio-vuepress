@@ -6,6 +6,12 @@
   "favicon": "favicon-32x32.png",
   "navigation": [
     {
+      "text": "Panorama",
+      "link": "/panorama",
+      "position": "right",
+      "external": false
+    },
+    {
       "text": "Works",
       "link": "/",
       "position": "left",
