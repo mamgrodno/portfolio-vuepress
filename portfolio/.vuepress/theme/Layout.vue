@@ -57,6 +57,11 @@
         </transition>
       </div>
 
+      <!-- Panorama -->
+      <div v-if="$route.path === '/panorama/'">
+        <Content />
+      </div>
+
     </div>
 
     <Footer />
