@@ -1,6 +1,9 @@
 <template>
   <div>
-      <p>This is a default vue, will be used for panorama</p>
+      <div>
+        <iframe src="/boldakov/index.html" frameborder="0" scrolling="yes" style="height: 100vh; width: 100vw; overflow: hidden;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+      </div>
+
   </div>
 </template>
 
@@ -10,6 +13,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
