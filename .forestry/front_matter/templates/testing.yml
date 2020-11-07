@@ -1,0 +1,22 @@
+---
+label: testing
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: number
+  name: year
+  label: year
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: description
+  label: description
