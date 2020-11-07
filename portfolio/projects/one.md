@@ -6,6 +6,12 @@ year: 2018
 categories:
 - print
 description: hey boss
+test_for_the_blocks:
+- template: projects2
+  title: second time
+  description: what's going on man
+  year: 2020
+  date: 2020-11-06 22:00:00 +0000
 
 ---
 # Project one
