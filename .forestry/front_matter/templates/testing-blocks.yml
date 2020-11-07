@@ -1,4 +1,13 @@
 ---
 label: testing blocks
 hide_body: false
-fields: []
+fields:
+- name: projects
+  type: blocks
+  label: projects
+  template_types:
+  - projects
+  config:
+    min: 
+    max: 
+  description: pick type of project
