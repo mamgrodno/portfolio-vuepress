@@ -44,4 +44,5 @@ fields:
     max: 
   description: im just testing man let's see if it works
 pages:
+- portfolio/projects/hello-world.md
 - portfolio/projects/very-nice.md
