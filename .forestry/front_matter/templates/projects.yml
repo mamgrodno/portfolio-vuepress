@@ -34,15 +34,6 @@ fields:
   type: datetime
   config:
     required: true
-- name: test_for_the_blocks
-  type: blocks
-  label: test for the blocks
-  template_types:
-  - projects2
-  config:
-    min: 
-    max: 
-  description: im just testing man let's see if it works
 pages:
 - portfolio/projects/hello-world.md
 - portfolio/projects/very-nice.md
