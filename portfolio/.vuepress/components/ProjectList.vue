@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="project-list">
 
     <router-link
@@ -8,14 +9,24 @@
       :key="post.title"
       class="post"
     >
-      <div class="projectinfo">
-        <img :src="post.frontmatter.thumbnail" alt="">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+        <div class="projectinfo">
+          <img :src="post.frontmatter.thumbnail" alt="">
+          <h2>{{ post.frontmatter.title }}</h2>
+          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+        </div>
+
+      <div v-for="i in post.frontmatter.test_for_the_blocks">
+        <style v-if="i.template === 'projects2'">
+          
+        </style>
+        <style v-else-if="">
+
+        </style>
       </div>
 
     </router-link>
 
+  </div>
   </div>
 </template>
 
@@ -35,14 +46,16 @@
 
   .project-list {
       margin-top: 5vh;
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
       grid-gap: 1em;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
   .post {
     position: relative;
-    width: 100%;
+    width: 20rem;
+    flex: 1 3 auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

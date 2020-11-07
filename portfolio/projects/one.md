@@ -7,7 +7,7 @@ categories:
 - print
 description: hey boss
 test_for_the_blocks:
-- template: projects2
+- template: projects3
   title: second time
   description: what's going on man
   year: 2020
