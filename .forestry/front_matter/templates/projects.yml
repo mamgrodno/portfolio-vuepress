@@ -35,5 +35,4 @@ fields:
   config:
     required: true
 pages:
-- portfolio/projects/hello-world.md
 - portfolio/projects/very-nice.md
