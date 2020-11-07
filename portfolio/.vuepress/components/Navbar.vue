@@ -120,8 +120,8 @@
     justify-content: space-between;
     height: 6rem;
     padding: 5vw;
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 400;
     z-index: 10;
   }
 

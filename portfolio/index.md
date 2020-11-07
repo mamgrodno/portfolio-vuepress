@@ -16,10 +16,6 @@ project_text: 'Проекты или вставить свой текст <span 
 </ClientOnly>
 </transition>
 
-<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <Hero :text="$page.frontmatter.project_text" />
-</transition>
 
-<transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
 <ProjectList />
-</transition>
