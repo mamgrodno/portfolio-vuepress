@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="project-list">
+  <div v-cloak class="project-list">
 
     <div v-for="project in projects"
         :key="project.title"
@@ -66,6 +66,10 @@
 </script>
 
 <style scoped>
+
+  [v-cloak] {
+    display: none;
+  }
 
   .link {
     height: 100%;

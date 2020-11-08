@@ -10,6 +10,13 @@ sections:
   templates:
   - settings
 - type: directory
+  path: portfolio/test
+  label: Test
+  create: all
+  match: "**/*"
+  templates:
+  - testing-blocks
+- type: directory
   path: portfolio/works
   label: Works
   create: all

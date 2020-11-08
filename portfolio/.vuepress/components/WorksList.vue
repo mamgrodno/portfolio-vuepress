@@ -1,19 +1,17 @@
 <template>
 
   
-  <div class="project-list">
-    <carousel :autoplay="true"
-              :autoplayTimeout="2000"
-              :loop="true"
-              :perPage="1">
-
-      <slide v-for="post in posts"
-             :key="post.title">
-
+  <div v-cloak class="project-list1">
+    <agile :autoplay="true"
+           :autoplaySpeed="2500"
+           :dots="false">
         <div class="post"
+             v-for="post in posts"
+             :key="post.title"
              :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }">     
           <router-link
-            :to="post.path">
+            :to="post.path"
+            class="slide">
 
             <div class="info">
               <h2>{{ post.frontmatter.title }}</h2>
@@ -21,19 +19,28 @@
             </div>
           </router-link>
         </div>
-      </slide> 
-    </carousel>
+        <template slot="prevButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>  
+        </template>
+        <template slot="nextButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </template>
+    </agile>
+
   </div>
 
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+import { VueAgile } from 'vue-agile'
 
   export default {
     components: {
-      Carousel,
-      Slide
+      agile: VueAgile,
     },
     computed: {
       posts() {
@@ -47,6 +54,14 @@ import { Carousel, Slide } from 'vue-carousel';
 
 <style scoped>
 
+  [v-cloak] {
+    display: none;
+  }
+
+  .slide {
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
   .post {
     position: relative;
