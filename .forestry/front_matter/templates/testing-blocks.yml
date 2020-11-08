@@ -5,7 +5,9 @@ fields:
 - name: blocks
   type: blocks
   label: blocks
-  template_types: []
+  template_types:
+  - testing
+  - testing2
   config:
     min: 
     max: 
