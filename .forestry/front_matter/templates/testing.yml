@@ -1,4 +1,26 @@
 ---
 label: testing
 hide_body: false
-fields: []
+fields:
+- name: one_image
+  type: text
+  config:
+    required: false
+  label: one image
+  description: one big image
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: subtitle
+  description: bla
+- name: picture
+  type: file
+  config:
+    maxSize: 64
+  label: picture
+  description: your picture
