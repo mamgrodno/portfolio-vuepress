@@ -9,7 +9,6 @@
         :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
       <router-link
         :to="post.path"
-        tag="div"
         class="link">
         <div class="projectinfo">
           <h2>{{ post.frontmatter.title }}</h2>
@@ -25,7 +24,6 @@
         :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
       <router-link
         :to="post.path"
-        tag="div"
         class="link">
         <div class="projectinfo">
           <h2>{{ post.frontmatter.title }}</h2>
@@ -41,7 +39,6 @@
         :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
       <router-link
         :to="post.path"
-        tag="div"
         class="link">
         <div class="projectinfo">
           <h2>{{ post.frontmatter.title }}</h2>
@@ -72,6 +69,8 @@
 
   .link {
     height: 100%;
+    width: 100%;
+    display: inline-block;
   }
 
   .project-list {
