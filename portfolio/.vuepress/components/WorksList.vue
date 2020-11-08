@@ -9,20 +9,18 @@
 
       <slide v-for="post in posts"
              :key="post.title">
-             
-        <router-link
-          :to="post.path"
-          tag="div"
-          
-          class="post"
-          :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
-        >
 
-          <div class="info">
-            <h2>{{ post.frontmatter.title }}</h2>
-            <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-          </div>
-        </router-link>
+        <div class="post"
+             :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }">     
+          <router-link
+            :to="post.path">
+
+            <div class="info">
+              <h2>{{ post.frontmatter.title }}</h2>
+              <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+            </div>
+          </router-link>
+        </div>
       </slide> 
     </carousel>
   </div>
@@ -49,6 +47,7 @@ import { Carousel, Slide } from 'vue-carousel';
 
 <style scoped>
 
+
   .post {
     position: relative;
     width: 100%;
@@ -62,6 +61,12 @@ import { Carousel, Slide } from 'vue-carousel';
 
   .post:hover {
     transform: scale(1.02);
+  }
+
+  .post a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
   }
 
   .info {
@@ -79,6 +84,8 @@ import { Carousel, Slide } from 'vue-carousel';
     font-size: 0.8rem;
     font-weight: 700;
     margin: 0;
+    color: black;
+    text-decoration: none;
   }
 
   .info span {
@@ -87,6 +94,8 @@ import { Carousel, Slide } from 'vue-carousel';
     margin: 0;
     margin-left: 0.5rem;
     font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
   }
 
 </style>

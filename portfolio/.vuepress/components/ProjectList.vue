@@ -2,47 +2,47 @@
 <div>
   <div class="project-list">
 
-    <div v-for="post in projects"
-        :key="post.title"
-        class="post2"
-        v-if="post.frontmatter.size === 2"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+    <div v-for="project in projects"
+        :key="project.title"
+        class="project2"
+        v-if="project.frontmatter.size === 2"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
       <router-link
-        :to="post.path"
+        :to="project.path"
         class="link">
         <div class="projectinfo">
-          <h2>{{ post.frontmatter.title }}</h2>
-          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+          <h2>{{ project.frontmatter.title }}</h2>
+          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
         </div>
       </router-link>
     </div>
 
-    <div v-for="post in projects"
-        :key="post.title"
-        class="post1"
-        v-if="post.frontmatter.size === 1"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+    <div v-for="project in projects"
+        :key="project.title"
+        class="project1"
+        v-if="project.frontmatter.size === 1"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
       <router-link
-        :to="post.path"
+        :to="project.path"
         class="link">
         <div class="projectinfo">
-          <h2>{{ post.frontmatter.title }}</h2>
-          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+          <h2>{{ project.frontmatter.title }}</h2>
+          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
         </div>
       </router-link>
     </div>
 
-    <div v-for="post in projects"
-        :key="post.title"
-        class="post3"
-        v-if="post.frontmatter.size === 3"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+    <div v-for="project in projects"
+        :key="project.title"
+        class="project3"
+        v-if="project.frontmatter.size === 3"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
       <router-link
-        :to="post.path"
+        :to="project.path"
         class="link">
         <div class="projectinfo">
-          <h2>{{ post.frontmatter.title }}</h2>
-          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+          <h2>{{ project.frontmatter.title }}</h2>
+          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
         </div>
       </router-link>
     </div>
@@ -81,7 +81,7 @@
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
-  .post1 {
+  .project1 {
     position: relative;
     grid-column: span 6;
     height: 70vh;
@@ -94,7 +94,7 @@
     overflow: hidden;
     transition: all .2s ease-in-out;
   }
-  .post2 {
+  .project2 {
     position: relative;
     grid-column: span 3;
     height: 50vh;
@@ -107,7 +107,7 @@
     overflow: hidden;;
     transition: all .2s ease-in-out;
   }
-  .post3 {
+  .project3 {
     position: relative;
     grid-column: span 2;
     height: 40vh;
@@ -122,29 +122,29 @@
   }
 
   @media only screen and (max-width: 1025px) {
-    .post1 {
+    .project1 {
       grid-column: span 6;
     }
-    .post2 {
+    .project2 {
       grid-column: span 6;
     }
-    .post3 {
+    .project3 {
       grid-column: span 3;
     }
   }
   @media only screen and (max-width: 600px) {
-    .post3 {
+    .project3 {
       grid-column: span 6;
     }
   }
 
-  .post1:hover {
+  .project1:hover {
     transform: scale(1.04);
   }
-  .post2:hover {
+  .project2:hover {
     transform: scale(1.04);
   }
-  .post3:hover {
+  .project3:hover {
     transform: scale(1.04);
   }
 
