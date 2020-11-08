@@ -2,50 +2,53 @@
 <div>
   <div class="project-list">
 
-    <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in projects"
-      :key="post.title"
-      class="post3"
+    <div v-for="post in projects"
+        :key="post.title"
+        class="post2"
+        v-if="post.frontmatter.size === 2"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+      <router-link
+        :to="post.path"
+        tag="div"
+        class="link">
+        <div class="projectinfo">
+          <h2>{{ post.frontmatter.title }}</h2>
+          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+        </div>
+      </router-link>
+    </div>
 
-      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
-    >
-      <div class="projectinfo">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-      </div>
-    </router-link>
+    <div v-for="post in projects"
+        :key="post.title"
+        class="post1"
+        v-if="post.frontmatter.size === 1"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+      <router-link
+        :to="post.path"
+        tag="div"
+        class="link">
+        <div class="projectinfo">
+          <h2>{{ post.frontmatter.title }}</h2>
+          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+        </div>
+      </router-link>
+    </div>
 
-    <!-- <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in projects"
-      :key="post.title"
-      class="post1"
-      v-if="post.frontmatter.size === 1"
-      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
-    >
-      <div class="projectinfo">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-      </div>
-    </router-link>
-
-    <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in projects"
-      :key="post.title"
-      class="post2"
-      v-if="post.frontmatter.size === 2"
-      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
-    >
-      <div class="projectinfo">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-      </div>
-    </router-link> -->
+    <div v-for="post in projects"
+        :key="post.title"
+        class="post3"
+        v-if="post.frontmatter.size === 3"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }">
+      <router-link
+        :to="post.path"
+        tag="div"
+        class="link">
+        <div class="projectinfo">
+          <h2>{{ post.frontmatter.title }}</h2>
+          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+        </div>
+      </router-link>
+    </div>
 
     
 
@@ -66,6 +69,10 @@
 </script>
 
 <style scoped>
+
+  .link {
+    height: 100%;
+  }
 
   .project-list {
       margin-top: 5vh;
