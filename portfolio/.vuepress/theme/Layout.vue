@@ -145,10 +145,10 @@
     color: var(--color-black);
   }
 
-  .VueCarousel-wrapper {
+  /* .VueCarousel-wrapper {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  } */
 
   body {
     font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;

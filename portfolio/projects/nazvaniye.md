@@ -5,7 +5,7 @@ thumbnail: "/upload/dominik-schroder-fikd9t5_5zq-unsplash.jpg"
 description: И тут его описание
 categories: []
 year: 2020
-date: 2020-11-07 22:00:00 +0000
+date: 2018-11-07 22:00:00 +0000
 
 ---
 \# Content management and auto deployment for VuePress

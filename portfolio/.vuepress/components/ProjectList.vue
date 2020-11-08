@@ -7,6 +7,22 @@
       tag="div"
       v-for="post in projects"
       :key="post.title"
+      class="post3"
+      v-if="post.frontmatter.size === 3"
+      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
+    >
+      <div class="projectinfo">
+        <!-- <img :src="post.frontmatter.thumbnail" alt=""> -->
+        <h2>{{ post.frontmatter.title }}</h2>
+        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+      </div>
+    </router-link>
+
+    <router-link
+      :to="post.path"
+      tag="div"
+      v-for="post in projects"
+      :key="post.title"
       class="post1"
       v-if="post.frontmatter.size === 1"
       :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
@@ -34,21 +50,7 @@
       </div>
     </router-link>
 
-    <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in projects"
-      :key="post.title"
-      class="post3"
-      v-if="post.frontmatter.size === 3"
-      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
-    >
-      <div class="projectinfo">
-        <!-- <img :src="post.frontmatter.thumbnail" alt=""> -->
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-      </div>
-    </router-link>
+    
 
   </div>
 </div>
@@ -114,6 +116,23 @@
     border-radius: 10px;
     overflow: hidden;
     transition: all .2s ease-in-out;
+  }
+
+  @media only screen and (max-width: 1025px) {
+    .post1 {
+      grid-column: span 6;
+    }
+    .post2 {
+      grid-column: span 6;
+    }
+    .post3 {
+      grid-column: span 3;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .post3 {
+      grid-column: span 6;
+    }
   }
 
   .post1:hover {
