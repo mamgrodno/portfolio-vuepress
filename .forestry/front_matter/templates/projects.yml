@@ -47,5 +47,3 @@ fields:
   description: Укажите размер в цифрах, от 1 до 3<br>(1 самый большой)
 pages:
 - portfolio/projects/very-nice.md
-- portfolio/projects/название-проекта.md
-- portfolio/projects/почти-придумал-название.md
