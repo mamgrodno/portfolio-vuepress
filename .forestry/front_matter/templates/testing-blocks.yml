@@ -12,3 +12,5 @@ fields:
     min: 
     max: 
   description: pick your blocks
+pages:
+- portfolio/test/first-block.md
