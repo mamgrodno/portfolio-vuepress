@@ -3,6 +3,7 @@ title: Super project
 date: 2018-08-01T00:00:00.000+00:00
 thumbnail: "/upload/jr-korpa-9xngoipxceo-unsplash.jpg"
 year: 2018
+size: 1
 categories:
 - print
 description: hey boss

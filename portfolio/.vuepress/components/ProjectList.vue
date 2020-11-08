@@ -7,27 +7,51 @@
       tag="div"
       v-for="post in projects"
       :key="post.title"
-      class="post"
+      class="post1"
+      v-if="post.frontmatter.size === 1"
+      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
     >
-        <div class="projectinfo">
-          <img :src="post.frontmatter.thumbnail" alt="">
-          <h2>{{ post.frontmatter.title }}</h2>
-          <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-        </div>
-
-      <div v-for="i in post.frontmatter.test_for_the_blocks">
-        <style v-if="i.template === 'projects2'">
-          
-        </style>
-        <style v-else-if="">
-
-        </style>
+      <div class="projectinfo">
+        <!-- <img :src="post.frontmatter.thumbnail" alt=""> -->
+        <h2>{{ post.frontmatter.title }}</h2>
+        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
       </div>
+    </router-link>
 
+    <router-link
+      :to="post.path"
+      tag="div"
+      v-for="post in projects"
+      :key="post.title"
+      class="post2"
+      v-if="post.frontmatter.size === 2"
+      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
+    >
+      <div class="projectinfo">
+        <!-- <img :src="post.frontmatter.thumbnail" alt=""> -->
+        <h2>{{ post.frontmatter.title }}</h2>
+        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+      </div>
+    </router-link>
+
+    <router-link
+      :to="post.path"
+      tag="div"
+      v-for="post in projects"
+      :key="post.title"
+      class="post3"
+      v-if="post.frontmatter.size === 3"
+      :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${post.frontmatter.thumbnail})` }"
+    >
+      <div class="projectinfo">
+        <!-- <img :src="post.frontmatter.thumbnail" alt=""> -->
+        <h2>{{ post.frontmatter.title }}</h2>
+        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+      </div>
     </router-link>
 
   </div>
-  </div>
+</div>
 </template>
 
 <script>
@@ -46,31 +70,65 @@
 
   .project-list {
       margin-top: 5vh;
-      display: flex;
-      flex-wrap: wrap;
-      grid-gap: 1em;
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: repeat(6, 1fr);
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
-  .post {
+  .post1 {
     position: relative;
-    width: 20rem;
-    flex: 1 3 auto;
+    grid-column: span 6;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* margin-bottom: 5vw; */
     cursor: pointer;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    border: #dfdfdf 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+  }
+  .post2 {
+    position: relative;
+    grid-column: span 3;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;;
+    transition: all .2s ease-in-out;
+  }
+  .post3 {
+    position: relative;
+    grid-column: span 2;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
     transition: all .2s ease-in-out;
   }
 
-  .post:hover {
+  .post1:hover {
+    transform: scale(1.04);
+  }
+  .post2:hover {
+    transform: scale(1.04);
+  }
+  .post3:hover {
     transform: scale(1.04);
   }
 
   .projectinfo {
+    position: absolute;
+    bottom: 0;
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -85,6 +143,7 @@
     margin-bottom: 1rem;
     font-weight: 600;
     font-size: 1.3rem;
+    color: whitesmoke;
   }
 
   .projectinfo span {
@@ -92,6 +151,7 @@
     margin-bottom: 1rem;
     font-weight: 300;
     font-size: 1rem;
+    color: whitesmoke;
   }
 
   .info {

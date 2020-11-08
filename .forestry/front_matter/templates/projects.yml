@@ -34,15 +34,16 @@ fields:
   type: datetime
   config:
     required: true
-- name: test_for_the_blocks
-  type: blocks
-  label: test for the blocks
-  template_types:
-  - projects2
+- name: size
+  type: number
+  default: 3
+  required: true
   config:
-    min: 
-    max: 
-  description: im just testing man let's see if it works
+    min: 1
+    max: 3
+    step: 
+    required: true
+  label: Size
+  description: Укажите размер в цифрах, от 1 до 3<br>(1 самый большой)
 pages:
-- portfolio/projects/hello-world.md
 - portfolio/projects/very-nice.md

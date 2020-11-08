@@ -9,10 +9,11 @@ test_for_the_blocks:
 - template: projects2
   title: hello?
   description: what's going on?
-  year: 2020
+  year: '2020'
   thumbnail: ''
   categories: []
-  date: 2020-11-06 22:00:00 +0000
+  date: '2020-11-06 22:00:00 +0000'
+size: 3
 
 ---
 **Приветики**
