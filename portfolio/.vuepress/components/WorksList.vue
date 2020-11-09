@@ -2,10 +2,10 @@
 
   
   <div class="project-list1">
-    <agile :autoplay="true"
-           :autoplaySpeed="2500"
-           :dots="false">
-        <div class="post"
+    <carousel :autoplay="true"
+           :autoplayTimeout="2500"
+           :perPage="1">
+        <slide class="post"
              v-for="post in posts"
              :key="post.title"
              :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }">     
@@ -18,7 +18,7 @@
               <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
             </div>
           </router-link>
-        </div>
+        </slide>
         <template slot="prevButton">
           <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -29,18 +29,21 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
         </template>
-    </agile>
+    </carousel>
 
   </div>
 
 </template>
 
 <script>
-import { VueAgile } from 'vue-agile'
+// import { VueAgile } from 'vue-agile'
+import { Carousel, Slide } from 'vue-carousel';
 
   export default {
     components: {
-      agile: VueAgile,
+      // agile: VueAgile,
+    Carousel,
+    Slide
     },
     computed: {
       posts() {
