@@ -2,12 +2,6 @@
 label: projects
 hide_body: false
 fields:
-- name: filename
-  type: text
-  config:
-    required: false
-  label: Filename
-  description: название файла (на английском)
 - name: title
   default: ''
   label: Title
@@ -15,6 +9,13 @@ fields:
   type: text
   config:
     required: true
+  description: любое название, должно быть на английском
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+  description: Заголовок
 - type: file
   name: thumbnail
   label: Thumbnail
