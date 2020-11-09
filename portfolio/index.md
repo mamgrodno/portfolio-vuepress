@@ -16,8 +16,7 @@ project_text: 'Проекты или вставить свой текст <span 
 
 <Hero :text="$page.frontmatter.project_text" />
 
-<ClientOnly>
-<ProjectList />
-</ClientOnly>
-
+<ClientOnly><ProjectList /></ClientOnly>
+<ClientOnly> <ProjectList2 /> </ClientOnly>
+<ClientOnly> <ProjectList3 /> </ClientOnly>
 <ClientOnly> <ProjectList4 /> </ClientOnly>

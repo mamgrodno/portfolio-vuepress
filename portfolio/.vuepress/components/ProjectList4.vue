@@ -25,7 +25,7 @@
     computed: {
       projects() {
         return this.$site.pages
-          .filter(x => x.path.startsWith('/projects/') && !x.frontmatter.project_index)
+          .filter(x => x.path.startsWith('/projects4/') && !x.frontmatter.project_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
     }

@@ -43,44 +43,6 @@
         </transition>
       </div>
 
-      <div v-if="isSingleProj2">
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <SingleProjectHeader
-          :title="$page.frontmatter.title"
-          :year="$page.frontmatter.year.toString()"
-          :categories="$page.frontmatter.categories"
-        />
-        </transition>
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <Content/>
-        </transition>
-      </div>
-
-      <div v-if="isSingleProj3">
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <SingleProjectHeader
-          :title="$page.frontmatter.title"
-          :year="$page.frontmatter.year.toString()"
-          :categories="$page.frontmatter.categories"
-        />
-        </transition>
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <Content/>
-        </transition>
-      </div>
-
-      <div v-if="isSingleProj4">
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <SingleProjectHeader
-          :title="$page.frontmatter.title"
-          :year="$page.frontmatter.year.toString()"
-          :categories="$page.frontmatter.categories"
-        />
-        </transition>
-        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <Content/>
-        </transition>
-      </div>
 
       <!-- Journal list -->
       <div v-if="$route.path === '/journal/'" class="journal-list">
