@@ -11,11 +11,13 @@ project_text: 'Проекты или вставить свой текст <span 
 </transition>
 
 <ClientOnly>
-  <WorksList />
+<WorksList />
 </ClientOnly>
 
 <Hero :text="$page.frontmatter.project_text" />
 
 <ClientOnly>
-  <ProjectList />
+<ProjectList />
 </ClientOnly>
+
+<ClientOnly> <ProjectList4 /> </ClientOnly>
