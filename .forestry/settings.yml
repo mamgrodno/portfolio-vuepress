@@ -51,6 +51,13 @@ sections:
   match: "**/[!index]*"
   templates:
   - journal
+- type: directory
+  path: portfolio/panorama
+  label: Panorama
+  create: all
+  match: "**/[!index]*"
+  templates:
+  - panorama
 - type: heading
   label: Data
 - type: document

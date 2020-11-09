@@ -58,9 +58,16 @@
         </transition>
       </div>
 
-      <!-- Panorama -->
+      <!-- Panorama list -->
       <div v-if="$route.path === '/panorama/'">
         <Content />
+      </div>
+
+      <!-- Single panorama -->
+      <div v-if="isSinglePanorama">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <Content/>
+        </transition>
       </div>
 
     </div>
@@ -95,6 +102,13 @@
           return true
         }
       }, 
+      isSinglePanorama() {
+        const panoRoute = '/panorama/'
+        const path = this.$route.path
+        if (path.includes('panorama') && path.length >= (panoRoute.length + 1)) {
+          return true
+        }
+      },
     },
     updated() {
         // unwrap all images from paragraph tags so we can have
