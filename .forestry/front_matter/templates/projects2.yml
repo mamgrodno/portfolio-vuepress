@@ -34,6 +34,3 @@ fields:
   type: datetime
   config:
     required: true
-pages:
-- portfolio/projects2/йо-йо.md
-- portfolio/projects2/проект.md
