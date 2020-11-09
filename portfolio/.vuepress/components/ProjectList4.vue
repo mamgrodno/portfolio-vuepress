@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div v-cloak class="project-list">
+  <div class="project-list">
 
     <div v-for="project in projects"
         :key="project.title"
