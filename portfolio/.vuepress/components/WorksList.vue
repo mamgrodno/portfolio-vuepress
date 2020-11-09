@@ -1,7 +1,7 @@
 <template>
 
   
-  <div v-cloak class="project-list1">
+  <div class="project-list1">
     <agile :autoplay="true"
            :autoplaySpeed="2500"
            :dots="false">
@@ -53,10 +53,6 @@ import { VueAgile } from 'vue-agile'
 </script>
 
 <style scoped>
-
-  [v-cloak] {
-    display: none;
-  }
 
   .slide {
     border-radius: 10px;
