@@ -16,14 +16,15 @@ fields:
     required: false
   label: Heading
   description: Заголовок
-- type: file
-  name: thumbnail
-  label: Thumbnail
 - type: textarea
   name: description
   label: Description
   config:
     required: true
+  description: Подзаголовок
+- type: file
+  name: thumbnail
+  label: Thumbnail
 - type: tag_list
   name: categories
   label: Categories
@@ -37,7 +38,7 @@ fields:
 - name: date
   default: ''
   label: Date
-  hidden: false
+  hidden: true
   type: datetime
   config:
     required: true
