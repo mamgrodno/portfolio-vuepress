@@ -95,27 +95,6 @@
           return true
         }
       }, 
-      isSingleProj2() {
-        const projRoute = '/projects2/'
-        const path = this.$route.path
-        if (path.includes('projects2') && path.length >= (projRoute.length + 1)) {
-          return true
-        }
-      },
-      isSingleProj3() {
-        const projRoute = '/projects3/'
-        const path = this.$route.path
-        if (path.includes('projects3') && path.length >= (projRoute.length + 1)) {
-          return true
-        }
-      },
-      isSingleProj4() {
-        const projRoute = '/projects4/'
-        const path = this.$route.path
-        if (path.includes('projects4') && path.length >= (projRoute.length + 1)) {
-          return true
-        }
-      },
     },
     updated() {
         // unwrap all images from paragraph tags so we can have

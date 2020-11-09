@@ -10,7 +10,7 @@
         :to="project.path"
         class="link">
         <div class="projectinfo">
-          <h2>{{ project.frontmatter.title }}</h2>
+          <h2>{{ project.frontmatter.heading }}</h2>
           <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
         </div>
       </router-link>
