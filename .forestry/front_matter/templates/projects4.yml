@@ -35,5 +35,4 @@ fields:
   config:
     required: true
 pages:
-- portfolio/projects/very-nice.md
 - portfolio/projects4/big-pic.md
