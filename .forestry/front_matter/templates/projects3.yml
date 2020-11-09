@@ -42,5 +42,3 @@ fields:
   type: datetime
   config:
     required: true
-pages:
-- portfolio/projects3/projects.md
