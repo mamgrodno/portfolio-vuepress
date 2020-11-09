@@ -40,3 +40,5 @@ fields:
   type: datetime
   config:
     required: true
+pages:
+- portfolio/projects2/на-русс.md
