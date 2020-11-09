@@ -6,13 +6,14 @@ year: 2018
 size: 1
 categories:
 - print
-description: hey boss
+description: рус яз
 test_for_the_blocks:
 - template: projects3
   title: second time
   description: what's going on man
   year: 2020
-  date: 2020-11-06 22:00:00 +0000
+  date: '2020-11-06T22:00:00.000+00:00'
+heading: проверка на рус
 
 ---
 # Project one
