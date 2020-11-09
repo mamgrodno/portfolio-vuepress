@@ -9,14 +9,22 @@ fields:
   type: text
   config:
     required: true
-- type: file
-  name: thumbnail
-  label: Thumbnail
+  description: название файла на английском
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+  description: Заголовок
 - type: textarea
   name: description
   label: Description
   config:
     required: true
+  description: Подзаголовок
+- type: file
+  name: thumbnail
+  label: Thumbnail
 - type: tag_list
   name: categories
   label: Categories
@@ -30,7 +38,7 @@ fields:
 - name: date
   default: ''
   label: Date
-  hidden: false
+  hidden: true
   type: datetime
   config:
     required: true
