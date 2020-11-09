@@ -2,6 +2,12 @@
 label: projects
 hide_body: false
 fields:
+- name: filename
+  type: text
+  config:
+    required: false
+  label: Filename
+  description: название файла (на английском)
 - name: title
   default: ''
   label: Title
