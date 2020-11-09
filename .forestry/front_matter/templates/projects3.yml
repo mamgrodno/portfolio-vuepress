@@ -34,5 +34,3 @@ fields:
   type: datetime
   config:
     required: true
-pages:
-- portfolio/projects/very-nice.md
