@@ -4,7 +4,7 @@
 
     <div v-for="project in projects"
         :key="project.title"
-        class="project3"
+        class="project1"
         :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
       <router-link
         :to="project.path"

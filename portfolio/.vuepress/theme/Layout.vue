@@ -43,6 +43,45 @@
         </transition>
       </div>
 
+      <div v-if="isSingleProj2">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <SingleProjectHeader
+          :title="$page.frontmatter.title"
+          :year="$page.frontmatter.year.toString()"
+          :categories="$page.frontmatter.categories"
+        />
+        </transition>
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <Content/>
+        </transition>
+      </div>
+
+      <div v-if="isSingleProj3">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <SingleProjectHeader
+          :title="$page.frontmatter.title"
+          :year="$page.frontmatter.year.toString()"
+          :categories="$page.frontmatter.categories"
+        />
+        </transition>
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <Content/>
+        </transition>
+      </div>
+
+      <div v-if="isSingleProj4">
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <SingleProjectHeader
+          :title="$page.frontmatter.title"
+          :year="$page.frontmatter.year.toString()"
+          :categories="$page.frontmatter.categories"
+        />
+        </transition>
+        <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
+        <Content/>
+        </transition>
+      </div>
+
       <!-- Journal list -->
       <div v-if="$route.path === '/journal/'" class="journal-list">
         <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
@@ -88,12 +127,33 @@
         }
       },
       isSingleProj() {
-          const projRoute = '/projects/'
-          const path = this.$route.path
-          if (path.includes('projects') && path.length >= (projRoute.length + 1)) {
-            return true
-          }
-        }, 
+        const projRoute = '/projects/'
+        const path = this.$route.path
+        if (path.includes('projects') && path.length >= (projRoute.length + 1)) {
+          return true
+        }
+      }, 
+      isSingleProj2() {
+        const projRoute = '/projects2/'
+        const path = this.$route.path
+        if (path.includes('projects2') && path.length >= (projRoute.length + 1)) {
+          return true
+        }
+      },
+      isSingleProj3() {
+        const projRoute = '/projects3/'
+        const path = this.$route.path
+        if (path.includes('projects3') && path.length >= (projRoute.length + 1)) {
+          return true
+        }
+      },
+      isSingleProj4() {
+        const projRoute = '/projects4/'
+        const path = this.$route.path
+        if (path.includes('projects4') && path.length >= (projRoute.length + 1)) {
+          return true
+        }
+      },
     },
     updated() {
         // unwrap all images from paragraph tags so we can have
