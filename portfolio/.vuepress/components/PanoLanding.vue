@@ -1,17 +1,17 @@
 <template>
 <div>
-  <div class="project-list">
+  <div class="panorama-list">
 
-    <div v-for="project in projects"
-        :key="project.title"
-        class="project1"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
+    <div v-for="panorama in panoramas"
+        :key="panorama.title"
+        class="panorama1"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${panorama.frontmatter.thumbnail})` }">
       <router-link
-        :to="project.path"
+        :to="panorama.path"
         class="link">
-        <div class="projectinfo">
-          <h2>{{ project.frontmatter.heading }}</h2>
-          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+        <div class="panoramainfo">
+          <h2>{{ panorama.frontmatter.heading }}</h2>
+          <span v-if="panorama.frontmatter.description">{{ panorama.frontmatter.description }}</span>
         </div>
       </router-link>
     </div>
@@ -23,9 +23,9 @@
 <script>
   export default {
     computed: {
-      projects() {
+      panoramas() {
         return this.$site.pages
-          .filter(x => x.path.startsWith('/panorama/') && !x.frontmatter.project_index)
+          .filter(x => x.path.startsWith('/panorama/') && !x.frontmatter.panoramas_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
     }
@@ -41,7 +41,7 @@
     display: inline-block;
   }
 
-  .project-list {
+  .panorama-list {
       margin-top: 5vh;
       display: grid;
       grid-gap: 2em;
@@ -49,7 +49,7 @@
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
-  .project1 {
+  .panorama1 {
     position: relative;
     grid-column: span 6;
     height: 70vh;
@@ -62,7 +62,7 @@
     overflow: hidden;
     transition: all .2s ease-in-out;
   }
-  .project2 {
+  .panorama2 {
     position: relative;
     grid-column: span 3;
     height: 50vh;
@@ -75,7 +75,7 @@
     overflow: hidden;;
     transition: all .2s ease-in-out;
   }
-  .project3 {
+  .panorama3 {
     position: relative;
     grid-column: span 2;
     height: 40vh;
@@ -90,33 +90,33 @@
   }
 
   @media only screen and (max-width: 1025px) {
-    .project1 {
+    .panorama1 {
       grid-column: span 6;
     }
-    .project2 {
+    .panorama2 {
       grid-column: span 6;
     }
-    .project3 {
+    .panorama3 {
       grid-column: span 3;
     }
   }
   @media only screen and (max-width: 600px) {
-    .project3 {
+    .panorama3 {
       grid-column: span 6;
     }
   }
 
-  .project1:hover {
+  .panorama1:hover {
+    transform: scale(1.02);
+  }
+  .panorama2:hover {
     transform: scale(1.04);
   }
-  .project2:hover {
-    transform: scale(1.04);
-  }
-  .project3:hover {
+  .panorama3:hover {
     transform: scale(1.04);
   }
 
-  .projectinfo {
+  .panoramainfo {
     position: absolute;
     bottom: 0;
     object-fit: cover;
@@ -124,11 +124,11 @@
     flex-direction: column;
   }
 
-  .projectinfo img {
+  .panoramainfo img {
     margin: 0 auto;
   }
 
-  .projectinfo h2 {
+  .panoramainfo h2 {
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -136,7 +136,7 @@
     color: whitesmoke;
   }
 
-  .projectinfo span {
+  .panoramainfo span {
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-weight: 300;

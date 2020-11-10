@@ -1,4 +1,4 @@
-<!-- ---
-layout: PanoLayout
---- -->
-yo pano landing here
+---
+panoramas_index: true
+---
+<PanoLanding />
