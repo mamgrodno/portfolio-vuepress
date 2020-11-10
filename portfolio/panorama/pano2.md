@@ -1,12 +1,13 @@
 ---
-title: whatever1
-heading: джаз за углом
-description: тут трубы горят
-thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
+title: grivevich
+heading: Гривевич
+description: "«то, из чего». Многообразие вещей, существующих объективно; материя
+  вечна, несотворима и неуничтожима; она не может возникнуть из ничего, увеличиться
+  или уменьшиться в своём количестве; она инертна и пассивна."
+thumbnail: "/upload/photo-1504198322253-cfa87a0ff25f.jpeg"
 categories: []
 year: 2020
-date:
-# layout: PanoLayout
+date: 
 
 ---
 <!-- <Pano /> -->
