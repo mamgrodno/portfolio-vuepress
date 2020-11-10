@@ -2,9 +2,10 @@
 title: whatever1
 heading: джаз за углом
 description: тут трубы горят
-thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
+thumbnail: "/upload/screen-shot-2020-11-10-at-13-51-51.png"
 categories: []
 year: 2020
+
 ---
 <div>
 <h2>
