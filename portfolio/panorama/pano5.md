@@ -1,12 +1,12 @@
 ---
-title: whatever1
-heading: джаз за углом
-description: тут трубы горят
-thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
+title: hey
+heading: Евримедон и ритор из школы Исократа Демофил обвинили Аристотеля в безбожии
+description: 'Обвинители утверждали, что стихи написаны в стиле гимнов Аполлону, а
+  тиран Атарнеи не достоин такого почитания. '
+thumbnail: "/upload/photo-1490013616775-3ca8865fb129.jpeg"
 categories: []
 year: 2020
-date:
-# layout: PanoLayout
+date: 
 
 ---
 <!-- <Pano /> -->
