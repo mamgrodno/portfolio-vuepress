@@ -10,10 +10,4 @@ date:
 
 ---
 <!-- <Pano /> -->
-<div>
-<h2>
-    <!-- пишите описание тут -->
-    описание
-</h2>
 <iframe src="/boldakov/index.html" frameborder="0" scrolling="yes" style="height: 100vh; width: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
-</div>

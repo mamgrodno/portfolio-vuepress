@@ -18,11 +18,11 @@
       <div v-if="isSingleProject">
 
         <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <SingleProjectHeader
+        <!-- <SingleProjectHeader
           :title="$page.frontmatter.heading"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
-        />
+        /> -->
         </transition>
         <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content/>
@@ -32,11 +32,11 @@
       <!-- Single little project -->
       <div v-if="isSingleProj">
         <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
-        <SingleProjectHeader
+        <!-- <SingleProjectHeader
           :title="$page.frontmatter.heading"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
-        />
+        /> -->
         </transition>
         <transition name="router-anim" enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeIn">
         <Content/>

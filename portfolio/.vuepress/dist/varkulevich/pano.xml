@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.10" apprev="18007" start="node32">
+  <panorama hideabout="1" id="node32">
+    <input levelbias="0.400" levelingroll="0" levelbiashidpi="0.400" leveltileurl="tiles/varkulevich_ig_gg/c%c_l%r_%y_%x.jpg" height="2000" leveltilesize="500" overlap="1" levelingpitch="0" width="2000">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="60.8202" tilt="-2.39689"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max fov="70" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+    </view>
+    <userdata source="" info="" nodeid="node32" latitude="" longitude="" copyright="" datetime="07.10.2020 14:55" tags="Pano2VR6|tour|varkulevich" description="" author="" title="" customnodeid="" comment="" heading="0"/>
+    <hotspots height="50" width="270" wordwrap="1">
+      <label borderradius="11" enabled="1" borderalpha="1" textcolor="0xff0000" bordercolor="0x000000" backgroundalpha="1" background="1" border="1" height="50" backgroundcolor="0xffffff" textalpha="1" width="270" wordwrap="1"/>
+      <polystyle borderalpha="1" bordercolor="0xffe040" backgroundalpha="0.25098" backgroundcolor="0xff1134" handcursor="1" mode="0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" enabled="1" type="crossdissolve" zoomafterinfov="90" zoomin="0" softedge="0" blendtime="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" zoomspeed="2" zoomoutpause="1"/>
+    <autorotate enabled="1" startloaded="0" nodedelay="0.00" noderandom="1" useanimation="0" nodefilter="" speed="0.080" delay="5.00" returntohorizon="0.000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control sensitivity="9" simulatemass="1" hideabout="1" lockedmouse="0" contextfullscreen="0" lockedwheel="0" dblclickfullscreen="1" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" contextprojections="0" lockedkeyboard="0" speedwheel="1">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata source="" info="" nodeid="master" latitude="" longitude="" copyright="" datetime="" tags="" description="" author="" title="" customnodeid="" comment="" heading="0"/>
+  </masternode>
+</tour>
