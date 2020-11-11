@@ -17,7 +17,7 @@ export default {
   .title {
     text-align: center;
     /* font-size: calc(21px + (48 - 14) * ((100vw - 300px) / (1600 - 300))); */
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.25;
     letter-spacing: 0.1rem;
@@ -29,6 +29,7 @@ export default {
   @media screen and (min-width: 600px) {
     .title {
       margin: 6vw auto 7vw auto;
+      font-size: 2rem;
     }
   }
 
