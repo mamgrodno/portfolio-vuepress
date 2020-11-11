@@ -76,6 +76,7 @@
   img {
     margin: 0;
     height: 40vh;
+    object-fit: cover;
   }
 
   .imgbox {
