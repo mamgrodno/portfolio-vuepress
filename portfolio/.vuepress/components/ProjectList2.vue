@@ -83,6 +83,11 @@
     border-radius: 10px;
     overflow: hidden;
     object-fit: cover;
+    transition: all .2s ease-in-out;
+  }
+
+  .imgbox:hover {
+    transform: scale(1.04);
   }
 
   .project-list {
