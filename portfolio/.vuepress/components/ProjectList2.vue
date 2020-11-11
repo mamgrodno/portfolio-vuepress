@@ -64,7 +64,7 @@
   .project2 {
     position: relative;
     grid-column: span 3;
-    height: 50vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

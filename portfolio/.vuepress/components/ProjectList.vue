@@ -4,11 +4,13 @@
 
     <div v-for="project in projects"
         :key="project.title"
-        class="project3"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
+        class="project3">
       <router-link
         :to="project.path"
         class="link">
+        <div class="imgbox">
+          <img :src="project.frontmatter.thumbnail" loading="lazy" alt="">
+        </div>
         <div class="projectinfo">
           <h2>{{ project.frontmatter.heading }}</h2>
           <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
@@ -36,9 +38,21 @@
 
 
   .link {
-    height: 100%;
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+
+  img {
+    margin: 0;
+    height: 40vh;
+  }
+
+  .imgbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .project-list {
@@ -78,14 +92,14 @@
   .project3 {
     position: relative;
     grid-column: span 2;
-    height: 40vh;
+    /* height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; */
     transition: all .2s ease-in-out;
   }
 
@@ -117,31 +131,28 @@
   }
 
   .projectinfo {
-    position: absolute;
-    bottom: 0;
     object-fit: cover;
     display: flex;
     flex-direction: column;
   }
 
-  .projectinfo img {
+  /* .projectinfo img {
     margin: 0 auto;
-  }
+  } */
 
   .projectinfo h2 {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     font-weight: 600;
     font-size: 1.3rem;
-    color: whitesmoke;
+    color: black;
+    text-decoration: none;
   }
 
   .projectinfo span {
     margin-left: 1rem;
-    margin-bottom: 1rem;
     font-weight: 300;
     font-size: 1rem;
-    color: whitesmoke;
+    color: black;
   }
 
   .info {
