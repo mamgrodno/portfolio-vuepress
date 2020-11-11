@@ -42,14 +42,14 @@
                 {
                   breakpoint: 600,
                   settings: {
-                      slidesToShow: 3,
+                      slidesToShow: 2,
                       infinite: false,
                     }
                 },
                 {
                   breakpoint: 900,
                   settings: {
-                      slidesToShow: 2,
+                      slidesToShow: 3,
                       infinite: false,
                     } 
                 }
