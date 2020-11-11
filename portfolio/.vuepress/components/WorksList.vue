@@ -41,9 +41,8 @@ import { Carousel, Slide } from 'vue-carousel';
 
   export default {
     components: {
-      // agile: VueAgile,
-    Carousel,
-    Slide
+      Carousel,
+      Slide
     },
     computed: {
       posts() {

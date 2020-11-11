@@ -43,7 +43,7 @@
   .project-list {
       margin-top: 5vh;
       display: grid;
-      grid-gap: 2em;
+      grid-gap: 4em;
       grid-template-columns: repeat(6, 1fr);
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }

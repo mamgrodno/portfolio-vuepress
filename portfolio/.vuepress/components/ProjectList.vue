@@ -1,29 +1,66 @@
 <template>
 <div>
-  <div class="project-list">
-
-    <div v-for="project in projects"
-        :key="project.title"
-        class="project3">
-      <router-link
-        :to="project.path"
-        class="link">
-        <div class="imgbox">
-          <img :src="project.frontmatter.thumbnail" loading="lazy" alt="">
-        </div>
-        <div class="projectinfo">
-          <h2>{{ project.frontmatter.heading }}</h2>
-          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
-        </div>
-      </router-link>
-    </div>
-
+  <div class="">
+    <agile :options="options">
+        <router-link
+          v-for="project in projects"
+          :key="project.title"
+          :to="project.path"
+          class="link">
+          <div class="imgbox">
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+          </div>
+          <div class="projectinfo">
+            <h2>{{ project.frontmatter.heading }}</h2>
+            <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+          </div>
+        </router-link>
+        <template slot="prevButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>  
+        </template>
+        <template slot="nextButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </template>
+    </agile>
   </div>
 </div>
 </template>
 
 <script>
+  import VLazyImage from "v-lazy-image";
+  import { VueAgile } from 'vue-agile'
+
   export default {
+    data() {
+      return {
+        options: {
+          responsive: [
+                {
+                  breakpoint: 600,
+                  settings: {
+                      slidesToShow: 3,
+                      infinite: false,
+                    }
+                },
+                {
+                  breakpoint: 900,
+                  settings: {
+                      slidesToShow: 2,
+                      infinite: false,
+                    } 
+                }
+            ]
+        }
+      }
+    },
+    components: {
+      VLazyImage,
+      agile: VueAgile
+    },
     computed: {
       projects() {
         return this.$site.pages
@@ -41,6 +78,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
+    padding: 1rem
   }
 
   img {
@@ -58,7 +96,7 @@
   .project-list {
       margin-top: 5vh;
       display: grid;
-      grid-gap: 2em;
+      grid-gap: 4em;
       grid-template-columns: repeat(6, 1fr);
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }

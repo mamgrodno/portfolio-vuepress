@@ -1,27 +1,59 @@
 <template>
 <div>
-  <div class="project-list">
-
-    <div v-for="project in projects"
-        :key="project.title"
-        class="project2"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${project.frontmatter.thumbnail})` }">
-      <router-link
-        :to="project.path"
-        class="link">
-        <div class="projectinfo">
-          <h2>{{ project.frontmatter.heading }}</h2>
-          <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
-        </div>
-      </router-link>
-    </div>
-
+  <div class="">
+    <agile :options="options">
+        <router-link
+          v-for="project in projects"
+          :key="project.title"
+          :to="project.path"
+          class="link">
+          <div class="imgbox">
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+          </div>
+          <div class="projectinfo">
+            <h2>{{ project.frontmatter.heading }}</h2>
+            <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+          </div>
+        </router-link>
+        <template slot="prevButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>  
+        </template>
+        <template slot="nextButton">
+          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </template>
+    </agile>
   </div>
 </div>
 </template>
 
 <script>
+  import { VueAgile } from 'vue-agile'
+  import VLazyImage from "v-lazy-image";
+
   export default {
+    data() {
+      return {
+        options: {
+          responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        infinite: false,
+                    }
+                },
+            ]
+        }
+      }
+    },
+    components: {
+      agile: VueAgile,
+      VLazyImage
+    },
     computed: {
       projects() {
         return this.$site.pages
@@ -35,15 +67,28 @@
 <style scoped>
 
   .link {
-    height: 100%;
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 1rem;
+  }
+
+  img {
+    margin: 0;
+    height: 70vh;
+  }
+
+  .imgbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
   }
 
   .project-list {
       margin-top: 5vh;
       display: grid;
-      grid-gap: 2em;
+      grid-gap: 4em;
       grid-template-columns: repeat(6, 1fr);
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
@@ -51,7 +96,7 @@
   .project1 {
     position: relative;
     grid-column: span 6;
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,14 +109,6 @@
   .project2 {
     position: relative;
     grid-column: span 3;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    overflow: hidden;;
     transition: all .2s ease-in-out;
   }
   .project3 {
@@ -116,31 +153,31 @@
   }
 
   .projectinfo {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     object-fit: cover;
     display: flex;
     flex-direction: column;
   }
+ 
 
-  .projectinfo img {
+    /* .projectinfo img {
     margin: 0 auto;
-  }
+  } */
 
   .projectinfo h2 {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
     font-weight: 600;
     font-size: 1.3rem;
-    color: whitesmoke;
+    color: black;
+    text-decoration: none;
   }
 
   .projectinfo span {
     margin-left: 1rem;
-    margin-bottom: 1rem;
     font-weight: 300;
     font-size: 1rem;
-    color: whitesmoke;
+    color: black;
   }
 
   .info {
