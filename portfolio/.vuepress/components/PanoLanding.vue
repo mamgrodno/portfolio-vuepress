@@ -4,14 +4,16 @@
 
     <div v-for="panorama in panoramas"
         :key="panorama.title"
-        class="panorama1"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 35%), url(${panorama.frontmatter.thumbnail})` }">
+        class="pano">
       <router-link
         :to="panorama.path"
         class="link">
         <div class="panoramainfo">
           <h2>{{ panorama.frontmatter.heading }}</h2>
           <span v-if="panorama.frontmatter.description">{{ panorama.frontmatter.description }}</span>
+        </div>
+        <div class="imgbox">
+          <img :src="panorama.frontmatter.thumbnail" alt="">
         </div>
       </router-link>
     </div>
@@ -34,31 +36,66 @@
 
 <style scoped>
 
+  .pano img{
+    height: 70vh;
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+  }
+  .pano img:hover {
+    transform: scale(1.02);
+  }
+  .imgbox {
+    object-fit: cover;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0.1rem;
+    width: 800px;
+    max-width: 100%;
+    margin: 6vw auto 7vw auto;
+  }
+
+  @media screen and (min-width: 600px) {
+    .about {
+      margin: 6vw auto 7vw auto;
+    }
+  }
 
   .link {
     height: 100%;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
   }
 
   .panorama-list {
       margin-top: 5vh;
       display: grid;
       grid-gap: 2em;
-      grid-template-columns: repeat(6, 1fr);
+      /* grid-template-columns: repeat(6, 1fr); */
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
   .panorama1 {
     position: relative;
     grid-column: span 6;
-    height: 70vh;
+    /* height: 70vh; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px; */
     overflow: hidden;
     transition: all .2s ease-in-out;
   }
@@ -117,8 +154,8 @@
   }
 
   .panoramainfo {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     object-fit: cover;
     display: flex;
     flex-direction: column;
@@ -132,16 +169,14 @@
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-weight: 600;
-    font-size: 1.3rem;
-    color: whitesmoke;
+    font-size: 1.5rem;
   }
 
   .panoramainfo span {
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-weight: 300;
-    font-size: 1rem;
-    color: whitesmoke;
+    font-size: 1.2rem;
   }
 
   .info {
