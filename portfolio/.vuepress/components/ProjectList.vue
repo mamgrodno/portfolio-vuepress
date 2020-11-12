@@ -1,33 +1,23 @@
 <template>
-<div>
-  <div class="">
-    <agile :options="options">
-        <router-link
-          v-for="project in projects"
+  <div class="project-list">
+    <div v-for="project in projects"
           :key="project.title"
+          class="projectbox"
+          :style="{gridColumn: `span ${project.frontmatter.size}`}">
+        <router-link
           :to="project.path"
           class="link">
           <div class="imgbox">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+            <img :src="project.frontmatter.thumbnail" alt=""
+                 :style="{height: `${project.frontmatter.height}vh`}">
           </div>
           <div class="projectinfo">
             <h2>{{ project.frontmatter.heading }}</h2>
             <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
           </div>
         </router-link>
-        <template slot="prevButton">
-          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-          </svg>  
-        </template>
-        <template slot="nextButton">
-          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </template>
-    </agile>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -78,7 +68,7 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    padding: 1rem
+    padding: 1rem;
   }
 
   img {
@@ -102,7 +92,7 @@
   .project-list {
       margin-top: 5vh;
       display: grid;
-      grid-gap: 4em;
+      /* grid-gap: 4em; */
       grid-template-columns: repeat(6, 1fr);
       /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
@@ -159,8 +149,11 @@
     }
   }
   @media only screen and (max-width: 600px) {
-    .project3 {
-      grid-column: span 6;
+    .projectbox {
+      grid-column: span 6 !important;
+    }
+    .imgbox {
+      height: 40vh !important;
     }
   }
 

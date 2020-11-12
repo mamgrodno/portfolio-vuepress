@@ -6,6 +6,8 @@ thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
 categories: []
 year: 2020
 date: 
+size: 6
+height: 70
 
 ---
 ## Заглавный текст

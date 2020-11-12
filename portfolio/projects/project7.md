@@ -1,11 +1,12 @@
 ---
-title: project6
+title: project7
 heading: Заголовок
-description: Подзаголовок
-thumbnail: "/upload/scott-webb-gqd3av_9a88-unsplash.jpg"
+description: Описание
+thumbnail: "/upload/screen-shot-2020-11-10-at-13-51-51.png"
 categories: []
 year: 2020
 date: 
+size: 2
 
 ---
 «то, из чего». Многообразие вещей, существующих объективно; материя вечна, несотворима и неуничтожима; она не может возникнуть из ничего, увеличиться или уменьшиться в своём количестве; она инертна и пассивна.

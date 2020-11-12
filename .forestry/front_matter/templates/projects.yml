@@ -42,6 +42,18 @@ fields:
   type: datetime
   config:
     required: true
+- name: size
+  default: 2
+  label: Size
+  type: number
+  config:
+    required: true
+- name: height
+  default: 40
+  label: Height
+  type: number
+  config:
+    required: true
 pages:
 - portfolio/projects/project2.md
 - portfolio/projects/project3.md
