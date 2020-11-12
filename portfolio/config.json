@@ -8,12 +8,6 @@
     {
       "text": "Panorama",
       "link": "/panorama",
-      "position": "right",
-      "external": false
-    },
-    {
-      "text": "Works",
-      "link": "/",
       "position": "left",
       "external": false
     }
