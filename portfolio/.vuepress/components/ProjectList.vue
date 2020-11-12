@@ -22,7 +22,8 @@
 
 <script>
   import VLazyImage from "v-lazy-image";
-  import { VueAgile } from 'vue-agile'
+  import { VueAgile } from 'vue-agile';
+  import SearchBox from '@SearchBox';
 
   export default {
     data() {
@@ -49,7 +50,8 @@
     },
     components: {
       VLazyImage,
-      agile: VueAgile
+      agile: VueAgile,
+      SearchBox,
     },
     computed: {
       projects() {

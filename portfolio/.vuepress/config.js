@@ -15,6 +15,16 @@ module.exports = {
   //     ],
   //   }]
   // ],
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ],
+  locales: {
+    '/': {
+      lang: 'ru-RU'
+    }
+  },
   title: config.title,
   description: config.description,
   base: "/",

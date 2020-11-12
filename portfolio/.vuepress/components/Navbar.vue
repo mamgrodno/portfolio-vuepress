@@ -53,6 +53,7 @@
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
+        <SearchBox />
       </ul>
     </nav>
 
@@ -73,6 +74,7 @@
           <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
             <a :href="nav.link" target="_blank">{{ nav.text }}</a>
           </li>
+          <SearchBox />
         </ul>
         <div class="mobile-nav-close" @click="toggleMobileNav" />
       </nav>
@@ -82,7 +84,12 @@
 </template>
 
 <script>
+  import SearchBox from '@SearchBox';
+
   export default {
+    components: {
+      SearchBox,
+    },
     props: {
       logo: {
         type: String,
@@ -112,6 +119,10 @@
 </script>
 
 <style scoped>
+
+  .search-box {
+    margin: 0 1rem;
+  }
 
   .header {
     display: flex;
