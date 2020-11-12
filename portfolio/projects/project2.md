@@ -5,7 +5,7 @@ description: Описание
 thumbnail: "/upload/jordan-whitfield-sm3ub_ijkqg-unsplash.jpg"
 categories: []
 year: 2020
-date: 
+date: 2020-09-01 21:00:00 +0000
 size: 3
 height: 60
 
