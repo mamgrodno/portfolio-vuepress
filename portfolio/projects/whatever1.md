@@ -5,7 +5,7 @@ description: тут трубы вибрируют
 thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
 categories: []
 year: 2020
-date: 
+date: 2024-12-31 22:00:00 +0000
 size: 6
 height: 70
 
