@@ -188,7 +188,7 @@
   }
 
   .projectinfo span {
-    margin-left: 1rem;
+    margin: 0 1rem;
     font-weight: 300;
     font-size: 1rem;
     color: black;
