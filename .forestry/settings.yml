@@ -24,34 +24,6 @@ sections:
   templates:
   - projects
 - type: directory
-  path: portfolio/projects2
-  label: Projects2
-  create: all
-  match: "**/*"
-  templates:
-  - projects2
-- type: directory
-  path: portfolio/projects3
-  label: Projects3
-  create: all
-  match: "**/*"
-  templates:
-  - projects3
-- type: directory
-  path: portfolio/projects4
-  label: Projects4
-  create: all
-  match: "**/*"
-  templates:
-  - projects4
-- type: directory
-  path: portfolio/journal
-  label: Journal
-  create: all
-  match: "**/[!index]*"
-  templates:
-  - journal
-- type: directory
   path: portfolio/panorama
   label: Panorama
   create: all

@@ -4,8 +4,8 @@ heading: джаз за углом
 description: тут трубы
 thumbnail: "/upload/clem-onojeghuo-zlabb6gke24-unsplash.jpg"
 categories: []
-year: 2020
-date: 2024-12-31 22:00:00 +0000
+year: 2021
+date: 2024-12-31
 size: 6
 height: 70
 

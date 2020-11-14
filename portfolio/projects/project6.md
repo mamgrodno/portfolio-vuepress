@@ -5,7 +5,7 @@ description: Подзаголовок
 thumbnail: "/upload/scott-webb-gqd3av_9a88-unsplash.jpg"
 categories: []
 year: 2020
-date: 2020-11-02 22:00:00 +0000
+date: 2020-11-02
 size: 2
 height: 40
 

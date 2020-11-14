@@ -14,6 +14,8 @@
           <div class="projectinfo">
             <h2>{{ project.frontmatter.heading }}</h2>
             <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+            {{ new Date(project.frontmatter.date) }}
+            {{ project.frontmatter.year }}
           </div>
         </router-link>
     </div>
