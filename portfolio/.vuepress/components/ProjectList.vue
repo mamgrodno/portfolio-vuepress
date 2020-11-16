@@ -71,6 +71,7 @@
     flex-direction: column;
     text-decoration: none;
     padding: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   img {
