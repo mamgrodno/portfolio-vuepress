@@ -127,10 +127,11 @@
   .header {
     display: flex;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     height: 6rem;
-    padding: 5vw;
+    padding: 0 5vw;
+    margin: 5vh 0;
     font-size: 1.2rem;
     font-weight: 400;
     z-index: 10;
