@@ -1,6 +1,6 @@
 ---
 size: 3
-height: 60
+height: 70
 title: New Project
 heading: какой-то заголовок
 description: И подзаголовок

@@ -1,6 +1,6 @@
 ---
 size: 3
-height: 60
+height: 70
 title: even newer
 heading: очень новый проект
 description: позаголовок

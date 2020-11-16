@@ -57,14 +57,14 @@ import { Carousel, Slide } from 'vue-carousel';
 <style scoped>
 
   .slide {
-    border-radius: 10px;
-    overflow: hidden;
+    /* border-radius: 10px;
+    overflow: hidden; */
   }
 
   .post {
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

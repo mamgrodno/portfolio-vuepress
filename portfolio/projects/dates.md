@@ -1,6 +1,6 @@
 ---
 size: 6
-height: 70
+height: 80
 title: dates
 heading: Проверка на даты
 description: Этот пост должен быть в начале

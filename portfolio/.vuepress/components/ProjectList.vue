@@ -80,9 +80,9 @@
   }
 
   .imgbox {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden; */
     object-fit: cover;
     transition: all .2s ease-in-out;
   }
