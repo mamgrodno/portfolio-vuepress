@@ -49,12 +49,15 @@ fields:
   type: number
   config:
     required: true
+  description: Сетка из 6 колонок, чтобы пост занимал треть ширины - нужно 6 / 3 =
+    2, значит указываем 2<br><br>6 будет занимать всю ширину, 3 - половину
 - name: height
   default: 40
   label: Height
   type: number
   config:
     required: true
+  description: Цифра, высота картинки, например 80, будет высотой в 80% от экрана
 pages:
 - portfolio/projects/dates.md
 - portfolio/projects/even-newer.md
