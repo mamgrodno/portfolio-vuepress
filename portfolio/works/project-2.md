@@ -1,19 +1,20 @@
 ---
-title: Project two
+title: GLAD TO SEE YOU
 date: 2018-08-09T18:05:37.000+00:00
-thumbnail: "/upload/photo-1516906736502-5d3fedc3019a.jpeg"
-year: 2016
-description: subtitle can be long with lots of words и даже на русском я надеюсь,
-  о смотри какой удобный интерфейс
+thumbnail: "/upload/the-20broad.jpg"
+year: 2020
+description: Кто сказал, что карантин не может быть культурным?
 categories:
 - print
-heading: заголовок
+heading: Лучшие виртуальные выставки, не выходя из дома
 
 ---
-# Project two
+# Второй проект
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, conctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ![](/upload/photo-1516906736502-5d3fedc3019a.jpeg)
 
-выаываыва ыфвбатфылвоаи фывадфлыват вылддл ыва ывжад ыджва фыватды длывлатд ывдаттд дывдалтватдйцащутца д лывдатдватд вдацзйуатшщйурлвфымдисогушкпим жвыражл отлжы влаот цлйа тцлв ажцвфлыоатфжылватж йлтарйшзркупмвтм
+Из-за пандемии коронавируса музеи и галереи по всему миру вынуждены временно закрыться, но любители прекрасного не должны унывать - благодаря современным технологиям они смогут наслаждаться экспозициями онлайн. Кибер-выставки разнообразны: кто-то предлагает пешую экскурсию по музею, кто-то демонстрирует свои картины и инсталляции в виде слайд-шоу, параллельно рассказывая о художниках. 
+
+Мы подготовили для вас подборку самых интересных выставок, которые можно увидеть прямо сейчас, не выходя из дома.
