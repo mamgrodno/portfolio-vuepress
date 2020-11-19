@@ -20,7 +20,7 @@ export default {
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.25;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
     width: 800px;
     max-width: 100%;
     margin: 6vw auto 7vw auto;
