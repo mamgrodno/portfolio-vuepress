@@ -13,7 +13,7 @@ heading: Лучшие виртуальные выставки, не выходя
 
 Лучшие виртуальные выставки, не выходя из дома
 
-![Experience an immersive environment of light and sound in the spirit of Yayoi Kusama’s Infinity Mirrored Room—The Souls of Millions of Light Years Away in The Broad’s Infinite Drone series](/upload/the-20broad.jpg)
+![](/upload/the-20broad.jpg "Experience an immersive environment of light and sound in the spirit of Yayoi Kusama’s Infinity Mirrored Room—The Souls of Millions of Light Years Away in The Broad’s Infinite Drone series")
 
 Из-за пандемии коронавируса музеи и галереи по всему миру вынуждены временно закрыться, но любители прекрасного не должны унывать - благодаря современным технологиям они смогут наслаждаться экспозициями онлайн. Кибер-выставки разнообразны: кто-то предлагает пешую экскурсию по музею, кто-то демонстрирует свои картины и инсталляции в виде слайд-шоу, параллельно рассказывая о художниках.
 
