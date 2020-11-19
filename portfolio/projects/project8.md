@@ -21,3 +21,11 @@ height: 40
 
 <a href="https://imgur.com/gJEvXHM"><img src="https://i.imgur.com/gJEvXHM.jpg" title="source: imgur.com" /></a>
 *описание картинки и еще пару слов*
+---
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))">
+<!-- ссылки на картинки формата HTML вставить под этой надписью -->
+<a href="https://imgur.com/sp0sveG"><img src="https://i.imgur.com/sp0sveG.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/bmmLlYF"><img src="https://i.imgur.com/bmmLlYF.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/uCIoFNC"><img src="https://i.imgur.com/uCIoFNC.jpg" title="source: imgur.com" /></a>
+</div>
