@@ -2,17 +2,17 @@
   <div class="header">
 
     <div class="column">
-      <Label class="label">Project</Label>
+      <Label class="label">Проект</Label>
       <span class="value">{{ title }}</span>
     </div>
 
     <div class="column">
-      <Label class="label">Year</Label>
+      <Label class="label">Год</Label>
       <span class="value">{{ year }}</span>
     </div>
 
     <div class="column">
-      <Label class="label">Categories</Label>
+      <Label class="label">Категории</Label>
       <span class="value categories" v-for="category in categories" v-text="category" />
     </div>
 
