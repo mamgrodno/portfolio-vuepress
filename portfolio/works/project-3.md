@@ -1,15 +1,18 @@
 ---
-title: Project three
-date: 2017-02-04 00:00:00 +0000
-thumbnail: "/upload/photo-1504198322253-cfa87a0ff25f.jpeg"
-year: 2017
+title: 'Фрагменты: в состоянии свободной экспериментальности'
+date: 2017-02-04T00:00:00.000+00:00
+thumbnail: "/upload/photo_2020-10-28_16-34-49.jpg"
+year: 2020
 categories:
 - print
-description: subtitle
+description: "«Вся информация мне представляется сегодня неоднозначным калейдоскопом»"
+heading: Наталья Залозная, Минск
 
 ---
-# Project three
+Фрагменты: в состоянии свободной экспериментальности
+===========
+[Наталья Залозная] (http://11-12gallery.com/artists/natalya-zaloznaya#bio), Минск
+-------------------
+> Вся информация мне представляется сегодня неоднозначным калейдоскопом, и в Королино я продолжила эту серию
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-![](/upload/photo-1504198322253-cfa87a0ff25f.jpeg)
+! [Imgur](https://i.imgur.com/hyyt7zH.jpg)
