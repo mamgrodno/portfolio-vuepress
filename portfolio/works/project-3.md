@@ -11,8 +11,8 @@ heading: Наталья Залозная, Минск
 ---
 Фрагменты: в состоянии свободной экспериментальности
 ===========
-[Наталья Залозная] (http://11-12gallery.com/artists/natalya-zaloznaya#bio), Минск
+[Наталья Залозная](http://11-12gallery.com/artists/natalya-zaloznaya#bio), Минск
 -------------------
 > Вся информация мне представляется сегодня неоднозначным калейдоскопом, и в Королино я продолжила эту серию
 
-! [Imgur](https://i.imgur.com/hyyt7zH.jpg)
+![Imgur](https://i.imgur.com/hyyt7zH.jpg)
