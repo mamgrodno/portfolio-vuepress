@@ -13,8 +13,8 @@ project4_text: ''
 footer_text: ''
 
 ---
-<transition name = "router-anim" enter-active-class = "animate__animated animate__fadeIn" leave-active-class = "animate__animated animate__fadeIn"> <Hero: text = "$ page.frontmatter.hero_text" /> </transition>
+<transition name = "router-anim" enter-active-class = "animate__animated animate__fadeIn" leave-active-class = "animate__animated animate__fadeIn"> <Hero: text = "$page.frontmatter.hero_text" /> </transition>
 
 <ClientOnly> <WorksList /> </ClientOnly>
 
-<Hero: text = "$ page.frontmatter.project_text" /> <ClientOnly> <ProjectList /> </ClientOnly>
+<Hero: text = "$page.frontmatter.project_text" /> <ClientOnly> <ProjectList /> </ClientOnly>

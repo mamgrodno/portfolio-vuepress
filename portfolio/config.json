@@ -12,7 +12,7 @@
       "external": false
     },
     {
-      "text": "Клуб mam",
+      "text": "Кто",
       "link": "#",
       "position": "right",
       "external": false
@@ -30,8 +30,8 @@
       "external": false
     },
     {
-      "text": "Кто",
-      "link": "#",
+      "text": "Panorama",
+      "link": "/panorama",
       "position": "left",
       "external": false
     }
