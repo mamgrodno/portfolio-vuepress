@@ -12,13 +12,13 @@
       "external": false
     },
     {
-      "text": "Кто",
+      "text": "Панорама",
       "link": "#",
       "position": "right",
       "external": false
     },
     {
-      "text": "Проекты",
+      "text": "Кто",
       "link": "#",
       "position": "left",
       "external": false
@@ -30,7 +30,7 @@
       "external": false
     },
     {
-      "text": "Panorama",
+      "text": "Проекты",
       "link": "/panorama",
       "position": "left",
       "external": false
