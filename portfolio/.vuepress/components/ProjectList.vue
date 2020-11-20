@@ -158,6 +158,9 @@
     .imgbox {
       height: 40vh !important;
     }
+    .imgbox img {
+      height: 40vh !important; 
+    }
   }
 
   .project1:hover {
