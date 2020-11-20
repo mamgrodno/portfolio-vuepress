@@ -6,6 +6,12 @@
   "favicon": "/upload/favicon.ico",
   "navigation": [
     {
+      "text": "Проекты",
+      "link": "#",
+      "position": "left",
+      "external": false
+    },
+    {
       "text": "сегодня",
       "link": "#",
       "position": "left",
