@@ -14,9 +14,4 @@ heading: "«Стараюсь запрещать себе рисовать кра
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))">
-<!-- ссылки на картинки формата HTML вставить под этой надписью -->
-<a href="https://imgur.com/hTgcVmz"><img src="https://i.imgur.com/hTgcVmz.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/AG2Bexp"><img src="https://i.imgur.com/AG2Bexp.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/By9bM8e"><img src="https://i.imgur.com/By9bM8e.jpg" title="source: imgur.com" /></a>
-</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))"> <!-- ссылки на картинки формата HTML вставить под этой надписью --> <a href="https://i.imgur.com/hTgcVmz.jpg" target="_blank"><img src="https://i.imgur.com/hTgcVmz.jpg" title="source: imgur.com" /></a> <a href="https://i.imgur.com/AG2Bexp.jpg" target="_blank"><img src="https://i.imgur.com/AG2Bexp.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/By9bM8e"><img src="https://i.imgur.com/By9bM8e.jpg" title="source: imgur.com" /></a> </div>
