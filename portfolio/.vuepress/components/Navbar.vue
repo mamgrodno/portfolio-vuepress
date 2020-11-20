@@ -74,7 +74,7 @@
           <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
             <a :href="nav.link" target="_blank">{{ nav.text }}</a>
           </li>
-          <SearchBox />
+          <!-- <SearchBox /> -->
         </ul>
         <div class="mobile-nav-close" @click="toggleMobileNav" />
       </nav>
