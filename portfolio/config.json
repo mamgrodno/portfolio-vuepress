@@ -6,6 +6,18 @@
   "favicon": "/upload/favicon.ico",
   "navigation": [
     {
+      "text": "Клуб mam",
+      "link": "#",
+      "position": "right",
+      "external": false
+    },
+    {
+      "text": "Кто",
+      "link": "#",
+      "position": "right",
+      "external": false
+    },
+    {
       "text": "Проекты",
       "link": "#",
       "position": "left",
