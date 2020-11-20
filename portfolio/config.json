@@ -1,13 +1,13 @@
 {
   "title": "MAM",
-  "description": "Art Museum",
+  "description": "Art Museum and stuff",
   "logo": "/upload/maslice.png",
   "footer": "Ⓒ MAM Grodno",
   "favicon": "/upload/favicon.ico",
   "navigation": [
     {
-      "text": "Панорама",
-      "link": "#",
+      "text": "Панорамы",
+      "link": "/panorama",
       "position": "right",
       "external": false
     },
@@ -31,7 +31,7 @@
     },
     {
       "text": "Кто",
-      "link": "/panorama",
+      "link": "#",
       "position": "left",
       "external": false
     }
