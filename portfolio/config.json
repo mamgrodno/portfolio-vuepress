@@ -6,6 +6,12 @@
   "favicon": "/upload/favicon.ico",
   "navigation": [
     {
+      "text": "сегодня",
+      "link": "#",
+      "position": "left",
+      "external": false
+    },
+    {
       "text": "Panorama",
       "link": "/panorama",
       "position": "left",
