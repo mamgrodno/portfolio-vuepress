@@ -3,7 +3,9 @@
   "description": "Art Museum and stuff",
   "logo": "/upload/maslice.png",
   "footer": "Ⓒ MAM Grodno",
+  "footer_text": "",
   "favicon": "/upload/favicon.ico",
+  "media": "",
   "navigation": [
     {
       "text": "Панорамы",
