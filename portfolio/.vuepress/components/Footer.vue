@@ -2,10 +2,13 @@
   <div class="container">
     <div class="box">
       <div>
-        МАМ — Modern Art Museum, Гродно. Площадка для современного искусства, проекты в свободном формате, без цензуры, на различных плоскостях и поверхностях, актуальная информация о событиях в арт-пространстве Гродно. Клуб MAM — сообщество, готовое поддержать и развивать современное искусство, стать участниками, спонсорами арт-инициатив.
+        {{ $site.themeConfig.footer_text }}
       </div>
-      <div>
-        Контакты: mamgrodno@gmail.com
+      <div v-for="i in $site.themeConfig.media">
+        <a :href="i.media_link">
+          <img :src="i.media_icon" alt="">
+          <span>{{ i.link_text }}</span>
+        </a>
       </div>
     </div>
     <span class="text">{{ $site.themeConfig.footer }}</span>
