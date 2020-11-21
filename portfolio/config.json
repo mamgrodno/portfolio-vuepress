@@ -3,9 +3,15 @@
   "description": "Art Museum and stuff",
   "logo": "/upload/maslice.png",
   "footer": "Ⓒ MAM Grodno",
-  "footer_text": "some text",
+  "footer_text": "some text and more text",
   "favicon": "/upload/favicon.ico",
-  "media": "",
+  "media": [
+    {
+      "link_text": "Telegram",
+      "media_icon": "/upload/iconfinder_telegram_2460228.svg",
+      "media_link": "https://t.me/mamgrodno"
+    }
+  ],
   "navigation": [
     {
       "text": "Панорамы",
