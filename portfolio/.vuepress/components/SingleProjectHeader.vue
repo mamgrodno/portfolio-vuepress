@@ -28,7 +28,7 @@
           :to="project.path"
           class="link">
           <div class="imgbox">
-            <img :src="project.frontmatter.thumbnail" alt="">
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
           </div>
           <div class="projectinfo">
             <h2>{{ project.frontmatter.heading }}</h2>
