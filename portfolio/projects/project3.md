@@ -3,7 +3,7 @@ title: project3
 heading: Заголовок
 description: Подзаголовок
 thumbnail: "/upload/jr-korpa-9xngoipxceo-unsplash.jpg"
-categories: []
+categories: ['today']
 year: 2020
 date: 2020-08-31
 size: 3

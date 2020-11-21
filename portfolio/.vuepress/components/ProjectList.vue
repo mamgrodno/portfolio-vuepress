@@ -8,7 +8,7 @@
           :to="project.path"
           class="link">
           <div class="imgbox">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt=""
+            <img :src="project.frontmatter.thumbnail" alt=""
                  :style="{height: `${project.frontmatter.height}vh`}">
           </div>
           <div class="projectinfo">
@@ -179,9 +179,6 @@
     flex-direction: column;
   }
 
-  /* .projectinfo img {
-    margin: 0 auto;
-  } */
 
   .projectinfo h2 {
     margin: 1rem;

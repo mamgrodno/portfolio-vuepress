@@ -3,7 +3,7 @@ title: project2
 heading: Проект
 description: Описание
 thumbnail: "/upload/jordan-whitfield-sm3ub_ijkqg-unsplash.jpg"
-categories: []
+categories: ['today']
 year: 2020
 date: 2020-09-01
 size: 3

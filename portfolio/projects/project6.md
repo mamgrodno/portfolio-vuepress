@@ -3,7 +3,7 @@ title: project6
 heading: Заголовок
 description: Подзаголовок
 thumbnail: "/upload/scott-webb-gqd3av_9a88-unsplash.jpg"
-categories: []
+categories: ['today']
 year: 2020
 date: 2020-11-02
 size: 2

@@ -3,7 +3,7 @@ title: project7
 heading: Заголовок
 description: Описание
 thumbnail: "/upload/screen-shot-2020-11-10-at-13-51-51.png"
-categories: []
+categories: ['today']
 year: 2020
 date: 2020-11-01
 size: 2

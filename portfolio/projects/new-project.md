@@ -5,7 +5,7 @@ title: New Project
 heading: какой-то заголовок
 description: И подзаголовок
 thumbnail: "/upload/ramiro-mendes-cjs3qsruxne-unsplash.jpg"
-categories: []
+categories: ['today']
 year: 2020
 date: 2020-11-11
 

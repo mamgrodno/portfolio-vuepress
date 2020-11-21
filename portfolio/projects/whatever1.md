@@ -4,7 +4,7 @@ heading: Каким может стать цвет современного Гр
   из Парижа Ларисой Нури
 description: тут трубы
 thumbnail: "/upload/photo_2020-11-12_15-56-28.jpg"
-categories: []
+categories: ['who']
 year: 2020
 date: 2020-12-17
 size: 6
