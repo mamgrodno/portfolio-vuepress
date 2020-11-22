@@ -8,7 +8,7 @@
           :to="project.path"
           class="link">
           <div class="imgbox">
-            <img :src="project.frontmatter.thumbnail" alt=""
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt=""
                  :style="{height: `${project.frontmatter.height}vh`}">
           </div>
           <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
