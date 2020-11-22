@@ -95,7 +95,6 @@ import { Carousel, Slide } from 'vue-carousel';
     font-weight: 300;
     text-decoration: none;
     margin: 1rem 0;
-    opacity: 90%;
     max-width: 100%;
   }
 
