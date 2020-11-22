@@ -190,6 +190,18 @@
     /* color: var(--color-black); */
   }
 
+  .youtube {
+    width: 70vw;
+    height: 80vh;
+    margin: 0 15vw !important;
+  }
+  @media screen and (max-width: 600px) {
+    .youtube {
+      margin: 0 !important;
+      width: 100vh;
+    }
+  }
+
   img {
     width: 100%;
     height: 100%;
@@ -212,7 +224,7 @@
   }
 
   h1,h2,h3,h4,h5,h6,p {
-    width: 100%;
+    width: 80%;
     max-width: 800px;
   }
 
