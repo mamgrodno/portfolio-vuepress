@@ -2,8 +2,8 @@
 size: 3
 height: 70
 title: Свободное пространство
-heading: MAM modern art museum открывается в Гродно.
-description: В культовом дворике на Кирова,3
+heading: Свободное пространство
+description: MAM modern art museum открывается в Гродно. В культовом дворике на Кирова,3
 thumbnail: "/upload/photo_2020-11-17_18-11-36.jpg"
 categories:
 - today
