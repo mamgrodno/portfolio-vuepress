@@ -2,7 +2,7 @@
 
   
   <div class="project-list1">
-    <carousel :autoplay="true"
+    <carousel :autoplay="false"
            :autoplayTimeout="3000"
            :perPage="1"
            :easing="easeInOut">
