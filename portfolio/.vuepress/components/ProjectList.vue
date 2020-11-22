@@ -11,9 +11,13 @@
             <img :src="project.frontmatter.thumbnail" alt=""
                  :style="{height: `${project.frontmatter.height}vh`}">
           </div>
-          <div class="projectinfo">
+          <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
             <h2>{{ project.frontmatter.heading }}</h2>
-            <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+            <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+          </div>
+          <div v-else class="projectinfo">
+            <h2>{{ project.frontmatter.heading }}</h2>
+            <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
           </div>
         </router-link>
     </div>
@@ -186,6 +190,22 @@
     flex-direction: column;
   }
 
+  .projectinfo-small h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 2rem);
+    letter-spacing: -.025em;
+    color: black;
+    text-decoration: none;
+  }
+
+  .projectinfo-small h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: #7b808a;
+  }
+
 
   .projectinfo h2 {
     margin: 1rem;
@@ -196,7 +216,7 @@
     text-decoration: none;
   }
 
-  .projectinfo span {
+  .projectinfo h3 {
     margin: 0 1rem;
     font-weight: 300;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
