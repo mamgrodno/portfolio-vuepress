@@ -198,6 +198,7 @@
     line-height: 0;
     margin: 2rem auto 0 auto;
     display: block;
+    object-fit: cover;
   }
 
   .container {
