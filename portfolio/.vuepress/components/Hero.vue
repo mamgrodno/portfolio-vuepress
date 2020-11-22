@@ -19,9 +19,9 @@ export default {
     letter-spacing: 0.1rem;
     width: 800px;
     max-width: 100%;
-    margin: 6vw auto 7vw auto;
+    margin: 6vw auto 0 auto;
     font-size: clamp(1.7rem, 5vw, 3rem);
-    font-weight: 500;
+    font-weight: 800;
     color: black;
   }
 

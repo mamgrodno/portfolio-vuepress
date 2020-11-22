@@ -3,21 +3,24 @@
     <div v-for="project in projects"
           :key="project.title"
           class="projectbox"
-          :style="{gridColumn: `span ${project.frontmatter.size}`}">
+          :style="{gridColumn: `span ${project.frontmatter.size}`, height: `${project.frontmatter.height}vh`}">
         <router-link
           :to="project.path"
-          class="link">
-          <div class="imgbox">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt=""
-                 :style="{height: `${project.frontmatter.height}vh`}">
-          </div>
-          <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
-            <h2>{{ project.frontmatter.heading }}</h2>
-            <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
-          </div>
-          <div v-else class="projectinfo">
-            <h2>{{ project.frontmatter.heading }}</h2>
-            <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+          class="link"
+          :style="{backgroundImage: `url(${project.frontmatter.thumbnail})`}">
+          <div class="gradientbox">
+            <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else class="projectinfo">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
           </div>
         </router-link>
     </div>
@@ -69,150 +72,70 @@
 
 <style scoped>
 
+  .gradientbox {
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%);
+    opacity: 0;
+    transition: ease-in-out 350ms;
+  }
+  .gradientbox:hover {
+    opacity: 1;
+  }
 
   .link {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  img {
-    margin: 0;
-    height: 40vh;
-    object-fit: cover;
-  }
-
-  .imgbox {
-    border: 0;
-    box-shadow: 0 2px 6px 0 rgba(0%, 0%, 0%, 0.2);
-    object-fit: cover;
-    transition: all .2s ease-in-out;
-  }
-
-  .imgbox:hover {
-    transform: scale(1.01);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
   }
 
   .projectbox {
-    margin-bottom: 5vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
   }
 
   .project-list {
-      margin-top: 5vh;
-      padding: 0 5vw;
-      display: grid;
-      /* grid-gap: 4em; */
-      grid-template-columns: repeat(6, 1fr);
-      /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    margin-top: 5vh;
+    padding: 0 5vw;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(6, 1fr);
   }
 
-  .project1 {
-    position: relative;
-    grid-column: span 6;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
-  }
-  .project2 {
-    position: relative;
-    grid-column: span 3;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    overflow: hidden;;
-    transition: all .2s ease-in-out;
-  }
-  .project3 {
-    position: relative;
-    grid-column: span 2;
-    /* height: 40vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    overflow: hidden; */
-    transition: all .2s ease-in-out;
-  }
-
-  @media only screen and (max-width: 1025px) {
-    .project1 {
-      grid-column: span 6;
-    }
-    .project2 {
-      grid-column: span 6;
-    }
-    .project3 {
-      grid-column: span 3;
-    }
-  }
   @media only screen and (max-width: 600px) {
     .projectbox {
       grid-column: span 6 !important;
-    }
-    .imgbox {
       height: 40vh !important;
     }
-    .imgbox img {
-      height: 40vh !important; 
+    .link {
+      height: 40vh !important;
     }
-    .imgbox:hover {
-      transform: none;
+    .gradientbox {
+      opacity: 1;
     }
-  }
-
-  .project1:hover {
-    transform: scale(1.04);
-  }
-  .project2:hover {
-    transform: scale(1.04);
-  }
-  .project3:hover {
-    transform: scale(1.04);
   }
 
   .projectinfo {
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
   }
 
-  .projectinfo-small h2 {
-    margin: 1rem;
-    font-weight: 500;
-    font-size: clamp(1rem, 5vw, 2rem);
-    letter-spacing: -.025em;
-    color: black;
-    text-decoration: none;
-  }
-
-  .projectinfo-small h3 {
-    margin: 0 1rem;
-    font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
-    color: #7b808a;
-  }
-
+  .projectinfo:hover {}
 
   .projectinfo h2 {
     margin: 1rem;
     font-weight: 500;
     font-size: clamp(1rem, 5vw, 3rem);
     letter-spacing: -.025em;
-    color: black;
+    color: white;
     text-decoration: none;
   }
 
@@ -220,32 +143,52 @@
     margin: 0 1rem;
     font-weight: 300;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    color: #7b808a;
+    color: white;
   }
 
-  .info {
+  .projectinfo-medium {
     position: absolute;
-    left: 0;
-    top: 2rem;
-    padding: 0.5rem 1rem;
-    background: rgba(255,255,255, 1);
-    max-width: 400px;
+    width: 100%;
+    bottom: 1rem;
   }
 
-  .info h2 {
-    display: inline-block;
-    width: auto;
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin: 0;
+  .projectinfo-medium h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 2.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
   }
 
-  .info span {
-    display: inline-block;
-    width: auto;
-    margin: 0;
-    margin-left: 0.5rem;
-    font-size: 0.8rem;
+  .projectinfo-medium h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: white;
+  }
+
+
+  .projectinfo-small {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo-small h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo-small h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    color: white;
   }
 
 </style>

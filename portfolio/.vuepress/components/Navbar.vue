@@ -5,10 +5,11 @@
       top: '0',
       left: '0',
       width: '100%',
+      position: 'sticky',
     }"
   >
 
-    <nav v-if="navLinks" class="navigation left desktop-nav">
+    <!-- <nav v-if="navLinks" class="navigation left desktop-nav">
       <ul>
         <router-link
           v-for="nav in navLinks"
@@ -24,7 +25,7 @@
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
 
     <div class="brand">
       <router-link to="/">
@@ -43,7 +44,7 @@
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
-          v-if="nav.position === 'right' && !nav.external"
+
           tag="li"
           :to="nav.link"
           active-class="active"
@@ -127,26 +128,33 @@
   .header {
     display: flex;
     position: relative;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     height: 6rem;
     padding: 0 5vw;
-    margin: 5vh 0;
+    margin: 1vh 0;
     font-size: 1.2rem;
     font-weight: 500;
-    z-index: 10;
+    z-index: 100;
+    background-color: white;
+    border-bottom: #f5f5f5 solid 2px;
   }
 
   .logo {
     position: absolute;
-    width: 12rem;
-    height: 8rem;
+    width: 8rem;
+    height: 4rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 50%;
+    left: 10%;
+    top: 45%;
     transform: translate(-50%,-50%);
+  }
+  @media screen and (max-width: 600px) {
+    .logo {
+      left: 20%;
+    }
   }
 
   .navigation li {

@@ -1,6 +1,6 @@
 ---
 works_index: true
-hero_text: Свободная площадка современного искусства
+hero_text: Modern Art Museum
 title: Главная
 project_text: ''
 footer_text: МАМ — Modern Art Museum, Гродно. Площадка для современного искусства,
@@ -14,6 +14,12 @@ project4_text: ''
 
 ---
 <Hero :text="$page.frontmatter.hero_text" />
+<div style="margin: 0 auto 10vh auto">
+<p style="font-size: clamp(1rem, 2.5vw, 1.5rem); margin: 2vh auto; text-align: center;">
+Свободная площадка современного искусства
+</p>
+</div>
+
 <ClientOnly> <WorksList /> </ClientOnly>
 
 <div style="margin: 0 5vw">
