@@ -7,7 +7,10 @@
         <router-link
           :to="project.path"
           class="link"
-          :style="{backgroundImage: `url(${project.frontmatter.thumbnail})`}">
+          >
+          <div class="image">
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+          </div>
           <div class="gradientbox">
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
               <h2>{{ project.frontmatter.heading }}</h2>
@@ -31,8 +34,14 @@
   import VLazyImage from "v-lazy-image";
   import { VueAgile } from 'vue-agile';
   import SearchBox from '@SearchBox';
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   export default {
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.from("img", {opacity: 0, duration: 1, scrollTrigger: "img"})
+    },
     data() {
       return {
         options: {
@@ -74,12 +83,29 @@
 
   .gradientbox {
     height: 100%;
+    width: 100%;
     background-image: linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%);
     opacity: 0;
     transition: ease-in-out 350ms;
+    z-index: 200;
+    position: absolute;
   }
   .gradientbox:hover {
     opacity: 1;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .image img {
+    margin: 0;
+    height: 100%;
   }
 
   .link {
@@ -91,6 +117,7 @@
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
+    position: relative;
   }
 
   .projectbox {
@@ -127,8 +154,6 @@
     width: 100%;
     bottom: 1rem;
   }
-
-  .projectinfo:hover {}
 
   .projectinfo h2 {
     margin: 1rem;

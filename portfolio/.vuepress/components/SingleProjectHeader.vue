@@ -21,18 +21,29 @@
   <div v-if="this.tags">
     <div class="project-list">
     <div v-for="project in projects"
-          @click="tags = !tags"
           :key="project.title"
-          class="projectbox">
+          class="projectbox"
+          @click="click_on_tag">
         <router-link
           :to="project.path"
-          class="link">
-          <div class="imgbox">
+          class="link"
+          >
+          <div class="image">
             <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
           </div>
-          <div class="projectinfo">
-            <h2>{{ project.frontmatter.heading }}</h2>
-            <span v-if="project.frontmatter.description">{{ project.frontmatter.description }}</span>
+          <div class="gradientbox">
+            <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else class="projectinfo">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
           </div>
         </router-link>
     </div>
@@ -100,6 +111,33 @@
     cursor: pointer;
   }
 
+  .gradientbox {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%);
+    opacity: 0;
+    transition: ease-in-out 350ms;
+    z-index: 200;
+    position: absolute;
+  }
+  .gradientbox:hover {
+    opacity: 1;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .image img {
+    margin: 0;
+    height: 100%;
+  }
+
   @media only screen and (max-width: 600px) {
     .projectbox {
       grid-column: span 6 !important;
@@ -113,33 +151,81 @@
   }
 
   .projectinfo {
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
   }
-
 
   .projectinfo h2 {
     margin: 1rem;
-    font-weight: 600;
-    font-size: 1.3rem;
-    color: black;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 3rem);
+    letter-spacing: -.025em;
+    color: white;
     text-decoration: none;
   }
 
-  .projectinfo span {
+  .projectinfo h3 {
     margin: 0 1rem;
     font-weight: 300;
-    font-size: 1rem;
-    color: black;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: white;
+  }
+
+  .projectinfo-small {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo-small h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo-small h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    color: white;
+  }
+
+  .projectinfo-medium {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo-medium h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 2.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo-medium h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: white;
   }
 
   .link {
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: relative;
   }
 
   img {
@@ -161,12 +247,19 @@
     transform: scale(1.04);
   }
 
+  .projectbox {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
   .project-list {
       margin-top: 5vh;
       display: grid;
-      /* grid-gap: 4em; */
-      /* grid-template-columns: repeat(6, 1fr); */
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) ;
   }
 
   .header {

@@ -64,7 +64,7 @@ import { Carousel, Slide } from 'vue-carousel';
   }
 
   .post:hover {
-    transform: scale(1.005);
+    /* transform: scale(1.005); */
   }
 
   .post a {

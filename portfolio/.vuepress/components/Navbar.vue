@@ -41,6 +41,7 @@
 
     <nav v-if="navLinks" class="navigation right desktop-nav">
       <ul>
+        <SearchBox />
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
@@ -54,7 +55,6 @@
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
-        <SearchBox />
       </ul>
     </nav>
 
@@ -122,7 +122,7 @@
 <style scoped>
 
   .search-box {
-    margin: 0 1rem;
+    margin: 0 3rem;
   }
 
   .header {
@@ -133,7 +133,7 @@
     height: 6rem;
     padding: 0 5vw;
     margin: 1vh 0;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 500;
     z-index: 100;
     background-color: white;
@@ -160,7 +160,7 @@
   .navigation li {
     display: inline-block;
     list-style: none;
-    margin-right: 1rem;
+    margin-right: 3rem;
     user-select: none;
     cursor: pointer;
     border-bottom: 1px solid transparent;
