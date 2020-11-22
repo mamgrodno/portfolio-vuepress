@@ -3,32 +3,23 @@
   
   <div class="project-list1">
     <carousel :autoplay="true"
-           :autoplayTimeout="2500"
-           :perPage="1">
+           :autoplayTimeout="3000"
+           :perPage="1"
+           :easing="easeInOut">
         <slide class="post"
              v-for="post in posts"
              :key="post.title"
-             :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }">     
+             :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(${post.frontmatter.thumbnail})` }">     
           <router-link
             :to="post.path"
             class="slide">
 
-            <div class="info">
+            <div class="text">
               <h2>{{ post.frontmatter.title }}</h2>
-              <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
+              <h3 v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
             </div>
           </router-link>
         </slide>
-        <template slot="prevButton">
-          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-          </svg>  
-        </template>
-        <template slot="nextButton">
-          <svg style="width: 30px; height: 30px; margin-top: 1rem;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </template>
     </carousel>
 
   </div>
@@ -73,13 +64,39 @@ import { Carousel, Slide } from 'vue-carousel';
   }
 
   .post:hover {
-    transform: scale(1.02);
+    transform: scale(1.005);
   }
 
   .post a {
     display: inline-block;
     height: 100%;
     width: 100%;
+  }
+
+  .text {
+    position: absolute;
+    padding-right: 2rem;
+    left: 2rem;
+    bottom: 1rem;
+  }
+
+  .text h2 {
+    color: white;
+    font-size: clamp(1rem, 5vw, 3rem);
+    font-weight: 500;
+    margin: 1rem 0;
+    text-decoration: none;
+    max-width: 100%;
+  }
+
+  .text h3 {
+    color: white;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 300;
+    text-decoration: none;
+    margin: 1rem 0;
+    opacity: 90%;
+    max-width: 100%;
   }
 
   .info {

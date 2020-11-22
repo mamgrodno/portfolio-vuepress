@@ -42,6 +42,7 @@
   @media only screen and (max-width: 600px) {
     .box {
       justify-items: start;
+      padding: 1rem 2rem;
     }
     .link-box {
       margin: 1rem auto;

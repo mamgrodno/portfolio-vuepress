@@ -4,17 +4,18 @@
 
     <div v-for="panorama in panoramas"
         :key="panorama.title"
-        class="pano">
+        class="pano"
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(${panorama.frontmatter.thumbnail})` }">
       <router-link
         :to="panorama.path"
         class="link">
-        <div class="panoramainfo">
+        <div class="text">
           <h2>{{ panorama.frontmatter.heading }}</h2>
-          <span v-if="panorama.frontmatter.description">{{ panorama.frontmatter.description }}</span>
+          <h3 v-if="panorama.frontmatter.description">{{ panorama.frontmatter.description }}</h3>
         </div>
-        <div class="imgbox">
+        <!-- <div class="imgbox">
           <img :src="panorama.frontmatter.thumbnail" alt="">
-        </div>
+        </div> -->
       </router-link>
     </div>
 
@@ -36,6 +37,39 @@
 
 <style scoped>
 
+  .text {
+    position: absolute;
+    padding-right: 2rem;
+    left: 2rem;
+    bottom: 1rem;
+  }
+
+  .text h2 {
+    color: #F2F2F2;
+    font-size: clamp(1rem, 5vw, 3rem);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .text h3 {
+    color: #F2F2F2;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .pano {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-bottom: 15vh;
+  }
+
   .pano img{
     height: 70vh;
     width: 100vw;
@@ -46,7 +80,7 @@
     transition: all .2s ease-in-out;
   }
   .pano img:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
   }
   .imgbox {
     object-fit: cover;

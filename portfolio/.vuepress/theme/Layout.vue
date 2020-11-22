@@ -193,13 +193,14 @@
   img {
     width: 100%;
     max-width: 100%;
+    max-height: 100%;
     line-height: 0;
     margin: 2rem auto 0 auto;
     display: block;
   }
 
   .container {
-    padding: 0 5vw;
+    padding: 0 0;
   }
 
   .journal-list, .single-journal {

@@ -8,7 +8,7 @@
           :to="project.path"
           class="link">
           <div class="imgbox">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt=""
+            <img :src="project.frontmatter.thumbnail" alt=""
                  :style="{height: `${project.frontmatter.height}vh`}">
           </div>
           <div class="projectinfo">
@@ -81,19 +81,23 @@
   }
 
   .imgbox {
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    overflow: hidden; */
+    border: 0;
+    box-shadow: 0 2px 6px 0 rgba(0%, 0%, 0%, 0.2);
     object-fit: cover;
     transition: all .2s ease-in-out;
   }
 
   .imgbox:hover {
-    transform: scale(1.04);
+    transform: scale(1.01);
+  }
+
+  .projectbox {
+    margin-bottom: 5vh;
   }
 
   .project-list {
       margin-top: 5vh;
+      padding: 0 5vw;
       display: grid;
       /* grid-gap: 4em; */
       grid-template-columns: repeat(6, 1fr);
@@ -161,6 +165,9 @@
     .imgbox img {
       height: 40vh !important; 
     }
+    .imgbox:hover {
+      transform: none;
+    }
   }
 
   .project1:hover {
@@ -182,8 +189,9 @@
 
   .projectinfo h2 {
     margin: 1rem;
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 3rem);
+    letter-spacing: -.025em;
     color: black;
     text-decoration: none;
   }
@@ -191,8 +199,8 @@
   .projectinfo span {
     margin: 0 1rem;
     font-weight: 300;
-    font-size: 1rem;
-    color: black;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: #7b808a;
   }
 
   .info {
