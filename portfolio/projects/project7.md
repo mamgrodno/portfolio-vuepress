@@ -1,5 +1,5 @@
 ---
-title: Проект Экзисториум Existorium
+title: Existorium
 heading: Проект Экзисториум Existorium
 description: Основная идея – визуализация и фиксирование мимолетности момента объективной
   реальности
