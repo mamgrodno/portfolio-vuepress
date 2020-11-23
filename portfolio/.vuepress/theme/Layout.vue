@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
 
-    <div class="container">
+    <div id="main-container" class="container">
 
       <!-- Works list -->
       <div
@@ -225,7 +225,7 @@
 
   h1,h2,h3,h4,h5,h6,p {
     width: 80%;
-    max-width: 1000px;
+    max-width: 800px;
   }
 
   h1 {

@@ -1,6 +1,6 @@
 ---
-size: 3
-height: 70
+size: 2
+height: 40
 title: MAM opening
 heading: See you soon
 description: 27 ноября

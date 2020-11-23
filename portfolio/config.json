@@ -24,24 +24,17 @@
       "link": "#",
       "position": "right",
       "external": false
+    }
+  ],
+  "filters": [
+    {
+      "text": "Проекты"
     },
     {
-      "text": "Проекты",
-      "link": "#",
-      "position": "left",
-      "external": false
+      "text": "Сегодня"
     },
     {
-      "text": "Сегодня",
-      "link": "#",
-      "position": "left",
-      "external": false
-    },
-    {
-      "text": "Кто",
-      "link": "#",
-      "position": "left",
-      "external": false
+      "text": "Кто"
     }
   ]
 }

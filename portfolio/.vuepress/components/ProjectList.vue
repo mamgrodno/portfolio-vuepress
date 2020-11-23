@@ -9,20 +9,20 @@
           class="link"
           >
           <div class="image">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+            <img :src="project.frontmatter.thumbnail" alt="">
           </div>
           <div class="gradientbox">
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
-              <h2>{{ project.frontmatter.heading }}</h2>
-              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+              <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
+              <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
             <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
-              <h2>{{ project.frontmatter.heading }}</h2>
-              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+              <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
+              <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
             <div v-else class="projectinfo">
-              <h2>{{ project.frontmatter.heading }}</h2>
-              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+              <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
+              <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
           </div>
         </router-link>
@@ -40,7 +40,10 @@
   export default {
     mounted() {
       gsap.registerPlugin(ScrollTrigger);
-      gsap.from("img", {opacity: 0, duration: 1, scrollTrigger: "img"})
+      // gsap.from("img", {opacity: 0, duration: 1, scrollTrigger: "img"})
+      ScrollTrigger.batch("img", {
+        onEnter: batch => gsap.from(batch, {autoAlpha: 1, stagger: 0.1, opacity: 0})
+      })
     },
     data() {
       return {

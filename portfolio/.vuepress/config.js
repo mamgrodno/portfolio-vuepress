@@ -34,7 +34,8 @@ module.exports = {
     footer: config.footer,
     nav: config.navigation,
     media: config.media,
-    footer_text: config.footer_text
+    footer_text: config.footer_text,
+    filters: config.filters
   },
   head: [
     ['link', { rel: "icon", href: config.favicon }]

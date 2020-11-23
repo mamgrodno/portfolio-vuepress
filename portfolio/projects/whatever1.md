@@ -7,8 +7,8 @@ thumbnail: "/upload/photo_2020-11-12_15-56-28.jpg"
 categories: ['who']
 year: 2020
 date: 2020-12-17
-size: 6
-height: 80
+size: 2
+height: 40
 
 ---
 ## **Изумрудный-бирюзовый и связующий песочный**

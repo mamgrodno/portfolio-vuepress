@@ -5,6 +5,7 @@ description: Подзаголовок
 thumbnail: "/upload/jr-korpa-9xngoipxceo-unsplash.jpg"
 categories:
 - today
+navigation: 'today'
 year: 2020
 date: 2020-08-31
 size: 3

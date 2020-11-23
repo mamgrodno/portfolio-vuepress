@@ -7,6 +7,7 @@ description: "«Всё, что теперь происходит в Белару
   назад. Система работает без сбоев, клонируя радикальное»"
 thumbnail: "/upload/photo_2020-11-15-14-18-44.jpeg"
 categories: ['who','today']
+navigation: 'Кто'
 year: 2020
 date: 2032-03-01
 

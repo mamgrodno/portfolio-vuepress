@@ -1,4 +1,5 @@
 <template>
+<div>
   <header
     class="header"
     :style="{
@@ -28,7 +29,7 @@
     </nav> -->
 
     <div class="brand">
-      <router-link to="/">
+      <a href="/">
         <div
           v-if="logo"
           class="logo"
@@ -36,16 +37,16 @@
           :title="$site.title"
         />
         <span v-else>{{ $site.title }}</span>
-      </router-link>
+      </a>
     </div>
 
-    <nav v-if="navLinks" class="navigation right desktop-nav">
+    <nav class="navigation right desktop-nav">
       <ul>
         <SearchBox />
+        <li v-for="filter in filters" :key="filter.text"><span @click="click_on_nav">{{ filter.text }}</span></li>
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
-
           tag="li"
           :to="nav.link"
           active-class="active"
@@ -75,13 +76,43 @@
           <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
             <a :href="nav.link" target="_blank">{{ nav.text }}</a>
           </li>
-          <!-- <SearchBox /> -->
         </ul>
         <div class="mobile-nav-close" @click="toggleMobileNav" />
       </nav>
     </div>
-
   </header>
+  <div v-if="this.tags">
+    <div class="project-list">
+    <div v-for="project in projects"
+          :key="project.title"
+          class="projectbox"
+          @click="click_on_nav">
+        <router-link
+          :to="project.path"
+          class="link"
+          >
+          <div class="image">
+            <img :src="project.frontmatter.thumbnail" alt="">
+          </div>
+          <div class="gradientbox">
+            <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+            <div v-else class="projectinfo">
+              <h2>{{ project.frontmatter.heading }}</h2>
+              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
+            </div>
+          </div>
+        </router-link>
+    </div>
+  </div>
+  </div>
+</div>
 </template>
 
 <script>
@@ -103,17 +134,38 @@
     },
     data() {
       return {
-        mobileNavActive: false
+        mobileNavActive: false,
+        tags: false,
+        clicked_tag: '',
       }
     },
     computed: {
       navLinks() {
         return this.$site.themeConfig.nav
       },
+      filters() {
+        return this.$site.themeConfig.filters
+      },
+      projects() {
+        return this.$site.pages
+          .filter(x => x.path.startsWith('/projects/') && !x.frontmatter.project_index && x.frontmatter.navigation == this.clicked_tag)
+          .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+      },
     },
     methods: {
       toggleMobileNav() {
         this.mobileNavActive = !this.mobileNavActive
+      },
+      click_on_nav: function(e) {
+        this.tags = !this.tags
+        this.clicked_tag = e.currentTarget.innerHTML
+        if (this.tags == true) {
+          document.getElementById('main-container').style.display = "none"
+        } else {
+          document.getElementById('main-container').style.display = "block"
+        }
+        
+        console.log(this.clicked_tag)
       }
     }
   }
@@ -132,10 +184,9 @@
     justify-content: space-between;
     height: 6rem;
     padding: 0 5vw;
-    margin: 1vh 0;
     font-size: 0.8rem;
     font-weight: 500;
-    z-index: 100;
+    z-index: 300;
     background-color: white;
     border-bottom: #f5f5f5 solid 2px;
   }
@@ -148,7 +199,7 @@
     background-position: center;
     background-repeat: no-repeat;
     left: 10%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%,-50%);
   }
   @media screen and (max-width: 600px) {
@@ -268,4 +319,165 @@
     }
   }
 
+  /* YO ITS PROJECT CSS */
+
+ 
+  .tag {
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: .4rem;
+    margin-right: .4rem;
+    cursor: pointer;
+  }
+
+  .gradientbox {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%);
+    opacity: 0;
+    transition: ease-in-out 350ms;
+    z-index: 200;
+    position: absolute;
+  }
+  .gradientbox:hover {
+    opacity: 1;
+  }
+
+  .image {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .image img {
+    margin: 0;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .projectbox {
+      grid-column: span 6 !important;
+    }
+    .imgbox {
+      height: 40vh !important;
+    }
+    .imgbox img {
+      height: 40vh !important; 
+    }
+  }
+
+  .projectinfo {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 3rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    color: white;
+  }
+
+  .projectinfo-small {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo-small h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo-small h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    color: white;
+  }
+
+  .projectinfo-medium {
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+  }
+
+  .projectinfo-medium h2 {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: clamp(1rem, 5vw, 2.5rem);
+    letter-spacing: -.025em;
+    color: white;
+    text-decoration: none;
+  }
+
+  .projectinfo-medium h3 {
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: white;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: relative;
+  }
+
+  img {
+    margin: 0;
+    min-height: 40vh;
+    max-height: 70vh;
+    object-fit: cover;
+  }
+
+  .imgbox {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden; */
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+  }
+
+  .imgbox:hover {
+    transform: scale(1.04);
+  }
+
+  .projectbox {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .project-list {
+      margin-top: 5vh;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) ;
+  }
 </style>
