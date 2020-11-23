@@ -16,12 +16,13 @@ navigation: Проекты
 \
 \
 \
-<div style="display: grid; grid-template-columns: repeat(auto-
-fit, minmax(20rem, 1fr));">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));">
 <!-- ссылки на картинки формата HTML вставить под этой надписью
 \-->
-<img src="https://source.unsplash.com/?nature" />
-<img src="https://source.unsplash.com/?water" />
-<img src="https://source.unsplash.com/?city" />
-<img src="https://source.unsplash.com/?forrest" />
+<img src="https://source.unsplash.com/featured/500x500?nature" />
+<img src="https://source.unsplash.com/featured/500x500?water" />
+<img src="https://source.unsplash.com/featured/500x500?city" />
+<img src="https://source.unsplash.com/featured/500x500?forrest" />
+<img src="https://source.unsplash.com/featured/500x501?forrest" />
 </div>
+
