@@ -16,5 +16,5 @@ about: "Многообразие вещей, существующих объек
     <!-- пишите описание тут -->
     описание
 </h2>
-<iframe src="/boldakov/index.html" frameborder="0" scrolling="no" style="height: 100vh; width: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+<iframe src="/boldakov/index.html" frameborder="0" scrolling="no" style="height: 80vh; width: 80%; margin: 0 10vw" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>

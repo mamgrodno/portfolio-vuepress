@@ -16,5 +16,5 @@ date:
     <!-- пишите описание тут -->
     описание
 </h2>
-<iframe src="/shoba/index.html" frameborder="0" scrolling="yes" style="height: 100vh; width: 100%;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+<iframe src="/shoba/index.html" frameborder="0" scrolling="yes" style="height: 80vh; width: 80%; margin: 0 10vw" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>
