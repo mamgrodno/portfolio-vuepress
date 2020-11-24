@@ -377,14 +377,17 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .projectbox {
+    /* .projectbox {
       grid-column: span 6 !important;
-    }
+    } */
     .imgbox {
       height: 40vh !important;
     }
     .imgbox img {
       height: 40vh !important; 
+    }
+    .gradientbox {
+      opacity: 1;
     }
   }
 
@@ -395,9 +398,9 @@
   }
 
   .projectinfo h2 {
-    margin: 1rem;
+    margin: 0 1rem 0 1rem;
     font-weight: 500;
-    font-size: clamp(1rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 1.5rem);
     letter-spacing: -.025em;
     color: white;
     text-decoration: none;
@@ -406,7 +409,7 @@
   .projectinfo h3 {
     margin: 0 1rem;
     font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
     color: white;
   }
 
@@ -494,7 +497,7 @@
   }
 
   .project-list {
-      margin: 5vh 5vh;
+      margin: 5vh 3vh;
       display: grid;
       gap: 2rem;
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

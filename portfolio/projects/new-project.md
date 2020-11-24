@@ -5,6 +5,7 @@ title: MAM opening
 heading: See you soon
 description: 27 ноября
 thumbnail: "/upload/maslice.png"
+navigation: 'Кто'
 categories:
 - today
 year: 2020
