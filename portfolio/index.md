@@ -14,11 +14,7 @@ project4_text: ''
 
 ---
 <Hero :text="$page.frontmatter.hero_text" />
-<div style="margin: 0 auto 10vh auto">
-<p style="font-size: clamp(1rem, 2.5vw, 1.5rem); margin: 2vh auto; text-align: center;">
-открытый формат общения и творчества
-</p>
-</div>
+
 
 <ClientOnly> <WorksList /> </ClientOnly>
 

@@ -159,7 +159,7 @@
   }
 
   .projectinfo h2 {
-    margin: 1rem;
+    margin: 0 1rem 0 1rem;
     font-weight: 500;
     font-size: clamp(1rem, 5vw, 3rem);
     letter-spacing: -.025em;
@@ -181,7 +181,7 @@
   }
 
   .projectinfo-medium h2 {
-    margin: 1rem;
+    margin: 0 1rem 0 1rem;
     font-weight: 500;
     font-size: clamp(1rem, 5vw, 2.5rem);
     letter-spacing: -.025em;
@@ -204,7 +204,7 @@
   }
 
   .projectinfo-small h2 {
-    margin: 1rem;
+    margin: 0 1rem 0 1rem;
     font-weight: 500;
     font-size: clamp(1rem, 5vw, 1.5rem);
     letter-spacing: -.025em;

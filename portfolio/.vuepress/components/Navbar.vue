@@ -42,20 +42,20 @@
 
     <nav class="navigation right desktop-nav">
       <ul>
-        <SearchBox />
         <li v-for="filter in filters" :key="filter.text"><span @click="click_on_nav">{{ filter.text }}</span></li>
-        <router-link
+        <a
           v-for="nav in navLinks"
           :key="nav.text"
           tag="li"
-          :to="nav.link"
+          :href="nav.link"
           active-class="active"
           v-text="nav.text"
           exact
-        />
+        ></a>
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
+        <SearchBox />
       </ul>
     </nav>
 
@@ -63,16 +63,19 @@
     <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
       <nav>
         <ul @click="toggleMobileNav">
-          <router-link
+          <li v-for="filter in filters" :key="filter.text"><span @click="click_on_nav">{{ filter.text }}</span></li>
+          <li>
+          <a
             v-for="nav in navLinks"
             :key="nav.text"
             v-if="!nav.external"
             tag="li"
-            :to="nav.link"
+            :href="nav.link"
             active-class="active"
             v-text="nav.text"
             exact
-          />
+          ></a>
+          </li>
           <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
             <a :href="nav.link" target="_blank">{{ nav.text }}</a>
           </li>
@@ -157,7 +160,7 @@
         this.mobileNavActive = !this.mobileNavActive
       },
       click_on_nav: function(e) {
-        this.tags = !this.tags
+        this.tags = true
         this.clicked_tag = e.currentTarget.innerHTML
         if (this.tags == true) {
           document.getElementById('main-container').style.display = "none"
@@ -216,12 +219,26 @@
     cursor: pointer;
     border-bottom: 1px solid transparent;
   }
+  .navigation a {
+    display: inline-block;
+    list-style: none;
+    margin-right: 3rem;
+    user-select: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+  }
 
-  .navigation li:last-of-type {
+  /* .navigation li:last-of-type {
+    margin: 0;
+  } */
+  .navigation a:last-of-type {
     margin: 0;
   }
 
   .navigation li:hover {
+    border-bottom: 1px solid #000;
+  }
+  .navigation a:hover {
     border-bottom: 1px solid #000;
   }
 
@@ -264,6 +281,8 @@
     list-style: none;
     cursor: pointer;
     transition: opacity 0.15s;
+    display: flex;
+    flex-direction: column;
   }
 
   .mobile-nav li:hover {
