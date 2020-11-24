@@ -43,4 +43,5 @@ fields:
   config:
     required: true
 pages:
+- portfolio/panorama/black-room.md
 - portfolio/panorama/test-pano.md
