@@ -6,7 +6,6 @@
       top: '0',
       left: '0',
       width: '100%',
-      position: 'sticky',
     }"
   >
 
@@ -38,6 +37,13 @@
         />
         <span v-else>{{ $site.title }}</span>
       </a>
+      <div class="logo-text">
+        <ul>
+          <li>Свободная Площадка</li>
+          <li>Современного Искусства</li>
+          <li>открытый формат общения и творчества</li>
+        </ul>
+      </div>
     </div>
 
     <nav class="navigation right desktop-nav">
@@ -178,8 +184,29 @@
 
 <style scoped>
 
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-text {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+  }
+  .logo-text ul {
+    list-style-type: none;
+  }
+  .logo-text li {
+    margin: .5rem 0;
+  }
+
   .search-box {
-    margin: 0 3rem;
+    margin: 0 1rem;
+  }
+  .search-box input {
+    background-color: rgb(0, 0, 0) !important;
   }
 
   .header {
@@ -187,25 +214,28 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    height: 6rem;
-    padding: 0 5vw;
-    font-size: 0.8rem;
-    font-weight: 500;
+    height: 12rem;
+    padding: 0 10vw;
+    margin-bottom: 12rem;
+    font-size: .8rem;
+    font-weight: 600;
     z-index: 300;
-    background-color: white;
-    border-bottom: #f5f5f5 solid 2px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
   }
 
   .logo {
-    position: absolute;
+    /* position: absolute; */
     width: 8rem;
-    height: 4rem;
+    height: 8rem;
+    margin: 0 1rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    left: 10%;
+    /* left: 10%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
   }
   @media screen and (max-width: 600px) {
     .logo {
@@ -216,7 +246,7 @@
   .navigation li {
     display: inline-block;
     list-style: none;
-    margin-right: 3rem;
+    margin-right: 1rem;
     user-select: none;
     cursor: pointer;
     border-bottom: 1px solid transparent;
@@ -224,7 +254,7 @@
   .navigation a {
     display: inline-block;
     list-style: none;
-    margin-right: 3rem;
+    margin-right: 1rem;
     user-select: none;
     cursor: pointer;
     border-bottom: 1px solid transparent;
@@ -238,14 +268,14 @@
   }
 
   .navigation li:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
   }
   .navigation a:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
   }
 
   .active {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid white;
   }
 
   a {
@@ -264,6 +294,7 @@
     display: block;
     position: absolute;
     background: #ffffff;
+    color: black;
     top: 0;
     left: 0;
     width: 100vw;

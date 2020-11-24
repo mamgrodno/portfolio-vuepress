@@ -23,8 +23,11 @@
     text-decoration: none;
     color: black;
   }
+  .link-box span {
+    color: white;
+  }
   .container {
-    background-color: #f5f5f5;
+    background-color: black;
     margin-top: 10rem;
   }
   .text {
@@ -32,12 +35,16 @@
     font-size: 0.8rem;
     text-align: left;
     padding: 2rem 3rem;
+    color: white;
   }
   .box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     justify-items: center;
     padding: 2rem 3rem;
+  }
+  .box div {
+    color: white;
   }
   @media only screen and (max-width: 600px) {
     .box {
