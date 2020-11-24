@@ -42,6 +42,7 @@
     padding-right: 2rem;
     left: 2rem;
     bottom: 1rem;
+    width: 100%;
   }
 
   .text h2 {
@@ -49,6 +50,8 @@
     font-size: clamp(1rem, 5vw, 3rem);
     font-weight: 500;
     text-decoration: none;
+    max-width: 1000px;
+    margin: 0 1rem
   }
 
   .text h3 {
@@ -56,6 +59,8 @@
     font-size: clamp(1rem, 5vw, 1.5rem);
     font-weight: 300;
     text-decoration: none;
+    max-width: 1000px;
+    margin: 0 1rem
   }
 
   .pano {

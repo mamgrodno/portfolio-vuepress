@@ -61,7 +61,9 @@
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
-        <SearchBox />
+        <li>
+          <SearchBox />
+        </li>
       </ul>
     </nav>
 
@@ -210,12 +212,14 @@
 
   .header {
     display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
     position: relative;
     align-items: center;
     justify-content: space-between;
     height: 12rem;
-    padding: 0 10vw;
-    font-size: .8rem;
+    padding: 0 7vw;
+    font-size: clamp(.5rem, 1vw, 0.8rem);
     font-weight: 600;
     z-index: 300;
     background-color: white;
@@ -227,7 +231,7 @@
     /* position: absolute; */
     width: 8rem;
     height: 8rem;
-    margin: 0 1rem;
+    margin-right: 1.5rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,7 +361,7 @@
     opacity: 0.6;
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 1025px) {
     .desktop-nav {
       display: block;
     }
