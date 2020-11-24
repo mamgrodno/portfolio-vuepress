@@ -22,7 +22,7 @@ project4_text: ''
 
 <div style="margin: 0 5vw">
 <p style="font-size: clamp(1rem, 2.5vw, 1.5rem);
-    color: #7b808a; margin: 15vh auto; text-align: start; max-width: 1000px;">
+    color: #7b808a; margin: 15vh auto; text-align: start; max-width: 800px;">
 МАМ&nbsp;&mdash; Modern Art Museum, Гродно. Площадка для современного искусства, проекты на&nbsp;различных плоскостях и&nbsp;поверхностях, которые позволят в&nbsp;свободном формате без цензуры выставляться гродненским художникам, скульпторам, дизайнерам, архитекторам, проводить перфомансы, фестивали, творческие акции. МАМ&nbsp;&mdash; это еще интервью, рецензии, обзоры, актуальная информация о&nbsp;выставках и&nbsp;проектах, событиях в&nbsp;арт-пространстве Гродно.
 </p>
 </div>
