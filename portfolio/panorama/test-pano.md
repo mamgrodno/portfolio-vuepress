@@ -14,7 +14,7 @@ date:
     <!-- пишите описание тут -->
     описание
 </h2>
-<iframe src="http://hi360v.com/other/painters/jagminas/" frameborder="0" scrolling="no" style="height: 80vh; width: 80%; margin: 0 10vw" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+<iframe src="https://hi360v.com/other/painters/jagminas/" frameborder="0" scrolling="no" style="height: 80vh; width: 80%; margin: 0 10vw" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>
 \
 текст там
