@@ -132,8 +132,8 @@
   }
 
   .project-list {
-    margin-top: 5vh;
-    padding: 0 5vw;
+    max-width: 1230px;
+    margin: 5vh auto 0 auto;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(6, 1fr);

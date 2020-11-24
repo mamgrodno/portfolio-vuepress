@@ -39,10 +39,8 @@
 
   .text {
     position: absolute;
-    padding-right: 2rem;
-    left: 2rem;
-    bottom: 1rem;
     width: 100%;
+    bottom: 1rem;
   }
 
   .text h2 {
@@ -118,11 +116,12 @@
   }
 
   .panorama-list {
-      margin-top: 5vh;
-      display: grid;
-      grid-gap: 2em;
-      /* grid-template-columns: repeat(6, 1fr); */
-      /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+    max-width: 1230px;
+    margin: 5vh auto 0 auto;
+    display: grid;
+    grid-gap: 2em;
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
   }
 
   .panorama1 {
