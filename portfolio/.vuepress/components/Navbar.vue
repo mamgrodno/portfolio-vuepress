@@ -98,15 +98,15 @@
             <img :src="project.frontmatter.thumbnail" alt="">
           </div>
           <div class="gradientbox">
-            <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
+            <!-- <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
               <h2>{{ project.frontmatter.heading }}</h2>
               <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
             <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
               <h2>{{ project.frontmatter.heading }}</h2>
               <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
-            </div>
-            <div v-else class="projectinfo">
+            </div> -->
+            <div class="projectinfo">
               <h2>{{ project.frontmatter.heading }}</h2>
               <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
@@ -494,9 +494,9 @@
   }
 
   .project-list {
-      margin-top: 5vh;
+      margin: 5vh 5vh;
       display: grid;
       gap: 2rem;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)) ;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 </style>
