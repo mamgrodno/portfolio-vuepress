@@ -89,7 +89,7 @@
     <div v-for="project in projects"
           :key="project.title"
           class="projectbox"
-          @click="click_on_nav">
+          @click="click_on_link">
         <router-link
           :to="project.path"
           class="link"
@@ -167,8 +167,10 @@
         } else {
           document.getElementById('main-container').style.display = "block"
         }
-        
-        console.log(this.clicked_tag)
+      },
+      click_on_link: function(e) {
+        this.tags = false
+        document.getElementById('main-container').style.display = "block"
       }
     }
   }
