@@ -3,8 +3,7 @@ title: О MAM сегодня
 date: 2018-08-01T00:00:00.000+00:00
 thumbnail: "/upload/photo_2020-11-15-14-18-50.jpeg"
 year: 2020
-categories:
-- print
+categories: []
 description: МАМонты в шкафу, или каким будет Музей современного искусства в Гродно
 heading: О MAM сегодня
 
