@@ -18,34 +18,31 @@
 <style scoped>
   .link-box {
     display: flex;
-    /* justify-content: center; */
+
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: black;
   }
   .link-box span {
-    color: white;
   }
   .container {
-    background-color: black;
+    background-color: #F2F2F2;
     margin-top: 10rem;
   }
   .text {
     display: block;
     font-size: 0.8rem;
     text-align: left;
-    padding: 2rem 3rem;
-    color: white;
+    padding: 2rem 0 5rem 10rem;
   }
   .box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     justify-items: center;
-    padding: 2rem 3rem;
+    padding: 5rem 0 2rem 10rem;
   }
-  .box div {
-    color: white;
-  }
+  
   @media only screen and (max-width: 600px) {
     .box {
       justify-items: start;

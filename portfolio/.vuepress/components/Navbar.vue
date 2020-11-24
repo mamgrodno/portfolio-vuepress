@@ -192,7 +192,6 @@
   .logo-text {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
     font-size: .8rem;
   }
   .logo-text ul {
@@ -216,12 +215,11 @@
     justify-content: space-between;
     height: 12rem;
     padding: 0 10vw;
-    margin-bottom: 12rem;
     font-size: .8rem;
     font-weight: 600;
     z-index: 300;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-transform: uppercase;
   }
 
@@ -421,6 +419,9 @@
     }
     .gradientbox {
       opacity: 1;
+    }
+    .logo-text {
+      display: none;
     }
   }
 
