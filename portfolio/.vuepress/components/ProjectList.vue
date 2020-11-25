@@ -9,7 +9,7 @@
           class="link"
           >
           <div class="image">
-            <img :src="project.frontmatter.thumbnail" alt="">
+            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
           </div>
           <div class="gradientbox">
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
