@@ -7,7 +7,7 @@ description: MAM modern art museum открывается в Гродно. В к
 thumbnail: "/upload/photo_2020-11-17_18-11-36.jpg"
 categories:
 - today
-navigation: Кто
+navigation:
 year: 2020
 date: 2020-11-21
 

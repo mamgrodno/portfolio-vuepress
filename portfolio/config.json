@@ -18,12 +18,6 @@
       "link": "/panorama",
       "position": "right",
       "external": false
-    },
-    {
-      "text": "Клуб mam",
-      "link": "#",
-      "position": "right",
-      "external": false
     }
   ],
   "filters": [
@@ -35,6 +29,9 @@
     },
     {
       "text": "Кто"
+    },
+    {
+      "text": "Клуб mam"
     }
   ]
 }
