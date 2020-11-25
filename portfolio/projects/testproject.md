@@ -1,6 +1,6 @@
 ---
 size: 2
-height: 40
+height:
 title: testProject
 heading: Тестовый Проект
 description: Хеллоу уорлд

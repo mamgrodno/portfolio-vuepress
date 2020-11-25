@@ -103,7 +103,7 @@
           <div class="image">
             <img :src="project.frontmatter.thumbnail" alt="">
           </div>
-          <div class="gradientbox">
+          <div class="">
             <div class="projectinfo">
               <h2>{{ project.frontmatter.heading }}</h2>
               <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
@@ -433,25 +433,25 @@
   }
 
   .projectinfo {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 1rem;
   }
 
   .projectinfo h2 {
-    margin: 0 1rem 0 1rem;
-    font-weight: 500;
+    margin: 1rem 0;
+    font-weight: 700;
     font-size: clamp(1rem, 5vw, 1.5rem);
     letter-spacing: -.025em;
-    color: white;
     text-decoration: none;
+    color: black;
   }
 
   .projectinfo h3 {
-    margin: 0 1rem;
-    font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.1rem);
-    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: black;
   }
 
   .projectinfo-small {
@@ -535,6 +535,10 @@
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    transition: all .7s ease-in-out;
+  }
+  .projectbox:hover {
+    transform: translateY(-7px)
   }
 
   .project-list {

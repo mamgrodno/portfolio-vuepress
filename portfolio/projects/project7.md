@@ -9,7 +9,7 @@ categories:
 year: 2020
 date: 2020-11-01
 size: 2
-height: 40
+height:
 
 ---
 ## **Проект Экзисториум/Existorium**

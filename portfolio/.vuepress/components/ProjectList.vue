@@ -9,22 +9,26 @@
           class="link"
           >
           <div class="image">
-            <v-lazy-image :src="project.frontmatter.thumbnail" alt="">
+            <img :src="project.frontmatter.thumbnail" alt="">
           </div>
-          <div class="gradientbox">
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
+              <h4 v-if="project.frontmatter.navigation">{{ project.frontmatter.navigation }}</h4>
               <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
               <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
             <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
+              <h4 v-if="project.frontmatter.navigation">{{ project.frontmatter.navigation }}</h4>
               <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
               <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
-            <div v-else class="projectinfo">
+          
+          <!-- <div class="gradientbox"> -->
+            <div v-else class="projectinfo gradientbox">
+              <h4 v-if="project.frontmatter.navigation">{{ project.frontmatter.navigation }}</h4>
               <h2 style="max-width: 1000px;">{{ project.frontmatter.heading }}</h2>
               <h3 style="max-width: 1000px;" v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
             </div>
-          </div>
+          <!-- </div> -->
         </router-link>
     </div>
   </div>
@@ -125,6 +129,10 @@
     background-repeat: no-repeat;
     opacity: 1;
     position: relative;
+    transition: all .7s ease-in-out;
+  }
+  .link:hover {
+    transform: translateY(-7px)
   }
 
   .projectbox {
@@ -146,10 +154,10 @@
   @media only screen and (max-width: 600px) {
     .projectbox {
       grid-column: span 6 !important;
-      height: 40vh !important;
+      /* height: 40vh !important; */
     }
-    .link {
-      height: 40vh !important;
+    .link:hover {
+      transform: none;
     }
     .gradientbox {
       opacity: 1;
@@ -159,7 +167,6 @@
   .projectinfo {
     position: absolute;
     width: 100%;
-    bottom: 1rem;
   }
 
   .projectinfo h2 {
@@ -169,6 +176,9 @@
     letter-spacing: -.025em;
     color: white;
     text-decoration: none;
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
   }
 
   .projectinfo h3 {
@@ -176,51 +186,68 @@
     font-weight: 300;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
   }
 
   .projectinfo-medium {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 1rem;
   }
 
   .projectinfo-medium h2 {
-    margin: 0 1rem 0 1rem;
-    font-weight: 500;
-    font-size: clamp(1rem, 5vw, 2.5rem);
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     letter-spacing: -.025em;
-    color: white;
     text-decoration: none;
+    color: black;
   }
 
   .projectinfo-medium h3 {
-    margin: 0 1rem;
-    font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
-    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: black;
+  }
+
+  .projectinfo-medium h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: black;
   }
 
 
   .projectinfo-small {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 1rem;
   }
 
   .projectinfo-small h2 {
-    margin: 0 1rem 0 1rem;
-    font-weight: 500;
+    margin: 1rem 0;
+    font-weight: 700;
     font-size: clamp(1rem, 5vw, 1.5rem);
     letter-spacing: -.025em;
-    color: white;
     text-decoration: none;
+    color: black;
   }
 
   .projectinfo-small h3 {
-    margin: 0 1rem;
-    font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.1rem);
-    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: black;
+  }
+
+  .projectinfo-small h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: black;
   }
 
 </style>

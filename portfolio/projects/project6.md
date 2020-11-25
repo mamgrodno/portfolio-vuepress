@@ -9,7 +9,7 @@ navigation: today
 year: 2020
 date: 2020-11-02
 size: 2
-height: 40
+height:
 
 ---
 # О MAM сегодня
