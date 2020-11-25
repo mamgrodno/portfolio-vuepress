@@ -24,6 +24,9 @@
 </template>
 
 <script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
   export default {
     computed: {
       panoramas() {
@@ -31,7 +34,14 @@
           .filter(x => x.path.startsWith('/panorama/') && !x.frontmatter.panoramas_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
-    }
+    },
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.set(".pano", {opacity: 0})
+      ScrollTrigger.batch(".pano", {
+        onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, ease: "power3"}),
+      })
+    },
   }
 </script>
 

@@ -77,6 +77,9 @@
 </template>
 
 <script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from "gsap/ScrollTrigger"
+
   export default {
     computed: {
       isSingleProject() {
@@ -124,6 +127,17 @@
           wrapper.parentNode.replaceChild(fragment, wrapper)
 
         })
+    },
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.set("img", {opacity: 0, y: 100})
+      ScrollTrigger.batch("img", {
+        interval: .2,
+        onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeave: batch => gsap.set(batch, {opacity: 0, y: -100}),
+        onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100}),
+      })
     },
   }
 </script>

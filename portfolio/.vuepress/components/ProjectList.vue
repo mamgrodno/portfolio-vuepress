@@ -40,9 +40,13 @@
   export default {
     mounted() {
       gsap.registerPlugin(ScrollTrigger);
-      // gsap.from("img", {opacity: 0, duration: 1, scrollTrigger: "img"})
-      ScrollTrigger.batch("img", {
-        onEnter: batch => gsap.from(batch, {autoAlpha: 1, stagger: 0.1, opacity: 0})
+      gsap.set(".projectbox", {opacity: 0, y: 100})
+      ScrollTrigger.batch(".projectbox", {
+        interval: .2,
+        onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeave: batch => gsap.set(batch, {opacity: 0, y: -100}),
+        onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100}),
       })
     },
     data() {

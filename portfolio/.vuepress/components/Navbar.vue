@@ -104,14 +104,6 @@
             <img :src="project.frontmatter.thumbnail" alt="">
           </div>
           <div class="gradientbox">
-            <!-- <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
-              <h2>{{ project.frontmatter.heading }}</h2>
-              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
-            </div>
-            <div v-else-if="project.frontmatter.size < 5" class="projectinfo-medium">
-              <h2>{{ project.frontmatter.heading }}</h2>
-              <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
-            </div> -->
             <div class="projectinfo">
               <h2>{{ project.frontmatter.heading }}</h2>
               <h3 v-if="project.frontmatter.description">{{ project.frontmatter.description }}</h3>
@@ -126,6 +118,8 @@
 
 <script>
   import SearchBox from '@SearchBox';
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
 
   export default {
     components: {
@@ -177,7 +171,18 @@
       click_on_link: function(e) {
         this.tags = false
         document.getElementById('main-container').style.display = "block"
-      }
+      },
+    },
+    mounted() {
+      gsap.registerPlugin(ScrollTrigger);
+      gsap.set(".projectbox", {opacity: 0, y: 100})
+      ScrollTrigger.batch(".projectbox", {
+        interval: .2,
+        onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeave: batch => gsap.set(batch, {opacity: 0, y: -100}),
+        onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100}),
+      })
     }
   }
 </script>
