@@ -244,6 +244,15 @@
     font-weight: 700;
     margin: 2rem auto 1rem auto;
   }
+  h4 {
+    margin: 2rem auto 1rem auto;
+  }
+  h5 {
+    margin: 2rem auto 1rem auto;
+  }
+  h6 {
+    margin: 2rem auto 1rem auto;
+  }
 
   p {
     font-size: 1rem;
