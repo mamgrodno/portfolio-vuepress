@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="box">
-      <div>
+      <div class="footer-text">
         {{ $site.themeConfig.footer_text }}
       </div>
       <div v-for="i in $site.themeConfig.media">
@@ -36,6 +36,9 @@
     text-align: left;
     padding: 2rem 0 5rem 10rem;
   }
+  .footer-text {
+    font-size: .8rem;
+  }
   .box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -50,6 +53,9 @@
     }
     .link-box {
       margin: 1rem auto;
+    }
+    .text {
+      padding: 1rem 2rem;
     }
   }
 </style>
