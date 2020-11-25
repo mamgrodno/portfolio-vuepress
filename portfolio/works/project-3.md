@@ -1,18 +1,16 @@
 ---
 title: 'Фрагменты: в состоянии свободной экспериментальности'
 date: 2017-02-04T00:00:00.000+00:00
-thumbnail: "/upload/photo_2020-10-28_16-34-49.jpg"
+thumbnail: "/upload/forestry.jpg"
 year: 2020
 categories:
 - print
-description: "«Вся информация мне представляется сегодня неоднозначным калейдоскопом»"
-heading: Наталья Залозная, Минск
+description: Пластический фильм Ольги Рабецкой
+heading: Free Belarus
 
 ---
-Фрагменты: в состоянии свободной экспериментальности
+Free Belarus
 ===========
-[Наталья Залозная](http://11-12gallery.com/artists/natalya-zaloznaya#bio), Минск
+Пластический фильм Ольги Рабецкой
 -------------------
-> Вся информация мне представляется сегодня неоднозначным калейдоскопом, и в Королино я продолжила эту серию
-
-![Imgur](https://i.imgur.com/hyyt7zH.jpg)
+<iframe src="https://drive.google.com/file/d/1rGPKaBOZiG84dD9CZKDgCmBfYeBG7rEt/preview" width="640" height="480"></iframe>
