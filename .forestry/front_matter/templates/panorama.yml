@@ -44,4 +44,5 @@ fields:
     required: true
 pages:
 - portfolio/panorama/black-room.md
+- portfolio/panorama/ilyina.md
 - portfolio/panorama/test-pano.md
