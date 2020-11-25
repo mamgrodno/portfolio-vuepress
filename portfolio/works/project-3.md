@@ -14,3 +14,8 @@ Free Belarus
 Пластический фильм Ольги Рабецкой
 -------------------
 <iframe src="https://drive.google.com/file/d/1rGPKaBOZiG84dD9CZKDgCmBfYeBG7rEt/preview" width="640" height="480"></iframe>
+
+<div>
+  <iframe style="width: 70vw; height: 80vh; margin: 0 15vw;" 
+src="https://drive.google.com/file/d/1rGPKaBOZiG84dD9CZKDgCmBfYeBG7rEt/preview">
+</div>
