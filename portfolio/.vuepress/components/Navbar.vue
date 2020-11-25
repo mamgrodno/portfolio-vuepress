@@ -61,9 +61,7 @@
         <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
         </li>
-        <li>
-          <SearchBox />
-        </li>
+        <SearchBox />
       </ul>
     </nav>
 
@@ -270,14 +268,14 @@
   }
 
   .navigation li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
   }
   .navigation a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
   }
 
   .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
   }
 
   a {
@@ -535,7 +533,8 @@
   }
 
   .project-list {
-      margin: 5vh 3vh;
+      max-width: 1230px;
+      margin: 5vh auto;
       display: grid;
       gap: 2rem;
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="18007" appversion="6.1.10" start="node32">
+  <panorama id="node32" hideabout="1">
+    <input levelingroll="0" width="2000" height="2000" overlap="1" levelingpitch="0" levelbiashidpi="0.400" leveltilesize="500" levelbias="0.400" leveltileurl="tiles/jagminas/c%c_l%r_%y_%x.jpg">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="2.50213" fov="47.9842" projection="4" pan="-71.3239"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fovpixel="1" pan="0"/>
+      <max tilt="90" fovfisheye="360" scaletofit="1" fov="70" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata comment="" tags="jagminas|liapkina|Pano2VR6|shoba|tour" customnodeid="" longitude="" heading="0" source="" info="" title="" copyright="" nodeid="node32" description="" datetime="07.10.2020 14:55" latitude="" author="Gustas Jagminas, Алітус"/>
+    <hotspots width="270" height="50" wordwrap="1">
+      <label textcolor="0xff0000" width="270" height="50" borderalpha="1" borderradius="11" background="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1"/>
+      <polystyle borderalpha="1" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0xff1134" bordercolor="0xffe040"/>
+    </hotspots>
+    <media/>
+    <transition zoomafterinfov="90" blendcolor="0x000000" zoomfov="20" blendtime="1" enabled="1" zoomin="0" softedge="0" zoomoutpause="1" zoomspeed="2" type="crossdissolve" zoomafteroutfov="20" zoomout="0"/>
+    <autorotate speed="0.080" startloaded="0" useanimation="0" nodedelay="0.00" noderandom="1" enabled="1" nodefilter="" returntohorizon="0.000" delay="5.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedmouse="0" lockedkeyboard="0" invertcontrol="1" sensitivity="9" speedwheel="1" contextprojections="0" hideabout="1" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="1" lockedwheel="0" contextfullscreen="0" simulatemass="1" invertwheel="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы интерьеров"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata comment="" tags="" customnodeid="" longitude="" heading="0" source="" info="" title="" copyright="" nodeid="master" description="" datetime="" latitude="" author=""/>
+  </masternode>
+</tour>

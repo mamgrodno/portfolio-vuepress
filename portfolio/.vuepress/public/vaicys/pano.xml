@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="18007" start="node32" appversion="6.1.10">
+  <panorama hideabout="1" id="node32">
+    <input levelingpitch="0" overlap="1" leveltileurl="tiles/vaicys/c%c_l%r_%y_%x.jpg" levelingroll="0" height="2000" width="2000" levelbias="0.400" leveltilesize="500" levelbiashidpi="0.400">
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="117.497" fov="70" tilt="0.177739" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="70" tilt="90"/>
+    </view>
+    <userdata author="Gintautas Vaicys, Каўнас" latitude="" customnodeid="" tags="jagminas|liapkina|Pano2VR6|shoba|tour|vaicys" copyright="" heading="0" datetime="07.10.2020 14:55" title="" comment="" description="" info="" nodeid="node32" source="" longitude=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label border="1" borderalpha="1" wordwrap="1" textalpha="1" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="50" width="270" textcolor="0xff0000" background="1" borderradius="11" bordercolor="0x000000"/>
+      <polystyle borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0xff1134" handcursor="1" bordercolor="0xffe040"/>
+    </hotspots>
+    <media>
+      <lensflare type="2" blinding="40.000" alpha="60.000" color="0xffffff" pan="-133.390" id="Lensflare01" tilt="23.130"/>
+    </media>
+    <transition blendtime="1" type="crossdissolve" enabled="1" zoomin="0" zoomoutpause="1" zoomafterinfov="90" zoomout="0" zoomspeed="2" zoomafteroutfov="20" blendcolor="0x000000" zoomfov="20" softedge="0"/>
+    <autorotate delay="5.00" startloaded="0" speed="0.080" nodedelay="0.00" noderandom="1" returntohorizon="0.000" enabled="1" nodefilter="" useanimation="0"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" lockedkeyboard="0" contextfullscreen="0" simulatemass="1" speedwheel="1" hideabout="1" invertwheel="0" invertcontrol="1" sensitivity="9" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" contextprojections="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata author="" latitude="" customnodeid="" tags="" copyright="" heading="0" datetime="" title="" comment="" description="" info="" nodeid="master" source="" longitude=""/>
+  </masternode>
+</tour>
