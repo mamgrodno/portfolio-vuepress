@@ -14,8 +14,8 @@ project3_text: ''
 project4_text: ''
 
 ---
-<!-- <Hero :text="$page.frontmatter.hero_text" />
-<Hero :sub="$page.frontmatter.hero_subtitle" /> -->
+<Hero :text="$page.frontmatter.hero_text" />
+<Hero :sub="$page.frontmatter.hero_subtitle" />
 
 
 <ClientOnly> <WorksList /> </ClientOnly>

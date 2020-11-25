@@ -196,7 +196,7 @@
   @media screen and (max-width: 600px) {
     .youtube {
       margin: 0 !important;
-      width: 100vh;
+      width: 100vw;
     }
   }
 

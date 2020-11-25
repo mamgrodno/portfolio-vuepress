@@ -26,7 +26,7 @@ export default {
     letter-spacing: -0.1rem;
     width: 1000px;
     max-width: 100%;
-    margin: 6vw auto 3vh auto;
+    margin: 3vw auto 3vh auto;
     font-size: clamp(1.5rem, 5vw, 2rem);
     font-weight: 500;
     text-transform: uppercase;

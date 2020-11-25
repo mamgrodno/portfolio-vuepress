@@ -37,13 +37,13 @@
         />
         <span v-else>{{ $site.title }}</span>
       </a>
-      <div class="logo-text">
+      <!-- <div class="logo-text">
         <ul>
           <li>Свободная Площадка</li>
           <li>Современного Искусства,</li>
           <li>открытый формат общения и творчества</li>
         </ul>
-      </div>
+      </div> -->
     </div>
 
     <nav class="navigation right desktop-nav">
@@ -217,8 +217,8 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    height: 12rem;
-    padding: 0 7vw;
+    height: 8rem;
+    padding: 0 12vw;
     font-size: clamp(.5rem, 1vw, 0.8rem);
     font-weight: 600;
     z-index: 300;
