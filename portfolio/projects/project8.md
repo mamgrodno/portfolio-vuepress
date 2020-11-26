@@ -36,20 +36,10 @@ _описание картинки и еще пару слов_
 <iframe class="youtube" src="https://www.youtube.com/embed/1YiMR14fiAY">
 </div>
 
-<figure>
-<!-- ссылку на картинку (Direct Link) вставить в src="" -->
-<img src="https://source.unsplash.com/WLUHO9A_xik/1600x900">
-<figcaption style="text-align: center;">Подпись картинки</figcaption>
-</figure>
-
-<figure>
-<!-- ссылку на картинку (Direct Link) вставить в src="" -->
-<img src="https://i.imgur.com/6vagtlT.jpeg">
-<figcaption style="text-align: center;">Подпись картинки</figcaption>
-</figure>
-
 <div class="gallery2">
 <img src="https://i.imgur.com/6vagtlT.jpeg">
 <img src="https://i.imgur.com/6vagtlT.jpeg">
 <img src="https://i.imgur.com/6vagtlT.jpeg">
 </div>
+
+пишу текст и вставляю [ссылку](/journal/first-test "хеллоу")
