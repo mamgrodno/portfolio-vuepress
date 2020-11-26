@@ -48,11 +48,8 @@ _описание картинки и еще пару слов_
 <figcaption style="text-align: center;">Подпись картинки</figcaption>
 </figure>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));">
-<!-- ссылки на картинки (Direct Link) вставить в src="" -->
-<img src="https://i.imgur.com/6vagtlT.jpeg" />
-<img src="https://i.imgur.com/6vagtlT.jpeg" />
-<img src="https://i.imgur.com/6vagtlT.jpeg" />
-<img src="https://i.imgur.com/6vagtlT.jpeg" />
-<img src="https://i.imgur.com/6vagtlT.jpeg" />
+<div class="gallery2">
+<img src="https://i.imgur.com/6vagtlT.jpeg">
+<img src="https://i.imgur.com/6vagtlT.jpeg">
+<img src="https://i.imgur.com/6vagtlT.jpeg">
 </div>
