@@ -3,7 +3,7 @@ title: silvanovich
 heading: Сильванович
 description: 'Обвинители утверждали, что стихи написаны в стиле гимнов Аполлону, а
   тиран Атарнеи не достоин такого почитания. '
-thumbnail: "/upload/photo-1490013616775-3ca8865fb129.jpeg"
+thumbnail: "/upload/silvanovich_v2ggi_01_v9-min.jpg"
 categories: []
 year: 2020
 date: 
