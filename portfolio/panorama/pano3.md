@@ -4,7 +4,7 @@ heading: Лиапкина
 description: "«то, из чего». Многообразие вещей, существующих объективно; материя
   вечна, несотворима и неуничтожима; она не может возникнуть из ничего, увеличиться
   или уменьшиться в своём количестве; она инертна и пассивна."
-thumbnail: "/upload/dominik-schroder-fikd9t5_5zq-unsplash.jpg"
+thumbnail: "/upload/liapkina_massacra1i_01_v7-min.jpg"
 categories: []
 year: 2020
 date: 
