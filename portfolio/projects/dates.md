@@ -5,7 +5,7 @@ title: Grinevich
 heading: 'Сергей Гриневич: «Всё, что теперь происходит, у меня уже нарисовано 10 лет
   назад. Система работает без сбоев, клонируя радикальное» '
 description: 6 цитат Сергея Гриневича после выставки «8-й регион».
-thumbnail: "/upload/photo_2020-11-15-14-18-44.jpeg"
+thumbnail: "/upload/gr.jpg"
 categories:
 - who
 - today
