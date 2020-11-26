@@ -4,7 +4,7 @@
           :key="project.title"
           class="projectbox"
           v-if="!project.frontmatter.hide"
-          :style="{gridColumn: `span ${project.frontmatter.size}`, height: `${project.frontmatter.height}vh`}">
+          :style="{gridColumn: `span ${project.frontmatter.size}`}">
         <router-link
           :to="project.path"
           class="link"
@@ -173,7 +173,7 @@
   .projectinfo h2 {
     margin: 0 1rem 0 1rem;
     font-weight: 500;
-    font-size: clamp(1rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 2rem);
     letter-spacing: -.025em;
     color: white;
     text-decoration: none;
@@ -185,7 +185,7 @@
   .projectinfo h3 {
     margin: 0 1rem;
     font-weight: 300;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(.8rem, 2.5vw, 1.25rem);
     color: white;
     position: absolute;
     bottom: 1rem;
