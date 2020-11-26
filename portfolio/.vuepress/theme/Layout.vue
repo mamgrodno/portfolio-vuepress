@@ -182,7 +182,7 @@
   }
 
   body {
-    font-family: "Montserrat", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     background: #fff;
     /* color: var(--color-black); */

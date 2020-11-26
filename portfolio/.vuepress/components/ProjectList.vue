@@ -3,6 +3,7 @@
     <div v-for="project in projects"
           :key="project.title"
           class="projectbox"
+          v-if="!project.frontmatter.hide"
           :style="{gridColumn: `span ${project.frontmatter.size}`, height: `${project.frontmatter.height}vh`}">
         <router-link
           :to="project.path"
