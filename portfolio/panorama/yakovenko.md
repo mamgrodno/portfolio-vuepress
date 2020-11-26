@@ -2,7 +2,7 @@
 title: Yakovenko
 heading: Яковенко
 description: описание
-thumbnail: "/upload/c0_l0_1_0.jpg"
+thumbnail: "/upload/photo_2020-11-17_18-11-36.jpg"
 categories: []
 year: 2020
 date: 
