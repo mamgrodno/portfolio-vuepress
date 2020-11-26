@@ -24,6 +24,13 @@ sections:
   templates:
   - projects
 - type: directory
+  path: portfolio/journal
+  label: Journal
+  create: all
+  match: "**/[!index]*"
+  templates:
+  - journal
+- type: directory
   path: portfolio/panorama
   label: Panorama
   create: all
