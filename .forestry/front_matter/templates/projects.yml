@@ -54,6 +54,10 @@ fields:
     required: false
   description: Только для картин на весь экран<br>Цифра, высота картинки, например
     80, будет высотой в 80% от экрана
+- name: hide
+  type: boolean
+  label: Hide
+  description: Включите чтобы спрятать с главной страницы
 pages:
 - portfolio/projects/dates.md
 - portfolio/projects/even-newer.md
