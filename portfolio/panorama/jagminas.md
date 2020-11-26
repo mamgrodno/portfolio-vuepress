@@ -2,7 +2,7 @@
 title: Jagminas
 heading: Ягминас
 description: описание
-thumbnail: "/upload/c0_l0_1_1.jpg"
+thumbnail: "/upload/jagminasi_01_v2-min.jpg"
 categories: []
 year: 2020
 date: 
