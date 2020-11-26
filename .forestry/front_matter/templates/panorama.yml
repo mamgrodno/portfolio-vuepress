@@ -43,7 +43,6 @@ fields:
   config:
     required: true
 pages:
-- portfolio/panorama/black-room.md
 - portfolio/panorama/jagminas.md
 - portfolio/panorama/test-pano.md
 - portfolio/panorama/vaicys.md
