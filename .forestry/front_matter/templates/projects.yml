@@ -47,7 +47,7 @@ fields:
   description: Сетка из 6 колонок, чтобы пост занимал треть ширины - нужно 6 / 3 =
     2, значит указываем 2<br><br>6 будет занимать всю ширину, 3 - половину
 - name: height
-  default: 40
+  default: 
   label: Height
   type: number
   config:
