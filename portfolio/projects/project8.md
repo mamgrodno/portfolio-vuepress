@@ -12,7 +12,7 @@ size: 2
 height: 40
 
 ---
-    Изумрудный-бирюзовый и связующий песочный
+Изумрудный-бирюзовый и связующий песочный
 
 **Каким может стать цвет современного Гродно поговорили с архитектором колористом из Парижа Ларисой Нури:**
 
@@ -39,5 +39,11 @@ _описание картинки и еще пару слов_
 <figure>
 <!-- ссылку на картинку (Direct Link) вставить в src="" -->
 <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900">
+<figcaption style="text-align: center;">Подпись картинки</figcaption>
+</figure>
+
+<figure>
+<!-- ссылку на картинку (Direct Link) вставить в src="" -->
+<img src="https://i.imgur.com/6vagtlT.jpeg">
 <figcaption style="text-align: center;">Подпись картинки</figcaption>
 </figure>
