@@ -33,11 +33,6 @@ fields:
   config:
     required: true
     export_format: YYYY-MM-DD
-- name: navigation
-  default: ''
-  label: Navigation
-  hidden: false
-  type: text
 - name: size
   default: 2
   label: Size
@@ -58,6 +53,22 @@ fields:
   type: boolean
   label: Hide
   description: Включите чтобы спрятать с главной страницы
+- name: navigation
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Кто
+    - Сегодня
+    - Проекты
+    - Клуб mam
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: navigation
 pages:
 - portfolio/projects/dates.md
 - portfolio/projects/even-newer.md
