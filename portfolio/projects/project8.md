@@ -38,6 +38,6 @@ _описание картинки и еще пару слов_
 
 <figure>
 <!-- ссылку на картинку (Direct Link) вставить в src="" -->
-<img src="[`https://source.unsplash.com/WLUHO9A_xik/1600x900`](https://source.unsplash.com/WLUHO9A_xik/1600x900 "https://source.unsplash.com/WLUHO9A_xik/1600x900")">
+<img src="`https://source.unsplash.com/WLUHO9A_xik/1600x900`">
 <figcaption style="text-align: center;">Подпись картинки</figcaption>
 </figure>
