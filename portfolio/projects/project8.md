@@ -32,4 +32,12 @@ _описание картинки и еще пару слов_
 <a href="https://imgur.com/uCIoFNC"><img src="https://i.imgur.com/uCIoFNC.jpg" title="source: imgur.com" /></a>
 </div>
 
-    <div style="font-size: 3rem; color:green;">trying out the codeblock</div>
+<div>
+<iframe class="youtube" src="https://www.youtube.com/embed/1YiMR14fiAY">
+</div>
+
+<figure>
+<!-- ссылку на картинку (Direct Link) вставить в src="" -->
+<img src="[`https://source.unsplash.com/WLUHO9A_xik/1600x900`](https://source.unsplash.com/WLUHO9A_xik/1600x900 "https://source.unsplash.com/WLUHO9A_xik/1600x900")">
+<figcaption style="text-align: center;">Подпись картинки</figcaption>
+</figure>
