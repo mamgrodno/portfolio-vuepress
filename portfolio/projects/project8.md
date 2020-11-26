@@ -1,27 +1,29 @@
 ---
-title: project8
-heading: Название
+title: Проект Экзисториум/Existorium
+heading: Основная идея – визуализация и фиксирование мимолетности момента объективной
+  реальности
 description: Подзаголовок
 thumbnail: "/upload/dominik-schroder-fikd9t5_5zq-unsplash.jpg"
-categories: ['who']
+categories:
+- who
 year: 2020
 date: 2020-10-31
 size: 2
-height:
+height: 40
 
 ---
-## **Изумрудный-бирюзовый и связующий песочный**
+    Изумрудный-бирюзовый и связующий песочный
 
 **Каким может стать цвет современного Гродно поговорили с архитектором колористом из Парижа Ларисой Нури:**
 
 > – _Мне кажется, это гармония светлых теплых цветов и холодных оттенков изумрудного, бирюзового в контрасте с белым. Связующий – охристый, песочный. Колористика цветоматериалов Коложи – это, точка отсчёта для формирования палитры города, для меня идентичность Гродно начинается именно с этого объекта._
 
 ![картинка самолетика](https://i.imgur.com/gJEvXHM.jpg)
-<center>*описание картинки и еще пару слов*</center>
+<center>_описание картинки и еще пару слов_</center>
 
 <a href="https://imgur.com/gJEvXHM"><img src="https://i.imgur.com/gJEvXHM.jpg" title="source: imgur.com" /></a>
-*описание картинки и еще пару слов*
----
+_описание картинки и еще пару слов_
+-
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))">
 <!-- ссылки на картинки формата HTML вставить под этой надписью -->
@@ -29,3 +31,5 @@ height:
 <a href="https://imgur.com/bmmLlYF"><img src="https://i.imgur.com/bmmLlYF.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/uCIoFNC"><img src="https://i.imgur.com/uCIoFNC.jpg" title="source: imgur.com" /></a>
 </div>
+
+    <div style="font-size: 3rem; color:green;">trying out the codeblock</div>
