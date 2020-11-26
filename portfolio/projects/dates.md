@@ -18,8 +18,11 @@ date: 2032-03-01
 
 #### 6 цитат Сергея Гриневича после выставки «8-й регион»
 
-![Imgur](https://i.imgur.com/BSGPKe3.jpg)
-<center>Сергей Гриневич</center>
+<figure>
+  <!-- ссылку на картинку (Direct Link) вставить в src="" --> 
+  <img src="https://i.imgur.com/BSGPKe3.jpg">
+  <figcaption style="text-align: center;">Сергей Гриневич</figcaption>
+</figure>
 
 **О попытках внутренней эмиграции**
 
