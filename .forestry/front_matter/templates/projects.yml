@@ -70,6 +70,7 @@ fields:
       path: 
   label: navigation
 pages:
+- portfolio/projects/club-mam.md
 - portfolio/projects/dates.md
 - portfolio/projects/even-newer.md
 - portfolio/projects/new-project.md
