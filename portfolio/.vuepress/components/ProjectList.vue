@@ -192,6 +192,19 @@
     left: 1rem;
   }
 
+  .projectinfo h4 {
+    position: absolute;
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: white;
+    bottom: 1rem;
+    right: 1rem;
+    display: inline;
+    width: auto;
+  }
+
+
   .projectinfo-medium {
     /* position: absolute; */
     width: 100%;
