@@ -4,7 +4,7 @@ heading: Шоба
 description: "«то, из чего». Многообразие вещей, существующих объективно; материя
   вечна, несотворима и неуничтожима; она не может возникнуть из ничего, увеличиться
   или уменьшиться в своём количестве; она инертна и пассивна."
-thumbnail: "/upload/ramiro-mendes-cjs3qsruxne-unsplash.jpg"
+thumbnail: "/upload/shoba_zhema_palacei_01_v1-min.jpg"
 categories: []
 year: 2020
 date: 
