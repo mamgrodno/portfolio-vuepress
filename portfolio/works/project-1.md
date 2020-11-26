@@ -1,5 +1,5 @@
 ---
-title: О MAM сегодня
+title: О проекте
 date: 2018-08-01T00:00:00.000+00:00
 thumbnail: "/upload/photo_2020-11-25_11-37-16.jpg"
 year: 2020
