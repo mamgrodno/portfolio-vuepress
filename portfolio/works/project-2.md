@@ -1,5 +1,5 @@
 ---
-title: Как в Гродно придумали виртуальный стрит арт
+title: StreetArt
 date: 2018-08-09T18:05:37.000+00:00
 thumbnail: "/upload/silvanovich_v2ggi_01_v9-min.jpg"
 year: 2020
