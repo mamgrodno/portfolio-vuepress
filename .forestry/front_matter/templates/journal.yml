@@ -20,4 +20,5 @@ fields:
   config:
     required: true
 pages:
+- portfolio/journal/boldakov.md
 - portfolio/journal/first-test.md
