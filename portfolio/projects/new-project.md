@@ -1,19 +1,58 @@
 ---
 size: 2
-height:
-title: MAM opening
-heading: See you soon
-description: 27 ноября
-thumbnail: "/upload/maslice.png"
-navigation:
+height: 
+title: MAM collection third
+heading: 10 панорам гродненского стрит-арта, художники взялись за городские муралы
+description: 'Путеводитель по проекту «Галереи, которых нет», часть 3.  '
+thumbnail: "/upload/varkulevich_ig_ggi_01_v1-min.jpg"
+navigation: ''
 categories:
 - today
 year: 2020
 date: 2020-11-20
+hide: false
 
 ---
-###### Свободное пространство
+## **Коллекция MAM**
 
-## MAM modern art museum открывается в Гродно.
+## 10 панорам гродненского стрит-арта, художники взялись за городские муралы
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));"> <!-- ссылки на картинки формата HTML вставить под этой надписью --> <a href="https://imgur.com/JbdA4b5"><img src="https://i.imgur.com/JbdA4b5.jpg" title="source: imgur.com" /></a> <a href="https://i.imgur.com/AG2Bexp.jpg" target="_blank"><img src="https://i.imgur.com/AG2Bexp.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/By9bM8e"><img src="https://i.imgur.com/By9bM8e.jpg" title="source: imgur.com" /></a> </div>
+Путеводитель по проекту «Галереи, которых нет», часть 3.
+
+![Imgur](https://i.imgur.com/1uvxrOC.jpg)
+
+**Юрий Яковенко**
+
+![Imgur](https://i.imgur.com/IpwEZM6.jpg)
+
+Культовый дворик на Кирова, 3, в Гродно, где проходят неформальные концерты, чтения, перфомансы, может быть таким. Фантасмагории плетут сложнейший код, цвет растворяется в оттенках, сюжеты запутаны, герои не дают ответов.
+
+Панораму можно посмотреть [**здесь**](https://mamgrodno.netlify.app/panorama/yakovenko.html)
+
+[**Творчество**](https://artcenter.by/user/JuriJakovenko)
+
+[Подробнее о Юрии Яковенко](/journal/Yakovenko "Yakovenko")
+
+![Imgur](https://i.imgur.com/P7jSaRm.jpg)
+
+**Александр Сильванович**
+
+![Imgur](https://i.imgur.com/nocl1eW.jpg)
+
+А у нас девушки стоят с цветами. Стояли, стоят и будут стоять на улице Социалистической. Масштабы и монументальность Александра Сильвановича как раз для улиц и кварталов, но и балкон собственной квартиры художника в панораме превратился в арт-объект.
+
+Панораму можно посмотреть \[**здесь**\](
+
+[**Творчество**](https://arthaos.com/index.php?q=page/authors/silvanovich-aleksandr-nikolaevich/)
+
+![Imgur](https://i.imgur.com/zEVwfsE.jpg)
+
+**Игорь Варкулевич**
+
+![Imgur](https://i.imgur.com/GsvrmEm.jpg)
+
+Удивительная точность плаката. Новостная лента в цепочке событий, где символы - это факты. Те самые медиа-крючки, которые вызывают эмоции. Композиция, логика идеальны. Для панорамы выбрана новостройка. Завтра стены закрасят, а плакаты отдадут в музей памяти.
+
+Панораму можно посмотреть [**здесь**](https://mamgrodno.netlify.app/panorama/pano6.html)
+
+[Подробнее об Игоре Варкулевиче](/journal/Varkulevich "Varkulevich")
