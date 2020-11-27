@@ -1,6 +1,6 @@
 ---
 title: Ilyina
-excerpt: Подробнее и Виктории Ильиной
+excerpt: Ilyina
 date: 
 
 ---
