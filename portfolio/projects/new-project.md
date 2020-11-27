@@ -56,3 +56,5 @@ hide: false
 Панораму можно посмотреть [**здесь**](https://mamgrodno.netlify.app/panorama/pano6.html)
 
 [Подробнее об Игоре Варкулевиче](/journal/Varkulevich "Varkulevich")
+
+**Авторы панорам:** _Иван Цыркунович, Ирина Варкулевич,_ **автор текста:** _Инна Максичмик_

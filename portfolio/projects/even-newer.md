@@ -60,3 +60,5 @@ hide: false
 [**Творчество**](http://www.grodno.by/grodno/art/artists/natasha_liapkina.html)
 
 [Подробнее о Натальи Ляпкиной](/journal/Liapkina "Liapkina")
+
+**Авторы панорам:** _Иван Цыркунович, Ирина Варкулевич,_ **автор текста:** _Инна Максичмик_
