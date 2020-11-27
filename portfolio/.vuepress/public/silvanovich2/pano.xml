@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.10" start="node32" apprev="18007">
+  <panorama hideabout="1" id="node32">
+    <input leveltilesize="500" levelbiashidpi="0.400" levelingroll="0" levelbias="0.400" height="2000" leveltileurl="tiles/silvanovich_v2gg/c%c_l%r_%y_%x.jpg" levelingpitch="0" width="2000" overlap="1">
+      <level height="2000" width="2000" preload="0" predecode="0"/>
+      <level height="1000" width="1000" preload="0" predecode="0"/>
+      <level height="500" width="500" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" pan="-138.239" projection="4" tilt="-1.35478"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fov="70" fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90"/>
+    </view>
+    <userdata title="" author="Аляксандр Сільвановіч, Гродна" heading="0" datetime="07.10.2020 14:55" description="" info="" longitude="" nodeid="node32" copyright="" source="" tags="Pano2VR6|silvanovich2|tour" latitude="" customnodeid="" comment=""/>
+    <hotspots height="50" width="270" wordwrap="1">
+      <label textcolor="0xff0000" backgroundcolor="0xffffff" borderalpha="1" background="1" height="50" width="270" bordercolor="0x000000" border="1" borderradius="11" enabled="1" textalpha="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0xff1134" borderalpha="1" mode="0" bordercolor="0xffe040" handcursor="1" backgroundalpha="0.25098"/>
+    </hotspots>
+    <media/>
+    <transition zoomafteroutfov="20" blendtime="1" type="crossdissolve" zoomspeed="2" softedge="0" zoomout="0" zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate nodefilter="" useanimation="0" startloaded="0" speed="0.080" enabled="1" delay="5.00" nodedelay="0.00" noderandom="1" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="1" sensitivity="9" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" invertcontrol="1" lockedkeyboardzoom="0" simulatemass="1" hideabout="1" speedwheel="1" contextprojections="0" contextfullscreen="0" rubberband="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы интерьеров"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata title="" author="" heading="0" datetime="" description="" info="" longitude="" nodeid="master" copyright="" source="" tags="" latitude="" customnodeid="" comment=""/>
+  </masternode>
+</tour>
