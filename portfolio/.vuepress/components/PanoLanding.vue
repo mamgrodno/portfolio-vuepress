@@ -55,7 +55,7 @@
 
   .text h2 {
     color: #F2F2F2;
-    font-size: clamp(1rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 2rem);
     font-weight: 500;
     text-decoration: none;
     max-width: 1000px;
@@ -64,7 +64,7 @@
 
   .text h3 {
     color: #F2F2F2;
-    font-size: clamp(1rem, 5vw, 1.5rem);
+    font-size: clamp(1rem, 5vw, 1.25rem);
     font-weight: 300;
     text-decoration: none;
     max-width: 1000px;
