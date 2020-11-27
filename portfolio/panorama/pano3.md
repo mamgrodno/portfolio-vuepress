@@ -16,7 +16,7 @@ date:
 <div>
 <h2>
     <!-- пишите описание тут -->
-    описание
+<span style="font-size: 1rem;">Таинственные и демонические девы художницы Натальи Ляпкиной идеально вписались в мистический колорит дворца Святополк-Четвертинских в Желудке. Кажется, это уже было… и вот, материализовалось вновь, «достаточно просто проснуться и оставаться в пробуждении».  Страна сновидений и трэша, масакра, «смешение сна, реальности и виртуальности».</span>
 </h2>
 <iframe src="/liapkina/index.html" frameborder="0" scrolling="yes" style="height: 80vh; width: 80%; margin: 0 10vw" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 </div>
