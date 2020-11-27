@@ -78,6 +78,7 @@ import { Carousel, Slide } from 'vue-carousel';
     padding-right: 2rem;
     left: 2rem;
     bottom: 1rem;
+    width: 100%;
   }
 
   .text h2 {
