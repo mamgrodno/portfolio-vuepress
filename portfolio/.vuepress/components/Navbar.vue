@@ -415,6 +415,9 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .project-list {
+      padding: 0 1rem;
+    }
     /* .projectbox {
       grid-column: span 6 !important;
     } */

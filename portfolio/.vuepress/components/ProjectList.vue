@@ -153,6 +153,9 @@
   }
 
   @media only screen and (max-width: 600px) {
+    .project-list {
+      padding: 0 1rem;
+    }
     .projectbox {
       grid-column: span 6 !important;
       /* height: 40vh !important; */
@@ -161,7 +164,41 @@
       transform: none;
     }
     .gradientbox {
+      background-image: none;
       opacity: 1;
+      /* display: none; */
+    }
+    .projectinfo {
+      /* position: absolute; */
+      width: 100%;
+      bottom: 1rem;
+      position: initial !important;
+    }
+
+    .projectinfo h2 {
+      margin: 1rem 0 !important;
+      font-weight: 700 !important;
+      font-size: clamp(1rem, 5vw, 1.5rem) !important;
+      letter-spacing: -.025em !important;
+      text-decoration: none !important;
+      color: black !important;
+      position: static !important;
+    }
+
+    .projectinfo h3 {
+      margin: 0 !important;
+      font-weight: 400 !important;
+      font-size: clamp(0.7rem, 2.5vw, 1rem) !important;
+      color: black !important;
+      position: static !important;
+    }
+
+    .projectinfo h4 {
+      position: static !important;
+      margin: 0 !important;
+      font-weight: 600 !important;
+      font-size: clamp(0.7rem, 2.5vw, 1rem) !important;
+      color: black !important;
     }
   }
 
