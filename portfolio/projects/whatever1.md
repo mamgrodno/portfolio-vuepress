@@ -1,8 +1,8 @@
 ---
 title: MAM collection
-heading: 'Черная комната. Страшилка на ночь. '
-description: Однажды на вольный светлый город упали черные тени...
-thumbnail: "/upload/bl.jpg"
+heading: 10 панорам гродненского стрит-арта, можно только смотреть
+description: Путеводитель по проекту «Галереи, которых нет», часть 1
+thumbnail: "/upload/shoba_zhema_palacei_01_v1-min.jpg"
 categories:
 - who
 year: 2020
