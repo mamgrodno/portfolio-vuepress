@@ -1,7 +1,7 @@
 ---
 title: МАМонты в шкафу
 date: 2018-08-01T00:00:00.000+00:00
-thumbnail: "/upload/photo_2020-11-25_11-37-16.jpg"
+thumbnail: "/upload/photo_2020-11-27_06-55-46.jpg"
 year: 2020
 categories: []
 description: Каким будет Музей современного искусства в Гродно. О проекте
@@ -21,7 +21,7 @@ heading: О MAM сегодня
 
 Мы продолжаем национальное движение арт-протест, и устроили 28 ноября премьеру пластического фильма Ольги Рабецкой Free Belarus, (Нью Йорк), «открыли» для читателей [«Черную комнату»](https://mamgrodno.netlify.app/panorama/black-room.html) в проекте silva.
 
-![Imgur](https://i.imgur.com/LDO7P4G.jpg)
+![Imgur](https://i.imgur.com/YVChu4b.jpg)
 
 **Зачем мы создали МАМ**
 
