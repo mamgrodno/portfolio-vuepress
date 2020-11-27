@@ -1,45 +1,26 @@
 ---
-title: Проект Экзисториум/Existorium
-heading: Основная идея – визуализация и фиксирование мимолетности момента объективной
-  реальности
-description: Подзаголовок
-thumbnail: "/upload/dominik-schroder-fikd9t5_5zq-unsplash.jpg"
+title: Jagminas
+heading: Густас Ягминас, (Gustas Jagminas), Алитус
+description: 'Лямус в Жемыславле: тепло старого дерева, чувство тишины'
+thumbnail: "/upload/jagminasi_01_v2-min.jpg"
 categories:
 - who
 year: 2020
-date: 2020-10-31
+date: 2020-11-25
 size: 2
 height: ''
 
 ---
-Изумрудный-бирюзовый и связующий песочный
+![Imgur](https://i.imgur.com/m2Cblun.jpg)
 
-**Каким может стать цвет современного Гродно поговорили с архитектором колористом из Парижа Ларисой Нури:**
+**Густас Ягминас, (Gustas Jagminas), Алитус**
 
-> – _Мне кажется, это гармония светлых теплых цветов и холодных оттенков изумрудного, бирюзового в контрасте с белым. Связующий – охристый, песочный. Колористика цветоматериалов Коложи – это, точка отсчёта для формирования палитры города, для меня идентичность Гродно начинается именно с этого объекта._
+![Imgur](https://i.imgur.com/qy7T2mj.jpg)
 
-![картинка самолетика](https://i.imgur.com/gJEvXHM.jpg)
-<center>_описание картинки и еще пару слов_</center>
+Лямус в Жемыславле: тепло старого дерева, чувство тишины. Такое хрупкое, ведь цивилизация с машинами, двигателями, так близко. «Было время, я видел нетронутые пейзажи. гулял по полям и равнинам. Теперь я вижу заброшенные фермы, ржавые фундаменты, одиночные свалки, а машинное масло перебивает запахи скошенного луга, я пошел бы дальше. Но старый мост уже обрушился.», - пишет Густас.
 
-<a href="https://imgur.com/gJEvXHM"><img src="https://i.imgur.com/gJEvXHM.jpg" title="source: imgur.com" /></a>
-_описание картинки и еще пару слов_
--
+Панораму можно посмотреть [**здесь**](https://mamgrodno.netlify.app/panorama/jagminas.html)
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))">
-<!-- ссылки на картинки формата HTML вставить под этой надписью -->
-<a href="https://imgur.com/sp0sveG"><img src="https://i.imgur.com/sp0sveG.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/bmmLlYF"><img src="https://i.imgur.com/bmmLlYF.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/uCIoFNC"><img src="https://i.imgur.com/uCIoFNC.jpg" title="source: imgur.com" /></a>
-</div>
+[**Творчество**](https://www.artsy.net/artist/gustas-jagminas)
 
-<div>
-<iframe class="youtube" src="https://www.youtube.com/embed/1YiMR14fiAY">
-</div>
-
-<div class="gallery2">
-<img src="https://i.imgur.com/6vagtlT.jpeg">
-<img src="https://i.imgur.com/6vagtlT.jpeg">
-<img src="https://i.imgur.com/6vagtlT.jpeg">
-</div>
-
-пишу текст и вставляю [ссылку](/journal/first-test "хеллоу")
+[Подробнее о Густасе Ягминасе](/journal/Jagminas "Jagminas")
