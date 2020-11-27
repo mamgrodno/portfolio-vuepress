@@ -49,9 +49,9 @@
       ScrollTrigger.batch(".projectbox", {
         interval: .2,
         onEnter: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
-        onLeave: batch => gsap.set(batch, {opacity: 0, y: -100}),
-        onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
-        onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100}),
+        // onLeave: batch => gsap.set(batch, {opacity: 0, y: -100}),
+        // onEnterBack: batch => gsap.to(batch, {autoAlpha: 1, stagger: 0.1, opacity: 1, y: 0, ease: "power3"}),
+        // onLeaveBack: batch => gsap.set(batch, {opacity: 0, y: 100}),
       })
     },
     data() {
