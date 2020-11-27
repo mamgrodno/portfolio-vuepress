@@ -9,7 +9,7 @@ year: 2020
 date: 2020-11-23
 size: 2
 height: 
-navigation: Проекты
+navigation: ''
 hide: false
 
 ---
