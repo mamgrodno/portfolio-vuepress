@@ -6,7 +6,7 @@ thumbnail: "/upload/shoba_zhema_palacei_01_v1-min.jpg"
 categories:
 - who
 year: 2020
-date: 2020-11-23
+date: 2020-11-25
 size: 2
 height: 
 navigation: ''
@@ -17,7 +17,7 @@ hide: false
 
 ## 10 панорам гродненского стрит-арта, художники взялись за городские муралы
 
-Путеводитель по проекту «Галереи, которых нет», часть 1
+Путеводитель по проекту «Галереи, которых нет», часть 1.
 
 ![Imgur](https://i.imgur.com/Vw19Qpt.jpg)
 
