@@ -10,6 +10,22 @@ fields:
   config:
     required: true
   description: Название на английском
+- name: navigation
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Кто
+    - Сегодня
+    - Проекты
+    - Клуб mam
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: navigation
 - name: heading
   type: text
   config:

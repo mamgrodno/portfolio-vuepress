@@ -6,6 +6,7 @@ year: 2020
 categories: []
 description: Каким будет Музей современного искусства в Гродно. О проекте
 heading: О MAM сегодня
+navigation: Проекты
 
 ---
 # О MAM

@@ -15,6 +15,7 @@
             class="slide">
 
             <div class="text">
+              <h4 v-if="post.frontmatter.navigation">{{ post.frontmatter.navigation }}</h4>
               <h2>{{ post.frontmatter.title }}</h2>
               <h3 v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
             </div>
@@ -97,6 +98,18 @@ import { Carousel, Slide } from 'vue-carousel';
     text-decoration: none;
     margin: 1rem 0;
     max-width: 100%;
+  }
+
+  .text h4 {
+    position: absolute;
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: clamp(0.7rem, 2.5vw, 1rem);
+    color: white;
+    bottom: 1rem;
+    right: 2rem;
+    display: inline;
+    width: auto;
   }
 
   .info {
