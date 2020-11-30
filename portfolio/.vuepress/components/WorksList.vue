@@ -2,11 +2,11 @@
 
   
   <div class="project-list1">
-    <carousel :autoplay="true"
-           :autoplayTimeout="3000"
-           :perPage="1"
-           :easing="easeInOut">
-        <slide class="post"
+    <agile :autoplay="true"
+           :autoplaySpeed="3000"
+           :dots="false"
+           :pauseOnHover="false">
+        <div class="post"
              v-for="post in posts"
              :key="post.title"
              :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(${post.frontmatter.thumbnail})` }">     
@@ -20,8 +20,8 @@
               <h3 v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
             </div>
           </router-link>
-        </slide>
-    </carousel>
+        </div>
+    </agile>
 
   </div>
 
@@ -30,11 +30,13 @@
 <script>
 // import { VueAgile } from 'vue-agile'
 import { Carousel, Slide } from 'vue-carousel';
+import { VueAgile } from 'vue-agile'
 
   export default {
     components: {
       Carousel,
-      Slide
+      Slide,
+      agile: VueAgile 
     },
     computed: {
       posts() {
@@ -47,6 +49,11 @@ import { Carousel, Slide } from 'vue-carousel';
 </script>
 
 <style scoped>
+
+  .project-list1 {
+    max-width: 1230px;
+    margin: 0 auto;
+  }
 
   .slide {
     /* border-radius: 10px;
