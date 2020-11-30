@@ -63,6 +63,7 @@ fields:
     - Сегодня
     - Проекты
     - Клуб mam
+    - ''
     source:
       type: simple
       section: 
