@@ -38,9 +38,7 @@ module.exports = {
     filters: config.filters
   },
   head: [
-    ['link', { rel: "icon", href: config.favicon }],
-    ['script src="https://www.googletagmanager.com/gtag/js?id=G-57NQ6SQ7C3"', {}],
-    ['script', {}, "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-57NQ6SQ7C3');"]
+    ['link', { rel: "icon", href: config.favicon }]
   ],
   markdown: {
     anchor: {
