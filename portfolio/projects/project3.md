@@ -5,7 +5,7 @@ description: Уволенные гродненские актеры объеди
 thumbnail: "/upload/photo_2020-11-27_14-55-36.jpg"
 categories:
 - today
-navigation: ''
+navigation: Сегодня
 year: 2020
 date: 2020-08-31
 size: 3

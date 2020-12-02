@@ -1,7 +1,7 @@
 ---
 size: 2
 title: Из Нью Йорка… Free Belarus. Artprotest
-heading: Фильм Ольги Рабецкой о событиях в Беларуси в августе 2020.
+heading: Из Нью Йорка… Free Belarus. Artprotest
 description: Фильм Ольги Рабецкой о событиях в Беларуси в августе 2020.
 thumbnail: "/upload/forestry.jpg"
 date: 2020-11-30
