@@ -1,5 +1,5 @@
 ---
-title: Oblasti serogo
+title: Области серого. Виктория пролила тушь…
 date: 2018-08-09T18:05:37.000+00:00
 thumbnail: "/upload/il-1.jpg"
 year: 2020
