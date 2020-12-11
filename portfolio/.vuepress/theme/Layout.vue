@@ -230,6 +230,12 @@
     margin: 0;
   }
 
+  .audio {
+    width: 70vw;
+    height: 10vh;
+    margin: 0 15vw !important;
+  }
+
   .youtube {
     width: 70vw;
     height: 80vh;
@@ -237,6 +243,10 @@
   }
   @media screen and (max-width: 600px) {
     .youtube {
+      margin: 0 !important;
+      width: 100vw;
+    }
+    .audio {
       margin: 0 !important;
       width: 100vw;
     }
