@@ -3,9 +3,8 @@
   
   <div class="project-list1">
     <agile :autoplay="true"
-           :autoplaySpeed="3000"
-           :dots="false"
-           :pauseOnHover="false">
+           :autoplaySpeed="5000"
+           :dots="false">
         <div class="post"
              v-for="post in posts"
              :key="post.title"
