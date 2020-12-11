@@ -71,7 +71,6 @@ fields:
       path: 
   label: navigation
 pages:
-- portfolio/projects/..md
 - portfolio/projects/club-mam.md
 - portfolio/projects/dates.md
 - portfolio/projects/even-newer.md
@@ -82,4 +81,3 @@ pages:
 - portfolio/projects/project3.md
 - portfolio/projects/ulanov.md
 - portfolio/projects/whatever1.md
-- portfolio/projects/мамонты-в-шкафу.md
