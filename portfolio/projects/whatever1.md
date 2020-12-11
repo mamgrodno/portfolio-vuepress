@@ -6,7 +6,7 @@ thumbnail: "/upload/shoba_zhema_palacei_01_v1-min.jpg"
 categories:
 - who
 year: 2020
-date: 2020-12-09
+date: 2020-12-10
 size: 2
 height: 
 navigation: ''
