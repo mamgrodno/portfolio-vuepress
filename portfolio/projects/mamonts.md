@@ -3,14 +3,14 @@ size: 2
 title: About Mam
 heading: О MAM сегодня
 description: Каким будет Музей современного искусства в Гродно. О проекте
-thumbnail: "/upload/photo_2020-11-27_06-55-46.jpg"
+thumbnail: "/upload/joi.png"
 date: 2020-12-08
 height: 
 hide: false
 navigation: Клуб mam
 
 ---
-# О MAM
+# О MAM сегодня
 
 МАМонты в шкафу, или каким будет Музей современного искусства в Гродно
 --------------
