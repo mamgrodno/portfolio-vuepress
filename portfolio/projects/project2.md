@@ -5,7 +5,7 @@ description: Однажды на вольный светлый город упа
 thumbnail: "/upload/bl.jpg"
 categories:
 - today
-navigation: Сегодня
+navigation: Проекты
 year: 2020
 date: 2020-09-01
 size: 3
