@@ -7,7 +7,7 @@ description: 'Путеводитель по проекту «Галереи, к�
 thumbnail: "/upload/liapkina_massacra1i_01_v7-min.jpg"
 categories:
 - today
-navigation: ''
+navigation: Проекты
 year: 2020
 date: 2020-12-09
 hide: false

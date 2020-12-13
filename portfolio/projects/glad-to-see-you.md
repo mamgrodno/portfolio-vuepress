@@ -7,7 +7,7 @@ thumbnail: "/upload/ggggg.jpg"
 date: 2020-12-08
 height: 
 hide: false
-navigation: ''
+navigation: Сегодня
 
 ---
 ## Glad to see you
