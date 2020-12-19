@@ -40,7 +40,7 @@ module.exports = {
   head: [
     ['meta', { property: "og:title", content: config.title }],
     ['meta', { property: "og:description", content: config.description }],
-    ['meta', { property: "og:image", content: config.logo }],
+    ['meta', { property: "og:image", content: 'https://www.mamgrodno.com'+config.logo }],
     ['meta', { property: "og:url", content: "www.mamgrodno.com" }],
     ['meta', { name: "keywords", content: config.keywords }],
     ['link', { rel: "icon", href: config.favicon }],
