@@ -10,8 +10,8 @@
           class="link"
           >
           <div class="image">
-            <img v-if="project.frontmatter.size == 2" :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=300'" alt="">
-            <img v-else-if="project.frontmatter.size == 3" :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=500'" alt="">
+            <img v-if="project.frontmatter.size == 2" :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=500'" alt="">
+            <img v-else-if="project.frontmatter.size == 3" :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=700'" alt="">
             <img v-else-if="project.frontmatter.size > 3" :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=1200'" alt="">
           </div>
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
