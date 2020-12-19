@@ -25,6 +25,11 @@ fields:
   type: text
   hidden: false
   default: ''
+- name: keywords
+  label: Keywords
+  type: text
+  hidden: false
+  default: ''
 - name: media
   label: Media
   type: field_group_list
