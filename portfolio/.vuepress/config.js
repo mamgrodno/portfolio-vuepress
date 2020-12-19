@@ -28,6 +28,7 @@ module.exports = {
   },
   title: config.title,
   description: config.description,
+  keywords: config.keywords,
   base: "/",
   themeConfig: {
     logo: config.logo,
@@ -36,7 +37,6 @@ module.exports = {
     media: config.media,
     footer_text: config.footer_text,
     filters: config.filters,
-    keywords: config.keywords
   },
   head: [
     ['meta', { property: "og:title", content: config.title }],
