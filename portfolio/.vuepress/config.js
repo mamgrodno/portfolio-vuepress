@@ -35,7 +35,8 @@ module.exports = {
     nav: config.navigation,
     media: config.media,
     footer_text: config.footer_text,
-    filters: config.filters
+    filters: config.filters,
+    keywords: config.keywords
   },
   head: [
     ['meta', { property: "og:title", content: config.title }],
