@@ -189,6 +189,15 @@
     /* color: var(--color-black); */
   }
 
+  .podcast {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .podcast audio {
+    border-radius: 10px;
+  }
+
   .gallery2 {
     display: flex;
     flex-wrap: wrap;
