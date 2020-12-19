@@ -10,7 +10,7 @@
           class="link"
           >
           <div class="image">
-            <img :src="project.frontmatter.thumbnail + '?nf_resize=fit'" alt="">
+            <img :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=1000'" alt="">
           </div>
             <div v-if="project.frontmatter.size < 3" class="projectinfo-small">
               <h4 v-if="project.frontmatter.navigation">{{ project.frontmatter.navigation }}</h4>
