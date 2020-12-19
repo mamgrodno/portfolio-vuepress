@@ -101,7 +101,7 @@
           class="link"
           >
           <div class="image">
-            <img :src="project.frontmatter.thumbnail" alt="">
+            <img :src="project.frontmatter.thumbnail + '?nf_resize=fit&w=700'" alt="">
           </div>
           <div class="">
             <div class="projectinfo">
