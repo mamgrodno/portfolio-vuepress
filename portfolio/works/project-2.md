@@ -1,7 +1,7 @@
 ---
 title: Области серого
 date: 2018-08-09T18:05:37.000+00:00
-thumbnail: "/upload/il-1-1.jpg"
+thumbnail: https://www.mamgrodno.com/.netlify/large-media/il-1.jpg
 year: 2020
 description: Прогулка с Викторией Ильиной по городу, где улицы запутаны, дворики спрятаны,
   а место силы там, где не ждёшь.
