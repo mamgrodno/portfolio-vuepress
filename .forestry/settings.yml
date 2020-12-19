@@ -43,7 +43,7 @@ sections:
   path: portfolio/config.json
   label: Site Config
 upload_dir: portfolio/.vuepress/public/upload
-public_path: https://www.mamgrodno.com/.netlify/large-media
+public_path: upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
