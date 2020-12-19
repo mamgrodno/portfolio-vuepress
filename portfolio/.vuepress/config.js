@@ -39,6 +39,7 @@ module.exports = {
     filters: config.filters,
   },
   head: [
+    ['meta', { property: "og:type", content: "website" }],
     ['meta', { property: "og:title", content: config.title }],
     ['meta', { property: "og:description", content: config.description }],
     ['meta', { property: "og:image", content: 'https://www.mamgrodno.com'+config.logo }],
