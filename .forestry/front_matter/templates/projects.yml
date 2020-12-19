@@ -85,8 +85,3 @@ pages:
 - portfolio/projects/ulanov.md
 - portfolio/projects/what.md
 - portfolio/projects/whatever1.md
-meta:
-  - name: description
-    content: hello
-  - name: keywords
-    content: super duper SEO
