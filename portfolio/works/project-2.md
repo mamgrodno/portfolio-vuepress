@@ -1,7 +1,7 @@
 ---
 title: Пиктограммы небесного кода
 date: 2018-08-09T18:05:37.000+00:00
-thumbnail: upload/80-60.jpg
+thumbnail: upload/80-80-2018.jpg
 year: 2020
 description: Ангелы Александра Сильвановича в первой виртуальной коллекции mam.
 categories:
@@ -19,7 +19,7 @@ navigation: Кто
 <figure>
 <!-- Поменять 6vagtlT.jpeg на нужный -->
 <img src="https://i.imgur.com/VYQ5nUW.jpg">
-<figcaption style="text-align: center;">Сон. Анел</figcaption>
+<figcaption style="text-align: center;">Сон. Анел. Палатно,алей. 80х150</figcaption>
 </figure>
 
 **Процарапаны на стенах, прописаны на холстах, досках, в отражениях** 
@@ -43,7 +43,7 @@ _«Не приклеиваю четкие ярлыки. Стараюсь не с
 <figure>
 <!-- Поменять 6vagtlT.jpeg на нужный -->
 <img src="https://i.imgur.com/wFxSNEc.jpg">
-<figcaption style="text-align: center;">Белы анел</figcaption>
+<figcaption style="text-align: center;">Белы анел. 100х80. п.а</figcaption>
 </figure>
 
 Тема цвета имеет значение – один из любимых, опять же сакральный, ультрамарин. Александр Сильванович, используя принципы иконописи, экспериментирует со сложными патиновыми оттенками (если совсем просто: патиновые цвета – это цвета различных налётов на меди, например, прим.ред) в интерпретациях со сложными фактурами. 
