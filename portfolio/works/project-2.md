@@ -1,7 +1,7 @@
 ---
 title: Пиктограммы небесного кода
 date: 2018-08-09T18:05:37.000+00:00
-thumbnail: upload/80-150.jpg
+thumbnail: upload/80-60.jpg
 year: 2020
 description: Ангелы Александра Сильвановича в первой виртуальной коллекции mam.
 categories:
