@@ -4,7 +4,7 @@ title: Subject
 heading: Просто смотри. Графика асфальта.
 description: Субъекты и обЪекты.
 thumbnail: "/upload/ss.png"
-date: 2020-12-07
+date: 2020-12-28
 height: 
 hide: false
 navigation: ''

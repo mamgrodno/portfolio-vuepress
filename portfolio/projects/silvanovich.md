@@ -4,7 +4,7 @@ title: Silvanovich
 heading: Пиктограммы небесного кода
 description: Ангелы Александра Сильвановича в первой виртуальной коллекции mam.
 thumbnail: upload/80-80-2018.jpg
-date: 2020-12-05
+date: 2020-12-30
 height: 
 hide: false
 navigation: Кто
