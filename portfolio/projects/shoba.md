@@ -7,7 +7,7 @@ description: Редкие работы Валентины Шобы смотри�
 thumbnail: "/upload/photo_2020-12-12_20-49-55.jpg"
 date: 2020-11-27
 height: 
-hide: false
+hide: true
 navigation: Кто
 
 ---
