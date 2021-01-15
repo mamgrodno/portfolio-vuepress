@@ -2,7 +2,7 @@
 title: Эмоции спрятаны в символы, откровенность запуталась в ню, протест распался
   на фрагменты
 date: 2017-02-04T00:00:00.000+00:00
-thumbnail: upload/photo_2021-01-15_13-09-10.jpg
+thumbnail: upload/lt27.jpg
 year: 2020
 categories:
 - print
