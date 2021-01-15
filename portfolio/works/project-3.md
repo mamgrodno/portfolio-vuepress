@@ -27,14 +27,14 @@ navigation: Сегодня
 
 <div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<img src="https://i.imgur.com/f6KrL9b.jpeg">
-<img src="https://i.imgur.com/4xnxF2C.jpeg">
-<img src="https://i.imgur.com/7OE5oVH.jpeg">
-<img src="https://i.imgur.com/Byp9zan.jpeg">
-<img src="https://i.imgur.com/4w4qu9r.jpeg">
-<img src="https://i.imgur.com/ZcTxbLb.jpeg">
-<img src="https://i.imgur.com/x1rZnCW.jpeg">
-<img src="https://i.imgur.com/OPxhpOV.jpeg">
+<a href="https://i.imgur.com/f6KrL9b.jpeg"><img src="https://i.imgur.com/f6KrL9b.jpeg"></a>
+<a href="https://i.imgur.com/4xnxF2C.jpeg"><img src="https://i.imgur.com/4xnxF2C.jpeg"></a>
+<a href="https://i.imgur.com/7OE5oVH.jpeg"><img src="https://i.imgur.com/7OE5oVH.jpeg"></a>
+<a href="https://i.imgur.com/Byp9zan.jpeg"><img src="https://i.imgur.com/Byp9zan.jpeg"></a>
+<a href="https://i.imgur.com/4w4qu9r.jpeg"><img src="https://i.imgur.com/4w4qu9r.jpeg"></a>
+<a href="https://i.imgur.com/ZcTxbLb.jpeg"><img src="https://i.imgur.com/ZcTxbLb.jpeg"></a>
+<a href="https://i.imgur.com/x1rZnCW.jpeg"><img src="https://i.imgur.com/x1rZnCW.jpeg"></a>
+<a href="https://i.imgur.com/OPxhpOV.jpeg"><img src="https://i.imgur.com/OPxhpOV.jpeg"></a>
 </div>
 
 \
