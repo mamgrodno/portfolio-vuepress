@@ -219,7 +219,8 @@
       min-width: 250px;
       max-width: 607px;
       margin: 0;
-      max-height: 400px;
+      height: auto;
+      width: auto;
     }
 
     .gallery3 {
@@ -234,7 +235,8 @@
       min-width: 250px;
       max-width: 399px;
       margin: 0;
-      max-height: 400px;
+      height: auto;
+      width: auto;
     }
 
     .gallery4 {
@@ -248,7 +250,8 @@
     .gallery4 img {
       max-width: 295px;
       margin: 0;
-      max-height: 400px;
+      height: auto;
+      width: auto;
     }
   }
 

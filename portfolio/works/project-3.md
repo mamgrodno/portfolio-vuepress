@@ -25,7 +25,7 @@ navigation: Сегодня
 
 Виртуальный тур смотрите [по ссылке:](http://hi360v.com/v-tours/ltc_exh/). Для того чтобы приблизить картину и узнать автора, просто нажмите на работу курсором.
 
-<div class="gallery">
+<div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <img src="https://i.imgur.com/f6KrL9b.jpeg">
 <img src="https://i.imgur.com/4xnxF2C.jpeg">
