@@ -4,7 +4,7 @@ heading: Выставка
 description: 'Ее описание'
 thumbnail: "/upload/jagminasi_01_v2-min.jpg"
 categories: []
-year: 2021
+year: 2020
 date: 
 
 ---
