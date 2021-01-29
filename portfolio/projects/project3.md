@@ -7,7 +7,7 @@ categories:
 - today
 navigation: Сегодня
 year: 2020
-date: 2020-08-31
+date: 2021-01-01
 size: 3
 height: 
 hide: false

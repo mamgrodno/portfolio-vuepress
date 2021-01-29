@@ -7,7 +7,7 @@ categories:
 - today
 navigation: Проекты
 year: 2020
-date: 2020-09-01
+date: 2021-01-01
 size: 3
 height: 
 hide: false
