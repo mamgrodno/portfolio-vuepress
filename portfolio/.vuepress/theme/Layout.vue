@@ -198,6 +198,12 @@
     border-radius: 10px;
   }
 
+  .podpis {
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+  }
+
   @media screen and (min-width: 600px) {
     .gallery {
       max-width: 1230px;
