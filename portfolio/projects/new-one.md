@@ -25,22 +25,24 @@ navigation: Сегодня
 <a href="https://imgur.com/4EF9sSY"><img src="https://i.imgur.com/4EF9sSY.jpg"></a>
 <a href="https://imgur.com/YTDE7UR"><img src="https://i.imgur.com/YTDE7UR.jpg"></a>
 </div>
+
 <center>Юрий Яковенко, фрагменты «Времена года», серия «Сад»</center>
 
 «На Каляды», редкая возможность увидеть фрагменты из серии гравюр Юрия Яковенко «Сад». Этот проект победил в категории графика в триеннале живописи, графики и скульптуры Vivat Vita в Минске в конце года.  Полностью показать все 18 работ пока невозможно. «В Гродно просто технически нет такого пространства, чтобы они идеально вписались», – считает автор.  Четыре гравюры, из раздела «Времена года», всего лишь часть серии…  Метель разметала волосы девы, весна превратила её тело в сад.
-
-<div class="gallery2">
-<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/WFjAQXj"><img src="https://i.imgur.com/WFjAQXj.jpg"></a>
-<a href="https://imgur.com/NZwU32w"><img src="https://i.imgur.com/NZwU32w.jpg"></a>
-</div>
-<center>Сергей Гриневич, «Торс»</center>
 
 Осколками от целого стали картины Александра Болдакова из проекта «Экзисториум», погружение в точку времени, бесконечную иррациональность числа «пи». 
 
 <div><iframe class="youtube" src="https://www.youtube.com/embed/XFUlfu8WMt4"></div>
   
 Идеальные пропорции, диптих «Торс», Сергея Гриневича заставляют в очередной раз пожалеть, что ретроспектива «8-й регион» закончилась, полит/не/корректные «неликвиды» снова в мастерской художника, а не в постоянной экспозиции современной галереи. Нет такой. Зато виртуальный тур остался в коллекции mam, его можно посмотреть [**здесь**](https://www.mamgrodno.com/panorama/pano2.html).
+  
+<div class="gallery2">
+<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<a href="https://imgur.com/WFjAQXj"><img src="https://i.imgur.com/WFjAQXj.jpg"></a>
+<a href="https://imgur.com/NZwU32w"><img src="https://i.imgur.com/NZwU32w.jpg"></a>
+</div>
+
+<center>Сергей Гриневич, «Торс»</center>
   
 <div><iframe class="youtube" src="https://www.youtube.com/embed/_FGO4KW7dgA"></div>
   
@@ -51,6 +53,7 @@ navigation: Сегодня
 <a href="https://imgur.com/lErdw4B"><img src="https://i.imgur.com/lErdw4B.jpg"></a>
 <a href="https://imgur.com/Nw4vgyO"><img src="https://i.imgur.com/Nw4vgyO.jpg"></a>
 </div>
+
 <center>Александр Сильванович «Шествие»</center>
 
 Птицы и ангелы, собирающие звезды, Владимира Пантелеева – единственные скульптуры из недавнего времени. Ангелы в целом в доминанте, ведь выставка рождественская.
@@ -61,6 +64,7 @@ navigation: Сегодня
 <a href="https://imgur.com/qP7MGIf"><img src="https://i.imgur.com/qP7MGIf.jpg"></a>
 <a href="https://imgur.com/TAe4hF7"><img src="https://i.imgur.com/TAe4hF7.jpg"></a>
 </div>
+
 <center>Владимир Пантелеев. «Птицы», «Собирающая звезды»</center>
   
 Керамисты и стеклодувы на этот раз свои работы не отправили. Но есть простые как чарка и шкварка, живописные признания в патриотизме. Например, “Птушка шчасця заўтрашняга дня”, Павла Врублевского, в гармонии с “Адкуль расце хвост залатога карася”. На обороте птушки  грозные пророчества болгарской Ванги, насмотримся еще ужасов.
@@ -71,6 +75,7 @@ navigation: Сегодня
 <a href="https://imgur.com/L8heQdG"><img src="https://i.imgur.com/L8heQdG.jpg"></a>
 <a href="https://imgur.com/oKe2ITP"><img src="https://i.imgur.com/oKe2ITP.jpg"></a>
 </div>
+
 <center>Павел Врублевский «Птица счастья завтрашнего дня», «Откуда растет хвост карася»</center>
 
 И между краями: серые классические проселки, воздушные девочки, дождливые силуэты, мягкие фейерверки.
