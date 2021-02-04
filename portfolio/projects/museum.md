@@ -7,7 +7,7 @@ description: 'Ближе познакомит участников с город
 thumbnail: "/upload/photo_2020-12-13_08-44-57.jpg"
 date: 2020-12-06
 height: 
-hide: false
+hide: true
 navigation: ''
 
 ---
