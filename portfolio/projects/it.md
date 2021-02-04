@@ -7,7 +7,7 @@ description: Как бизнес аналитик из Гродно заменя
 thumbnail: upload/d038213f-4ba4-4c2a-9957-04942be8c6c2.JPG
 date: 2020-12-29
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
