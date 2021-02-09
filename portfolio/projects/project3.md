@@ -10,7 +10,7 @@ year: 2020
 date: 2020-09-27
 size: 3
 height: 
-hide: false
+hide: true
 
 ---
 ## На Рождество покажут «злую» батлейку 
