@@ -4,7 +4,7 @@ title: Buka
 heading: 'Надя Бука: «Есть художники, которые боятся переборщить с цветом, так вот
   я не из таких»'
 description: Раскрываем «Личное дело» девушки в красных колготках
-thumbnail: upload/buka-1.jpg
+thumbnail: upload/buka-11.jpg
 date: 2021-02-07
 height: 
 hide: false
