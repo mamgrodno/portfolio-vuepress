@@ -1,8 +1,10 @@
 ---
 title: big_exhibition
-heading: Exhibition
-description: описание
-thumbnail: upload/photo_2020-11-13-21-31-19.jpeg
+heading: 'Эмоции спрятаны в символы, откровенность запуталась в ню, протест распался
+  на фрагменты. '
+description: Виртуальный тур по выставке «Метафары мастацтва Літвы», она о свободе,
+  несмотря ни на что.
+thumbnail: upload/lt27.jpg
 categories: []
 year: 2021
 date: 
