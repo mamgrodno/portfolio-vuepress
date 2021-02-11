@@ -1,11 +1,11 @@
 ---
-size: 3
+size: 2
 title: Pas
 heading: 'Есть сложные места для стрит-фото, но удалить кадры просили только в Минске '
 description: Александр Пасечник объехал 137 стран и создал свою international geographic.
   Снимает «цвет и эмоции». Композицию делит на партии, соло и аккомпанемент.
 thumbnail: upload/_1.jpg
-date: 2021-02-11
+date: 2021-02-02
 height: 
 hide: false
 navigation: Кто
