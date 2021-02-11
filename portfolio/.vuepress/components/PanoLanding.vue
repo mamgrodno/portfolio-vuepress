@@ -5,7 +5,7 @@
     <div v-for="panorama in panoramas"
         :key="panorama.title"
         class="pano"
-        :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(${panorama.frontmatter.thumbnail})` }">
+        :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(/${panorama.frontmatter.thumbnail})` }">
       <router-link
         :to="panorama.path"
         class="link">

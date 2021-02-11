@@ -2,7 +2,7 @@
 title: big_exhibition
 heading: Exhibition
 description: описание
-thumbnail: /upload/photo_2020-11-13-21-31-19.jpeg
+thumbnail: upload/photo_2020-11-13-21-31-19.jpeg
 categories: []
 year: 2021
 date: 

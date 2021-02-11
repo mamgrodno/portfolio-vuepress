@@ -4,7 +4,7 @@ heading: Сильванович
 description: А у нас девушки стоят с цветами. Масштабы и монументальность Александра
   Сильвановича как раз для улиц и кварталов, но и балкон собственной квартиры художника
   в панораме превратился в арт-объект.
-thumbnail: "/upload/silvanovich_v2ggi_01_v9-min.jpg"
+thumbnail: "upload/silvanovich_v2ggi_01_v9-min.jpg"
 categories: []
 year: 2020
 date: 
