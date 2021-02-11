@@ -1,8 +1,8 @@
 ---
 title: big_exhibition
 heading: Exhibition
-description: описаник
-thumbnail: upload/jordan-whitfield-sm3ub_ijkqg-unsplash.jpg
+description: описание
+thumbnail: upload/lt27.jpg
 categories: []
 year: 2021
 date: 
