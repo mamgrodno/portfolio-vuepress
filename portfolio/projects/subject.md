@@ -71,7 +71,7 @@ _– Очень сложная страна для уличной фотогра
 
 Обычно круизные лайнеры останавливаются в портовых городах, но бывают экскурсии. Члены экипажа могут поехать с туристами, если сопровождают пассажиров. Так Александру удалось увидеть Антарктиду.
 
-<div class="gallery3">
+<div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/W5bBjSx"><img src="https://i.imgur.com/W5bBjSx.jpg"></a>
 <a href="https://imgur.com/ktlXkHf"><img src="https://i.imgur.com/ktlXkHf.jpg"></a>
