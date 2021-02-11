@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="18007" start="node30" appversion="6.1.10">
+  <panorama id="node30" hideabout="1">
+    <input leveltilesize="500" leveltileurl="tiles/varkyl01/c%c_l%r_%y_%x.jpg" width="2000" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400" height="2000" overlap="1" levelingroll="0">
+      <level width="2000" preload="0" height="2000" predecode="0"/>
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-63">
+      <start pan="-124.96" fov="70" tilt="-0.57" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max pan="360" fov="70" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="53.67416157" datetime="" longitude="23.82797107" description="Прихожая" info="" tags="" copyright="" nodeid="node30" author="" source="" heading="-63" comment="" title=""/>
+    <hotspots width="270" wordwrap="1" height="50">
+      <label width="270" textalpha="1" textcolor="0xff0000" backgroundalpha="1" wordwrap="1" height="50" backgroundcolor="0xffffff" enabled="1" borderradius="11" borderalpha="1" bordercolor="0x000000" border="1" background="1"/>
+      <polystyle mode="2" backgroundalpha="0.25098" backgroundcolor="0xff1134" borderalpha="1" bordercolor="0xffe040" handcursor="1"/>
+      <hotspot pan="-179.853" distance="5.76766" description="" id="Point01" skinid="ht_node" url="{node31}" tilt="0" target="24.9/-1.2/70.0" title=""/>
+      <hotspot pan="-120.78" distance="6.22655" description="" id="Point02" skinid="ht_node" url="{node32}" tilt="-0.66" target="-16.6/-1.7/70.0" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" zoomfov="20" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomout="0" zoomin="0" zoomspeed="2"/>
+    <autorotate speed="0.080" returntohorizon="0.000" delay="5.00" noderandom="1" useanimation="0" enabled="1" startloaded="0" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="9" simulatemass="1" contextfullscreen="0" speedwheel="1" dblclickfullscreen="0" hideabout="1" contextprojections="0" rubberband="0" invertcontrol="1" invertwheel="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" lockedkeyboard="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы интерьеров"/>
+    </control>
+  </panorama>
+  <panorama id="node31" hideabout="1">
+    <input leveltilesize="500" leveltileurl="tiles/varkyl02/c%c_l%r_%y_%x.jpg" width="2000" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400" height="2000" overlap="1" levelingroll="0">
+      <level width="2000" preload="0" height="2000" predecode="0"/>
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="141">
+      <start pan="-31.42" fov="70" tilt="-1.14" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max pan="360" fov="70" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="53.67413814" datetime="" longitude="23.82804919" description="Гостиная" info="" tags="" copyright="" nodeid="node31" author="" source="" heading="141" comment="" title=""/>
+    <hotspots width="270" wordwrap="1" height="50">
+      <label width="270" textalpha="1" textcolor="0xff0000" backgroundalpha="1" wordwrap="1" height="50" backgroundcolor="0xffffff" enabled="1" borderradius="11" borderalpha="1" bordercolor="0x000000" border="1" background="1"/>
+      <polystyle mode="2" backgroundalpha="0.25098" backgroundcolor="0xff1134" borderalpha="1" bordercolor="0xffe040" handcursor="1"/>
+      <hotspot pan="211.137" distance="5.76766" description="" id="Point01" skinid="ht_node" url="{node30}" tilt="-3.72" target="-3.0/-3.8/70.0" title=""/>
+      <hotspot pan="114.903" distance="3.49152" description="" id="Point02" skinid="ht_node" url="{node32}" tilt="-3.6" target="55.9/-1.7/70.0" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" zoomfov="20" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomout="0" zoomin="0" zoomspeed="2"/>
+    <autorotate speed="0.080" returntohorizon="0.000" delay="5.00" noderandom="1" useanimation="0" enabled="1" startloaded="0" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="9" simulatemass="1" contextfullscreen="0" speedwheel="1" dblclickfullscreen="0" hideabout="1" contextprojections="0" rubberband="0" invertcontrol="1" invertwheel="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" lockedkeyboard="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы интерьеров"/>
+    </control>
+  </panorama>
+  <panorama id="node32" hideabout="1">
+    <input leveltilesize="500" leveltileurl="tiles/varkyl03/c%c_l%r_%y_%x.jpg" width="2000" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400" height="2000" overlap="1" levelingroll="0">
+      <level width="2000" preload="0" height="2000" predecode="0"/>
+      <level width="1000" preload="0" height="1000" predecode="0"/>
+      <level width="500" preload="1" height="500" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="77">
+      <start pan="-74.54" fov="70" tilt="-1.36" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max pan="360" fov="70" tilt="90" scaletofit="1" fovstereographic="270" fovfisheye="360"/>
+    </view>
+    <userdata customnodeid="" latitude="53.67416812" datetime="" longitude="23.82806495" description="Кухня" info="" tags="" copyright="" nodeid="node32" author="" source="" heading="77" comment="" title=""/>
+    <hotspots width="270" wordwrap="1" height="50">
+      <label width="270" textalpha="1" textcolor="0xff0000" backgroundalpha="1" wordwrap="1" height="50" backgroundcolor="0xffffff" enabled="1" borderradius="11" borderalpha="1" bordercolor="0x000000" border="1" background="1"/>
+      <polystyle mode="2" backgroundalpha="0.25098" backgroundcolor="0xff1134" borderalpha="1" bordercolor="0xffe040" handcursor="1"/>
+      <hotspot pan="-162.83" distance="6.22655" description="" id="Point01" skinid="ht_node" url="{node30}" tilt="-4.1" target="29.9/-0.6/70.0" title=""/>
+      <hotspot pan="212.033" distance="3.49152" description="" id="Point02" skinid="ht_node" url="{node31}" tilt="-3.74" target="-59.6/-5.2/70.0" title=""/>
+    </hotspots>
+    <media/>
+    <transition zoomafterinfov="90" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" zoomfov="20" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomout="0" zoomin="0" zoomspeed="2"/>
+    <autorotate speed="0.080" returntohorizon="0.000" delay="5.00" noderandom="1" useanimation="0" enabled="1" startloaded="0" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="9" simulatemass="1" contextfullscreen="0" speedwheel="1" dblclickfullscreen="0" hideabout="1" contextprojections="0" rubberband="0" invertcontrol="1" invertwheel="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" lockedkeyboard="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы интерьеров"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" latitude="" datetime="" longitude="" description="" info="" tags="" copyright="" nodeid="master" author="" source="" heading="0" comment="" title=""/>
+  </masternode>
+</tour>
