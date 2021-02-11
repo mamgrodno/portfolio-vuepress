@@ -6,7 +6,7 @@ description: Известные музеи современного искусс
 thumbnail: "/upload/ggggg.jpg"
 date: 2020-12-08
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
