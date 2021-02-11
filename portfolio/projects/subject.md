@@ -5,7 +5,7 @@ heading: 'Есть сложные места для стрит-фото, но у
 description: Александр Пасечник объехал 137 стран и создал свою international geographic.
   Снимает «цвет и эмоции». Композицию делит на партии, соло и аккомпанемент.
 thumbnail: upload/_1.jpg
-date: 2021-02-02
+date: 2021-01-21
 height: 
 hide: false
 navigation: Кто
