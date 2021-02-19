@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" appversion="6.1.10" apprev="18007">
+  <panorama hideabout="1" id="node2">
+    <input levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" leveltilesize="500" width="2000" height="2000" leveltileurl="tiles/kuzas_gg/c%c_l%r_%y_%x.jpg" overlap="1" levelbias="0.400">
+      <level width="2000" height="2000" predecode="0" preload="0"/>
+      <level width="1000" height="1000" predecode="0" preload="0"/>
+      <level width="500" height="500" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" pan="38.398" tilt="-1.15726" fov="70"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360" tilt="90" fov="70"/>
+    </view>
+    <userdata copyright="" comment="" source="" tags="" latitude="" description="" title="" nodeid="node2" author="Аляксандр Кузас" longitude="" customnodeid="" datetime="" info="" heading="0"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label textalpha="1" enabled="1" background="1" backgroundalpha="1" backgroundcolor="0xffffff" textcolor="0x000000" border="1" borderradius="1" width="180" height="20" bordercolor="0x000000" wordwrap="1" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" zoomin="0" zoomafterinfov="90" zoomout="0" type="crossdissolve" blendcolor="0x000000" softedge="0" zoomoutpause="1"/>
+    <autorotate delay="5.00" startloaded="0" enabled="1" speed="0.080" nodefilter="" useanimation="0" nodedelay="0.00" returntohorizon="0.000" noderandom="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="1" invertcontrol="1" invertwheel="0" simulatemass="1" speedwheel="1" contextfullscreen="0" lockedkeyboardzoom="0" hideabout="1" lockedmouse="0" contextprojections="0" rubberband="0" lockedkeyboard="0" sensitivity="9" lockedwheel="0">
+      <menulink url="http://hi360v.com" text="Виртуальные туры и панорамы"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata copyright="" comment="" source="" tags="" latitude="" description="" title="" nodeid="master" author="" longitude="" customnodeid="" datetime="" info="" heading="0"/>
+  </masternode>
+</tour>
