@@ -6,7 +6,7 @@ heading: Эмоции спрятаны в символы, откровеннос
 description: Виртуальный тур по выставке «Метафары мастацтва Літвы», она о свободе,
   несмотря ни на что
 thumbnail: upload/lt27.jpg
-date: 2021-01-24
+date: 2020-01-08
 height: 
 hide: false
 navigation: Сегодня
