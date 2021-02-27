@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" apprev="18007" appversion="6.1.10">
+  <panorama hideabout="1" id="node1">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_01/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="65.9667" fov="70" projection="4" tilt="2.18299"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour|Pano2VR6" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="14.01.2019 17:58" nodeid="node1"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_02/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-141.202" fov="70" projection="4" tilt="1.39513"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 18:37" nodeid="node2"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_03/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-28.086" fov="70" projection="4" tilt="0.920321"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 18:58" nodeid="node3"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_04/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="118.847" fov="70" projection="4" tilt="-0.433809"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 19:10" nodeid="node4"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node5">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_05/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-16.6101" fov="70" projection="4" tilt="0.774892"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 19:22" nodeid="node5"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_06/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-69.9997" fov="70" projection="4" tilt="-0.27589"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 19:37" nodeid="node6"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_07/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-124.795" fov="70" projection="4" tilt="1.7506"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="31.10.2020 01:57" nodeid="node7"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_08/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-143.084" fov="70" projection="4" tilt="2.26728"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 19:52" nodeid="node8"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_09/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-125.796" fov="70" projection="4" tilt="3.5653"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 19:59" nodeid="node9"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_10/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="56.1617" fov="70" projection="4" tilt="3.68352"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 20:12" nodeid="node10"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_11/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="48.1826" fov="70" projection="4" tilt="2.148"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="27.10.2020 20:16" nodeid="node11"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input width="2000" levelingpitch="0" overlap="1" leveltilesize="500" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/grinevich_exhi_12/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0">
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="20.2511" fov="70" projection="4" tilt="2.52401"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="1" tilt="-90"/>
+      <max pan="360" fov="70" fovfisheye="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="tour" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="20.10.2020 21:30" nodeid="node12"/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" width="180" background="1" textcolor="0x000000" wordwrap="1" enabled="1" borderalpha="1" backgroundalpha="1" borderradius="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition type="crossdissolve" enabled="1" zoomin="0" blendtime="1" zoomspeed="2" zoomoutpause="1" zoomfov="20" zoomafteroutfov="20" zoomout="0" softedge="0" zoomafterinfov="90" blendcolor="0x000000"/>
+    <autorotate noderandom="1" useanimation="0" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" delay="5.00" startloaded="0" speed="0.080"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" contextprojections="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="1" sensitivity="9" invertwheel="0" dblclickfullscreen="1" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1">
+      <menulink text="Виртуальные туры и панорамы" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata author="" title="" copyright="" info="" latitude="" tags="" longitude="" description="" source="" heading="0" customnodeid="" comment="" datetime="" nodeid="master"/>
+  </masternode>
+</tour>

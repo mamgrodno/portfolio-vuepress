@@ -220,12 +220,13 @@
       margin: 0 auto;
       gap: 1rem;
       justify-content: center;
+      margin-bottom: 1rem;
     }
     .gallery2 img {
       min-width: 250px;
       max-width: 607px;
       margin: 0;
-      height: auto;
+      height: 500px;
       width: auto;
     }
 
@@ -236,12 +237,13 @@
       margin: 0 auto;
       gap: 1rem;
       justify-content: center;
+      margin-bottom: 1rem;
     }
     .gallery3 img {
       min-width: 250px;
       max-width: 399px;
       margin: 0;
-      height: auto;
+      height: 350px;
       width: auto;
     }
 
@@ -252,11 +254,12 @@
       margin: 0 auto;
       gap: 1rem;
       justify-content: center;
+      margin-bottom: 1rem;
     }
     .gallery4 img {
       max-width: 295px;
       margin: 0;
-      height: auto;
+      height: 250px;
       width: auto;
     }
   }
