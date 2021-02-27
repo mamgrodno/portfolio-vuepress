@@ -113,6 +113,7 @@
     flex-direction: column;
     text-decoration: none;
     height: 100%;
+    max-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
