@@ -11,7 +11,7 @@ categories:
 - who
 - today
 navigation: Кто
-year: 2020
+year: 2021
 date: 2032-03-01
 hide: false
 
