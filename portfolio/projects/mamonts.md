@@ -6,7 +6,7 @@ description: 'Каким будет Музей современного иску
 thumbnail: "/upload/image_2020-12-12_20-58-32.png"
 date: 2020-12-08
 height: 
-hide: false
+hide: true
 navigation: Клуб mam
 
 ---
