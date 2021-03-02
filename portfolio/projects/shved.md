@@ -7,7 +7,7 @@ description: Когда все сидят на изоляции и без нат
 thumbnail: upload/56_0.jpg
 date: 2021-01-04
 height: 
-hide: false
+hide: true
 navigation: ''
 
 ---
