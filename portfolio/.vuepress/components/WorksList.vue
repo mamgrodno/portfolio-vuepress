@@ -2,26 +2,6 @@
 
   
   <div class="project-list1">
-    <!-- <agile :autoplay="true"
-           :autoplaySpeed="5000"
-           :dots="false">
-        <div class="post"
-             v-for="post in posts"
-             :key="post.title"
-             :style="{ backgroundImage: `linear-gradient(0deg, rgba(13,12,8,1) 5%, rgba(242,242,242,0) 50%) ,url(${post.frontmatter.thumbnail})` }">     
-          <router-link
-            :to="post.path"
-            class="slide">
-
-            <div class="text">
-              <h4 v-if="post.frontmatter.navigation">{{ post.frontmatter.navigation }}</h4>
-              <h2>{{ post.frontmatter.title }}</h2>
-              <h3 v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
-            </div>
-          </router-link>
-        </div>
-    </agile> -->
-
     <agile :autoplay="true"
            :autoplaySpeed="5000"
            :dots="false">
@@ -37,8 +17,10 @@
           </div>
             <div class="projectinfo gradientbox">
               <h4 v-if="post.frontmatter.navigation">{{ post.frontmatter.navigation }}</h4>
-              <h2 style="max-width: 1000px;">{{ post.frontmatter.title }}</h2>
-              <h3 style="max-width: 1000px;" v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
+              <div class="heading-text">
+                <h2 style="max-width: 1000px;">{{ post.frontmatter.heading }}</h2>
+                <h3 style="max-width: 1000px;" v-if="post.frontmatter.description">{{ post.frontmatter.description }}</h3>
+              </div>
             </div>
           </router-link>
         </div>
@@ -128,26 +110,33 @@ import { VueAgile } from 'vue-agile'
     width: 100%;
   }
 
-  .projectinfo h2 {
-    margin: 0 1rem 0 1rem;
+  .heading-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    width: 100%;
+  }
+
+  .projectinfo .heading-text h2 {
+    margin: 0 1rem 1rem 1rem;
     font-weight: 500;
     font-size: clamp(1rem, 5vw, 2rem);
     letter-spacing: -.025em;
     color: white;
     text-decoration: none;
-    position: absolute;
+    /* position: absolute;
     bottom: 4rem;
-    left: 1rem;
+    left: 1rem; */
   }
 
-  .projectinfo h3 {
+  .projectinfo .heading-text h3 {
     margin: 0 1rem;
     font-weight: 300;
     font-size: clamp(.8rem, 2.5vw, 1.25rem);
     color: white;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+    /* position: absolute; */
+    /* bottom: 1rem;
+    left: 1rem; */
   }
 
   .projectinfo h4 {
