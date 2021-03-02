@@ -78,6 +78,10 @@ import { VueAgile } from 'vue-agile'
       position: initial !important;
     }
 
+    .heading-text {
+      position: initial !important;
+    }
+
     .projectinfo .heading-text h2 {
       margin: 1rem 0 !important;
       font-weight: 700 !important;
@@ -89,6 +93,7 @@ import { VueAgile } from 'vue-agile'
     }
 
     .projectinfo .heading-text h3 {
+      display: none;
       margin: 0 !important;
       font-weight: 400 !important;
       font-size: clamp(0.7rem, 2.5vw, 1rem) !important;
