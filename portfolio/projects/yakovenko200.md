@@ -26,7 +26,7 @@ hide: false
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/tw0TDuW"><img src="https://i.imgur.com/tw0TDuW.jpg"></a>
+<a href="https://imgur.com/O8MvP1w"><img src="https://i.imgur.com/O8MvP1w.jpg"></a>
 <a href="https://imgur.com/Uh5HMsr"><img src="https://i.imgur.com/Uh5HMsr.jpg"></a>
 </div>
 <center>Розовый куст, 2020 и Натюморт из 90-х</center>
