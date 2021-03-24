@@ -7,7 +7,7 @@ description: 'Сборное впечатление от арт-трэшака, 
 thumbnail: upload/glavnaya.jpg
 date: 2020-09-27
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
