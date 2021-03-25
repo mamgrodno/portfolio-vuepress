@@ -10,7 +10,7 @@ description: В марте пройдут последние спектакли 
 thumbnail: upload/img-e0a986b78eef89b06b409ef190214914-v.jpg
 date: 2021-01-22
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
