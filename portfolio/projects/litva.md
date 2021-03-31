@@ -8,7 +8,7 @@ description: Виртуальный тур по выставке «Метафа�
 thumbnail: upload/lt27.jpg
 date: 2020-10-30
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
