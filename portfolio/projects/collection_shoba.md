@@ -1,12 +1,12 @@
 ---
-size: 2
+size: 3
 title: collection_shoba
 heading: 'Валентина Шоба, Гродно. Художественный проект mamgrodno: «Многоточие или
   покинутые деревни». '
 description: 'Шматкроп`е (многоточие), отражает многозначность, ожидание или пропуск,
   паузу, в тексте. '
 thumbnail: upload/dscf4011.jpg
-date: 2021-01-23
+date: 2021-02-11
 height: 
 hide: false
 navigation: Коллекции
