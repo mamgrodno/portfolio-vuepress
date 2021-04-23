@@ -91,6 +91,13 @@
     </div>
   </header>
   <div v-if="this.tags">
+
+    <div v-if="clicked_tag == 'Коллекции'" class="collection">Коллекции
+      <div class="collection-text">
+         Дополняем реальность. Коллекции – это виртуальные залы MAM, Музея современного искусства Гродно. Персональные выставки и тематические сборные вернисажи, информация о работах, авторе(ах), фотографии, видеосюжет и панорама.  Мы хотим показать, что свободное искусство не спрятать в фондах и архивах, оно не ушло в самоизоляцию. Когда-нибудь «Коллекции» «приземлятся» в реальный mamgrodno
+      </div>
+    </div>
+
     <div class="project-list">
     <div v-for="project in projects"
           :key="project.title"
@@ -167,6 +174,8 @@
         } else {
           document.getElementById('main-container').style.display = "block"
         }
+
+        console.log(this.clicked_tag)
       },
       click_on_link: function(e) {
         this.tags = false
@@ -188,6 +197,18 @@
 </script>
 
 <style scoped>
+
+  .collection {
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 20px;
+  }
+  .collection-text {
+    margin: 1rem auto 0;
+    width: 80%;
+    text-align: justify;
+  }
 
   .brand {
     display: flex;
