@@ -36,9 +36,9 @@ navigation: Коллекции
 <a href="https://imgur.com/BhDpeBL"><img src="https://i.imgur.com/BhDpeBL.jpg"></a>
 </div>
 
-<div><iframe class="youtube" src="https://www.youtube.com/watch?v=z0iFRVRGlGU"></div>
+<div><iframe class="youtube" src="https://www.youtube.com/embed/v=z0iFRVRGlGU"></div>
 
-<div><iframe class="youtube" src="https://youtu.be/uVxDuOCYbig"></div>
+<div><iframe class="youtube" src="https://www.youtube.com/embed/v=uVxDuOCYbig"></div>
 
 Виртуальный тур по выставке Шматкроп`е [здесь](https://www.mamgrodno.com/shoba_village/)
 
