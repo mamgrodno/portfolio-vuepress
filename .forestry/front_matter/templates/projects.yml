@@ -59,6 +59,7 @@ fields:
   config:
     required: false
     options:
+    - Коллекции
     - Кто
     - Сегодня
     - Проекты
