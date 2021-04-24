@@ -40,9 +40,9 @@ navigation: Кто
 <div class = "gallery4"> <! - Смените gallery2 на gallery3 или gallery4, цифра определяет картинок в одном ряду -> 
 <a href="https://imgur.com/A5EQQrP"><img src="https://i.imgur.com/A5EQQrP.jpg"></a>
 <a href="https://imgur.com/QRqdbFn"><img
-\src ="https://i.imgur.com/ QRqdbFn.jpg"></a>
+src="https://i.imgur.com/ QRqdbFn.jpg"></a>
 <a href = "https://imgur.com/1rOjhNU"><img 
-src = "https://i.imgur.com/1rOjhNU.jpg"></a> 
+src= "https://i.imgur.com/1rOjhNU.jpg"></a> 
 <a href="https://imgur.com/kVTomGE"><img src="https://i.imgur.com/kVTomGE.jpg"></a>
 </div>
 
