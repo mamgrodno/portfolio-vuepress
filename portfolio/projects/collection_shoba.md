@@ -42,9 +42,9 @@ src="https://i.imgur.com/X6mSkLk.jpg"></a>
 src="https://i.imgur.com/BhDpeBL.jpg "></a>
 </div>
 
-<div><iframe class="youtube" src="https://www.youtube.com/embed/v=z0iFRVRGlGU"></div>
+<div><iframe class="youtube" src="https://www.youtube.com/embed/z0iFRVRGlGU"></div>
 
-<div><iframe class="youtube" src="https://www.youtube.com/embed/v=uVxDuOCYbig"></div>
+<div><iframe class="youtube" src="https://www.youtube.com/embed/uVxDuOCYbig"></div>
 
 Виртуальный тур по выставке Шматкроп\`е [здесь](https://www.mamgrodno.com/shoba_village/)
 
