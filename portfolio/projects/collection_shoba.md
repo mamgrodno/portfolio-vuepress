@@ -31,11 +31,8 @@ src="https://i.imgur.com/1rOjhNU.jpg"></a>
 src =" https://i.imgur.com/X6M9I4C.jpg "></a> 
 </div>
 
-<div class = "gallery4"> 
+<div class = "gallery2"> 
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/s6UpL5S"><img src="https://i.imgur.com/s6UpL5S.jpg"></a>
-<a href="https://imgur.com/gHpuKUT"><img 
-src="https://i.imgur.com/ gHpuKUT.jpg "></a>
 <a href="https://imgur.com/X6mSkLk"><img 
 src="https://i.imgur.com/X6mSkLk.jpg"></a> 
 <a href= "https://imgur.com/ BhDpeBL "><img 
@@ -47,5 +44,7 @@ src="https://i.imgur.com/BhDpeBL.jpg "></a>
 <div><iframe class="youtube" src="https://www.youtube.com/embed/uVxDuOCYbig"></div>
 
 Виртуальный тур по выставке Шматкроп\`е [здесь](https://www.mamgrodno.com/shoba_village/)
+  
+Автор виртуального тура: Иван Цыркунович
 
 [Валентина Шоба: «Работаю, когда темно, днём я не знаю, что мне с собой делать»](https://www.mamgrodno.com/projects/shoba_village.html)
