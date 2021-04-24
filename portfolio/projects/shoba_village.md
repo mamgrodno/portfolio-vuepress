@@ -57,10 +57,10 @@ _В мастерской среди коников, веночков из тра
 
 <div class="gallery4">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/z3mmPHo"><img src="https://i.imgur.com/z3mmPHo.jpg"></a>
-<a href="https://imgur.com/gHpuKUT"><img src="https://i.imgur.com/gHpuKUT.jpg"></a>
-<a href="https://imgur.com/X6mSkLk"><img src="https://i.imgur.com/X6mSkLk.jpg"></a>
-<a href="https://imgur.com/BhDpeBL"><img src="https://i.imgur.com/BhDpeBL.jpg"></a>
+<a href="https://imgur.com/UHFoC0U"><img src="https://i.imgur.com/UHFoC0U.jpg"></a>
+<a href="https://imgur.com/f83gc5v"><img src="https://i.imgur.com/f83gc5v.jpg"></a>
+<a href="https://imgur.com/xpcvZem"><img src="https://i.imgur.com/xpcvZem.jpg"></a>
+<a href="https://imgur.com/Ml76CSa"><img src="https://i.imgur.com/Ml76CSa.jpg"></a>
 </div>
 
 **Об осознанной бессмысленности и знаках**
@@ -83,4 +83,4 @@ _В мастерской среди коников, веночков из тра
 
 Автор текста: Инна МАКСИМЧИК
 
-Фото, видео, панорама: Иван ЦЫРКУНОВИЧ
+Фото, видео, панорама: Александр ИВАНОВ, Иван ЦЫРКУНОВИЧ
