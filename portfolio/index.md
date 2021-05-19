@@ -14,11 +14,12 @@ project3_text: ''
 project4_text: ''
 
 ---
-<Hero: text = "$ page.frontmatter.hero_text" /> <Hero: sub = "$ page.frontmatter.hero_subtitle" />
+<Hero :text="$page.frontmatter.hero_text"/> <Hero :sub="$page.frontmatter.hero_subtitle" />
 
 <ClientOnly> <WorksList /> </ClientOnly>
 
-<div style = "margin: 0 5vw"> <p style = "font-size: clamp (1rem, 2.5vw, 1.5rem); color: # 7b808a; margin: 15vh auto; text-align: start; max-width : 800px; ">  </p> Малевич свои знаковые работы часто подписывал черным квадратиком, Дюрер оставлял свою монограмму, В 21-м веке цифровому художнику не обязательно показывать авторство, достаточно связать его с уникальным невзаимозаменяемым токеном в блокчейне.Каждый NFT – это сертификат подлинности, он закрепляет право владения цифровым объектом.
-/div>
+<div style = "margin: 0 5vw">
+<p style = "font-size: clamp (1rem, 2.5vw, 1.5rem); color: # 7b808a; margin: 15vh auto; text-align: start; max-width:800px">Малевич свои знаковые работы часто подписывал черным квадратиком, Дюрер оставлял свою монограмму, В 21-м веке цифровому художнику не обязательно показывать авторство, достаточно связать его с уникальным невзаимозаменяемым токеном в блокчейне.Каждый NFT – это сертификат подлинности, он закрепляет право владения цифровым объектом.</p> 
+</div>
 
 <ClientOnly> <ProjectList /> </ClientOnly>
