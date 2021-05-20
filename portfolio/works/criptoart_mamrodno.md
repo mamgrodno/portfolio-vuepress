@@ -4,10 +4,10 @@ navigation: Сегодня
 heading: Лучше всего продаются космос, астронавты и неон
 description: Вместе с Леной Репецкой изучили криптоарт, искусство, которое нельзя
   потрогать
-thumbnail: upload/hat-s-world-by-lena-repetskaya-2.JPG
+thumbnail: upload/parallel-universe-by-lena-repetskaya-imgur.jpg
 categories: []
 year: 2021
-date: 2021-05-10 21:00:00 +0000
+date: 2021-05-10T21:00:00.000+00:00
 
 ---
 ![](upload/hat-s-world-by-lena-repetskaya-2.JPG)# Лучше всего продаются космос, астронавты и неон 
