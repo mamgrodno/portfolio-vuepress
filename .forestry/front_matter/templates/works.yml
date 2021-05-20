@@ -61,4 +61,5 @@ fields:
     required: true
 pages:
 - portfolio/works/criptoart_mamrodno.md
+- portfolio/works/dancer.md
 - portfolio/works/pora-vyklyuchat-svet.md
