@@ -8,7 +8,7 @@ thumbnail: upload/70334206_158599138586519_5755275378654886810_n.jpg
 date: 2021-05-19
 height: 
 hide: false
-navigation: ''
+navigation: Сегодня
 
 ---
 # 400 квадратов для Захара Кудина
