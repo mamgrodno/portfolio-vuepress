@@ -80,4 +80,4 @@ date: 2021-05-19 21:00:00 +0000
 
 [Vkontakte](https://vk.com/svobodnayastudia)
 
-Пример кинотанца с фестиваля proba: [Ваш кофе готов](https://www.facebook.com/probafestival/videos/262631435510257) 
+Пример кинотанца с фестиваля proba: [Ваш кофе готов](https://www.facebook.com/probafestival/videos/262631435510257)
