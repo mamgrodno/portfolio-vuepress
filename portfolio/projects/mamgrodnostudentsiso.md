@@ -20,10 +20,7 @@ navigation: Сегодня
 
 <div class="gallery4">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->  
-<blockquote class="imgur-embed-pub" lang="en" data-id="iZPrhFy"><a href="https://imgur.com/iZPrhFy">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<blockquote class="imgur-embed-pub" lang="en" data-id="kzsW6TZ"><a href="https://imgur.com/kzsW6TZ">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<blockquote class="imgur-embed-pub" lang="en" data-id="Gsr4k4I"><a href="https://imgur.com/Gsr4k4I">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<blockquote class="imgur-embed-pub" lang="en" data-id="qSEkd5x"><a href="https://imgur.com/qSEkd5x">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src = 'https://imgur.com/iZPrhFy'>  
 </div>  
   
 
