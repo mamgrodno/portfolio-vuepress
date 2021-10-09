@@ -6,7 +6,7 @@ description: Смотрите 28 мая пластический спектак�
 thumbnail: upload/afisha-fears-2021.jpg
 date: 2021-05-18
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
