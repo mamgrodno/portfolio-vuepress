@@ -72,6 +72,7 @@ fields:
       path: 
   label: navigation
 pages:
+- portfolio/projects/boldakovart.md
 - portfolio/projects/buka.md
 - portfolio/projects/club-mam.md
 - portfolio/projects/collection_shoba.md
