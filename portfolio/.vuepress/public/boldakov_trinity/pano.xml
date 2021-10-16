@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="18080" start="node49" appversion="6.1.13">
+  <panorama id="node49" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy01/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node49" heading="0" tags="tour|tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="20.04.2020 15:35" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-360.03" id="Point01" tilt="-6.47" title="" description="" url="{node50}" skinid="ht_node" target="0.0/0.0/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama id="node50" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy02/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node50" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="22.09.2021 17:20" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-1.79" id="Point01" tilt="-5.2" title="" description="" url="{node51}" skinid="ht_node" target="0.0/0.0/70.0"/>
+      <hotspot pan="-180.38" id="Point02" tilt="-13.97" title="" description="" url="{node49}" skinid="ht_node" target="178.7/0.5/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama id="node51" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy03/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node51" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:04" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-1.54" id="Point01" tilt="1.24" title="" description="" url="{node52}" skinid="ht_node" target="0.0/0.0/70.0"/>
+      <hotspot pan="-179.8" id="Point02" tilt="-9.8" title="" description="" url="{node50}" skinid="ht_node" target="179.5/-2.2/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama id="node52" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy04/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node52" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:09" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-2.56" id="Point01" tilt="1.46" title="" description="" url="{node53}" skinid="ht_node" target="0.0/0.0/70.0"/>
+      <hotspot pan="-177.73" id="Point02" tilt="-6.97" title="" description="" url="{node51}" skinid="ht_node" target="-179.4/-0.1/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama id="node53" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy05/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-30.04" tilt="2.36" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node53" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:15" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-3.11" id="Point01" tilt="2.92" title="" description="" url="{node54}" skinid="ht_node" target="0.0/0.0/70.0"/>
+      <hotspot pan="-176.78" id="Point02" tilt="-4.4" title="" description="" url="{node52}" skinid="ht_node" target="-177.7/0.2/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <panorama id="node54" hideabout="1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy06/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-98.04" tilt="0.69" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="1"/>
+      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>
+    </view>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="node54" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:20" description=""/>
+    <hotspots wordwrap="1" height="50" width="270">
+      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>
+      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>
+      <hotspot pan="-183.12" id="Point01" tilt="-0.8" title="" description="" url="{node53}" skinid="ht_node" target="-176.6/-0.5/70.0"/>
+    </hotspots>
+    <media/>
+    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>
+    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">
+      <menulink text="Виртуальные туры и панорамы интерьеров" url="http://hi360v.com"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata comment="" customnodeid="" title="" source="" nodeid="master" heading="0" tags="" latitude="" info="" author="" longitude="" copyright="" datetime="" description=""/>
+  </masternode>
+</tour>

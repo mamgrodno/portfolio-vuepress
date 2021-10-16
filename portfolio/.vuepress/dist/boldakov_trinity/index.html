@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<style type="text/css" title="Default">
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+		</style>	
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<script src="webxr/three.min.js"></script>
+		<script src="webxr/webxr-polyfill.min.js"></script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+		function parseParams(paramsString, params) {
+			paramsString = paramsString.substring(1);
+			var firstSeparatorPos = paramsString.indexOf(",");
+			if (firstSeparatorPos != -1) {
+				params.startNode = paramsString.slice(0, firstSeparatorPos);
+				var viewingParamsString = paramsString.slice(firstSeparatorPos + 1);
+				var viewingParams = viewingParamsString.split(",");
+				if (viewingParams.length >= 3) {
+					var startView = {};
+					startView["pan"] = viewingParams[0];
+					startView["tilt"] = viewingParams[1];
+					startView["fov"] = viewingParams[2];
+					if (viewingParams.length >= 4) {
+						startView["projection"] = viewingParams[3];
+					}
+					params.startView = startView;
+				}
+			} else {
+				params.startNode = paramsString;
+				params.startView = "";
+			}
+		}
+		var params = {};
+		parseParams(document.location.hash, params);
+		var startNode = params.startNode;
+		var startView = params.startView;
+		if (("onhashchange" in window) && (!(/MSIE (\d+\.\d+);/.test(navigator.userAgent)))) {
+			window.onhashchange = function () {
+				parseParams(window.location.hash, params);
+				pano.openNext('{' + params.startNode + '}', params.startView);
+         	}
+	    } else {
+        	var lastHash = window.location.hash;
+        	window.setInterval(function () {
+	           	if (window.location.hash != lastHash) {
+   	        		lastHash = window.location.hash;
+					parseParams(window.location.hash, params);
+					pano.openNext('{' + params.startNode + '}', params.startView);
+        	   	}
+        	}, 100);
+		}
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			pano.startNode = startNode;
+			pano.startView = startView;
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+			panorama='<?xml version="1.0" encoding="UTF-8"?>';
+			panorama+='<tour apprev="18080" start="node49" appversion="6.1.13">';
+			panorama+='  <panorama id="node49" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy01/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node49" heading="0" tags="tour|tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="20.04.2020 15:35" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-360.03" id="Point01" tilt="-6.47" title="" description="" url="{node50}" skinid="ht_node" target="0.0/0.0/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node50" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy02/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node50" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="22.09.2021 17:20" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-1.79" id="Point01" tilt="-5.2" title="" description="" url="{node51}" skinid="ht_node" target="0.0/0.0/70.0"/>';
+			panorama+='      <hotspot pan="-180.38" id="Point02" tilt="-13.97" title="" description="" url="{node49}" skinid="ht_node" target="178.7/0.5/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node51" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy03/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node51" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:04" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-1.54" id="Point01" tilt="1.24" title="" description="" url="{node52}" skinid="ht_node" target="0.0/0.0/70.0"/>';
+			panorama+='      <hotspot pan="-179.8" id="Point02" tilt="-9.8" title="" description="" url="{node50}" skinid="ht_node" target="179.5/-2.2/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node52" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy04/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="3.45" tilt="2.21" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node52" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:09" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-2.56" id="Point01" tilt="1.46" title="" description="" url="{node53}" skinid="ht_node" target="0.0/0.0/70.0"/>';
+			panorama+='      <hotspot pan="-177.73" id="Point02" tilt="-6.97" title="" description="" url="{node51}" skinid="ht_node" target="-179.4/-0.1/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node53" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy05/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="-30.04" tilt="2.36" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node53" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:15" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-3.11" id="Point01" tilt="2.92" title="" description="" url="{node54}" skinid="ht_node" target="0.0/0.0/70.0"/>';
+			panorama+='      <hotspot pan="-176.78" id="Point02" tilt="-4.4" title="" description="" url="{node52}" skinid="ht_node" target="-177.7/0.2/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <panorama id="node54" hideabout="1">';
+			panorama+='    <input levelbias="0.400" overlap="1" leveltileurl="tiles/boldakov_triniy06/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="500" height="2000" width="2000" levelingpitch="0" levelbiashidpi="0.400">';
+			panorama+='      <level preload="0" predecode="0" height="2000" width="2000"/>';
+			panorama+='      <level preload="0" predecode="0" height="1000" width="1000"/>';
+			panorama+='      <level preload="1" predecode="1" height="500" width="500"/>';
+			panorama+='      <preview color="0x808080" strip="1"/>';
+			panorama+='    </input>';
+			panorama+='    <view fovmode="0" pannorth="0">';
+			panorama+='      <start pan="-98.04" tilt="0.69" projection="4" fov="70"/>';
+			panorama+='      <flyin pan="0" tilt="-90" projection="9" fov="170"/>';
+			panorama+='      <min pan="0" tilt="-90" fovpixel="1"/>';
+			panorama+='      <max pan="360" scaletofit="1" tilt="90" fovstereographic="270" fov="70" fovfisheye="360"/>';
+			panorama+='    </view>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="node54" heading="0" tags="tour_trinity" latitude="" info="" author="" longitude="" copyright="" datetime="21.09.2021 19:20" description=""/>';
+			panorama+='    <hotspots wordwrap="1" height="50" width="270">';
+			panorama+='      <label textcolor="0xff0000" background="1" borderradius="11" wordwrap="1" enabled="1" borderalpha="1" height="50" border="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" backgroundalpha="1" width="270"/>';
+			panorama+='      <polystyle mode="0" handcursor="1" borderalpha="1" backgroundcolor="0xff1134" bordercolor="0xffe040" backgroundalpha="0.25098"/>';
+			panorama+='      <hotspot pan="-183.12" id="Point01" tilt="-0.8" title="" description="" url="{node53}" skinid="ht_node" target="-176.6/-0.5/70.0"/>';
+			panorama+='    </hotspots>';
+			panorama+='    <media/>';
+			panorama+='    <transition blendcolor="0x000000" type="crossdissolve" enabled="1" zoomfov="20" zoomin="0" zoomoutpause="1" softedge="0" blendtime="1" zoomspeed="2" zoomout="0" zoomafterinfov="90" zoomafteroutfov="20"/>';
+			panorama+='    <autorotate speed="0.080" startloaded="0" enabled="1" useanimation="0" returntohorizon="0.000" nodefilter="" noderandom="1" nodedelay="0.00" delay="5.00"/>';
+			panorama+='    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>';
+			panorama+='    <control invertcontrol="1" hideabout="1" dblclickfullscreen="1" contextvr="1" lockedmouse="0" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" lockedwheel="0" sensitivity="9" simulatemass="1" rubberband="0" contextfullscreen="0" invertwheel="0">';
+			panorama+='      <menulink text="&#1042;&#1080;&#1088;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1090;&#1091;&#1088;&#1099; &#1080; &#1087;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1099; &#1080;&#1085;&#1090;&#1077;&#1088;&#1100;&#1077;&#1088;&#1086;&#1074;" url="http://hi360v.com"/>';
+			panorama+='    </control>';
+			panorama+='  </panorama>';
+			panorama+='  <masternode>';
+			panorama+='    <userdata comment="" customnodeid="" title="" source="" nodeid="master" heading="0" tags="" latitude="" info="" author="" longitude="" copyright="" datetime="" description=""/>';
+			panorama+='  </masternode>';
+			panorama+='</tour>';
+			panorama+='';
+			pano.readConfigString(panorama);
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+	</body>
+</html>
