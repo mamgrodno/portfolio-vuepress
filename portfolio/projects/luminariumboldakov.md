@@ -135,6 +135,7 @@ All these elements add up to one "general picture": the arising of light impulse
 
 [LUMINARIUM - панорама](/boldakov_trinity)
 
+Больше о художнике можно узнать [здесь](https://www.mamgrodno.com/journal/luminarium)
 
 
 Куратор проекта: **Ирина Варкулевич**
