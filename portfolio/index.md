@@ -18,6 +18,6 @@ project4_text: ''
 
 <ClientOnly> <WorksList /> </ClientOnly>
 
-<div style="margin: 0 5vw"> <p style="font-size: clamp(1rem, 2.5vw, 1.5rem); color:#7b808a; margin: 15vh auto; text-align: start; max-width:800px">Свет трансформирует хаос и порядок в логическую, подвижную структуру. Он течет, движется, ощущается тактильно, замирает и пульсирует в черном стекле, на луне и бетоне, прерывает разговор, растворяет эмоции. В галерее 400kvadratov до 22 октября можно посмотреть арт-проект художника  Александра Болдакова LUMINARIUM.</p> </div>
+<div style="margin: 0 5vw"> <p style="font-size: clamp(1rem, 2.5vw, 1.5rem); color:#7b808a; margin: 15vh auto; text-align: start; max-width:800px">Свет трансформирует хаос и порядок в логическую, подвижную структуру. Он течет, движется, ощущается тактильно, замирает и пульсирует в черном стекле, на луне и бетоне, прерывает разговор, растворяет эмоции. На нашем сайте можно посмотреть панораму проекта LUMINARIUM  художника Александра Болдакова.</p> </div>
 
 <ClientOnly> <ProjectList /> </ClientOnly>
