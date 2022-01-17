@@ -45,7 +45,6 @@ hide: false
 
 [**Творчество**](https://arthaos.com/index.php?q=page/authors/silvanovich-aleksandr-nikolaevich/)
 
-![Imgur](https://i.imgur.com/zEVwfsE.jpg)
 
 **Игорь Варкулевич**
 
