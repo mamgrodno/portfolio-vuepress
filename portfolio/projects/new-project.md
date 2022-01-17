@@ -4,7 +4,7 @@ height:
 title: MAM collection third
 heading: 10 панорам гродненского стрит-арта, часть 3
 description: 'Путеводитель по проекту «Галереи, которых нет», часть 3.  '
-thumbnail: "/upload/varkulevich_ig_ggi_01_v1-min.jpg"
+thumbnail: upload/ss.png
 navigation: Проекты
 categories:
 - today
