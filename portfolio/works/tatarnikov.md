@@ -120,4 +120,6 @@ _У вытворчасць кнігі ўцягнута шмат людзей. І
 
 **Аўтар тэксту** – _Ніка ГАНЧАР_
 
-Больш пра Паўла Татарнікава [тут](https://www.mamgrodno.com/journal/tatarnikay.html/) 
+Больш пра Паўла Татарнікава
+[тут](https://www.mamgrodno.com/journal/tatarnikay.html)
+
