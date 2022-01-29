@@ -20,9 +20,9 @@ navigation: Кто
 
 <div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="[https://imgur.com/kjnjpiK](https://imgur.com/kjnjpiK "https://imgur.com/kjnjpiK")"><img src="![](https://i.imgur.com/kjnjpiK.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/JBXHGkk](https://imgur.com/JBXHGkk "https://imgur.com/JBXHGkk")"><img src="![](https://i.imgur.com/JBXHGkk.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/YekHPng](https://imgur.com/YekHPng "https://imgur.com/YekHPng")"><img src="![](https://i.imgur.com/YekHPng.jpg)" title="source: imgur.com" /></a>
+<a href="https://imgur.com/kjnjpiK"><img src="https://i.imgur.com/kjnjpiK.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/JBXHGkk"><img src="https://i.imgur.com/JBXHGkk.jpg" title="source: imgur.com" /></a>  
+<a href="https://imgur.com/YekHPng"><img src="https://i.imgur.com/YekHPng.jpg" title="source: imgur.com" /></a>
 </div>
 
 **Гародня, галерэя 400 квадратаў**
@@ -48,11 +48,11 @@ _Дык вось, гэта было відавочна, што я не пера�
 
 <div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="[https://imgur.com/v9IjvbD](https://imgur.com/v9IjvbD "https://imgur.com/v9IjvbD")"><img src="![](https://i.imgur.com/v9IjvbD.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/r8djHdX](https://imgur.com/r8djHdX "https://imgur.com/r8djHdX")"><img src="![](https://i.imgur.com/r8djHdX.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/6UwN84d](https://imgur.com/6UwN84d "https://imgur.com/6UwN84d")"><img src="![](https://i.imgur.com/6UwN84d.jpg)" title="source: imgur.com" /></a>
+<a href="https://imgur.com/v9IjvbD"><img src="https://i.imgur.com/v9IjvbD.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/r8djHdX"><img src="https://i.imgur.com/r8djHdX.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/6UwN84d"><img src="https://i.imgur.com/6UwN84d.jpg" title="source: imgur.com" /></a>
 </div>
-<center>Фрагменты,рэканструкцыя,Павел Татарнікаў</center>
+<center>Фрагменты,рэканструкцыя,Павел Татарнікаў</center>  
 
 **Рэканструкцыя і гульня**
 
@@ -62,9 +62,9 @@ _Люблю гісторыю, цікаўлюся, але ж я не навуко
 
 <div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="[https://imgur.com/wWfS4HE](https://imgur.com/wWfS4HE "https://imgur.com/wWfS4HE")"><img src="![](https://i.imgur.com/wWfS4HE.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/dsZMAQI](https://imgur.com/dsZMAQI "https://imgur.com/dsZMAQI")"><img src="![](https://i.imgur.com/dsZMAQI.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/sauBSpH](https://imgur.com/sauBSpH "https://imgur.com/sauBSpH")"><img src="![](https://i.imgur.com/sauBSpH.jpg)" title="source: imgur.com" /></a>
+<a href="https://imgur.com/wWfS4HE"><img src="https://i.imgur.com/wWfS4HE.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/dsZMAQI"><img src="https://i.imgur.com/dsZMAQI.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/sauBSpH"><img src="https://i.imgur.com/sauBSpH.jpg" title="source: imgur.com" /></a>  
 </div>
 <center>Фрагменты рэканструкцыі Старага Замку,Павел Татарнікаў</center>  
 
@@ -88,9 +88,9 @@ _Але жаданне штосьці змяніць ёсць. Я не кажу,
 
 <div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
- <a href="[https://imgur.com/qbsNbHd](https://imgur.com/qbsNbHd "https://imgur.com/qbsNbHd")"><img src="![](https://i.imgur.com/qbsNbHd.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/NalREni](https://imgur.com/NalREni "https://imgur.com/NalREni")"><img src="![](https://i.imgur.com/NalREni.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/LtA51pl](https://imgur.com/LtA51pl "https://imgur.com/LtA51pl")"><img src="![](https://i.imgur.com/LtA51pl.jpg)" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/qbsNbHd"><img src="https://i.imgur.com/qbsNbHd.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/NalREni"><img src="https://i.imgur.com/NalREni.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/LtA51pl"><img src="https://i.imgur.com/LtA51pl.jpg" title="source: imgur.com" /></a>  
 </div>
 <center>Фрагменты.Павел Татарнікаў</center>
 
@@ -114,10 +114,10 @@ _А зараз пандэмія, і кніжны рынак вырас. Не ў�
 
 <div class="gallery4">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="[https://imgur.com/ukpS3He](https://imgur.com/ukpS3He "https://imgur.com/ukpS3He")"><img src="![](https://i.imgur.com/ukpS3He.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/FmMRnGS](https://imgur.com/FmMRnGS "https://imgur.com/FmMRnGS")"><img src="![](https://i.imgur.com/FmMRnGS.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/yQOauE3](https://imgur.com/yQOauE3 "https://imgur.com/yQOauE3")"><img src="![](https://i.imgur.com/yQOauE3.jpg)" title="source: imgur.com" /></a>
-<a href="[https://imgur.com/oC9IcDP](https://imgur.com/oC9IcDP "https://imgur.com/oC9IcDP")"><img src="![](https://i.imgur.com/oC9IcDP.jpg)" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ukpS3He"><img src="https://i.imgur.com/ukpS3He.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/FmMRnGS"><img src="https://i.imgur.com/FmMRnGS.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/yQOauE3"><img src="https://i.imgur.com/yQOauE3.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/oC9IcDP"><img src="https://i.imgur.com/oC9IcDP.jpg" title="source: imgur.com" /></a>  
 </div>
 <center>Фрагменты ілюстрацый да кніг.Павел Татарнікаў</center>
 
