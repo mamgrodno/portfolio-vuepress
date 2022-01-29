@@ -4,7 +4,7 @@ title: mamgrodnostudentsiso
 heading: Маленькие корабли еще должны стать большими
 description: Посмотрели, чему учат на кафедре Изобразительного искусства в Гродно
 thumbnail: upload/photo_2021-10-09_12-08-38.jpg
-date: 2019-12-29
+date: 2020-01-09
 height: 
 hide: false
 navigation: Сегодня
