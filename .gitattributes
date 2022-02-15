@@ -1,3 +1,6 @@
 portfolio/.vuepress/public/upload/*.jpg filter=lfs diff=lfs merge=lfs -text
 portfolio/.vuepress/public/upload/*.png filter=lfs diff=lfs merge=lfs -text
 portfolio/.vuepress/public/upload/*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
