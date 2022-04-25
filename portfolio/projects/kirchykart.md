@@ -4,7 +4,7 @@ title: kirchykart
 heading: Из брутального  в ментальное
 description: В виртуальной комнате mam пройдите по лабиринтам звука Иван Кирчука
 thumbnail: upload/etiyvfe.jpg
-date: 2022-01-26
+date: 2020-09-29
 height: 
 hide: false
 navigation: Кто
