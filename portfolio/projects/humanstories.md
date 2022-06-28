@@ -117,7 +117,7 @@ navigation: Проекты
 
 **Ксения. Отдаю долги себе**
 
-![Imgur](https://i.imgur.com/CdBEO9W.jpg)
+![Imgur](https://i.imgur.com/c0IpnLF.jpg)
 <center>Так увидела Ксению Александра Таранко</center>
 
 **Ксения:** _Сегодня я отдаю долги себе. Мне не нравится та, какой я была больше года назад. Я сделала выбор, сама решила изменить жизнь.  Пошла в зал, в бассейн. Мой лишний вес стал уходить. Проблема в том, что я боюсь браться за то, что не умею. Так было с фотоаппаратом, я боялась взять его в руки, но стала больше говорить страхам нет. Сказала себе, да я хочу развиваться, учиться фотографии. Так и происходит. Пока у меня нет техники, но есть, люди которые готовы  её дать, чтобы я развивалась, училась, и это клево._
@@ -126,8 +126,8 @@ navigation: Проекты
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/ModF4yu"><img src="https://i.imgur.com/ModF4yu.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/4IKPFuO"><img src="https://i.imgur.com/4IKPFuO.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/Mpaakv2"><img src="https://i.imgur.com/Mpaakv2.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/vxnEANe"><img src="https://i.imgur.com/vxnEANe.jpg" title="source: imgur.com" /></a>  
 </div>
 <center>Так увидела ВасилияТатьяна Кушакова</center>
 
