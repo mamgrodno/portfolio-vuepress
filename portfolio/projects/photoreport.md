@@ -5,7 +5,7 @@ heading: 'Илья Гелей: 5 причин, почему репортаж я 
   в фотографии'
 description: Фотоистория в разных форматах. Часть 3. В потоке
 thumbnail: upload/8-1.jpg
-date: 2022-06-25
+date: 2022-06-23
 height: 
 hide: false
 navigation: Проекты

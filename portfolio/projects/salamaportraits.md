@@ -54,4 +54,4 @@ navigation: Проекты
 
 **ШСЖ 2021-2022, Гродно**
 
-Узнайте больше о \[Наташе Салама\](_https://www.instagram.com/salama_natalia/_) 
+Узнайте больше о [Наташе Салама](https://www.instagram.com/salama_natalia/)
