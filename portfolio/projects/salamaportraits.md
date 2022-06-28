@@ -50,6 +50,6 @@ navigation: Проекты
 <a href="https://imgur.com/ERYTZnC"><img src="https://i.imgur.com/ERYTZnC.jpg" title="source: imgur.com" /></a>
 </div>
 
-Фильм, как прошел интенсив по метафорической съемке смотрите [здесь](https://www.youtube.com/watch?v=lSbCZ9ibDKk) Автор фильма^ Света Рябцева.
+Фильм, как прошел интенсив по метафорической съемке смотрите [здесь](https://www.youtube.com/watch?v=lSbCZ9ibDKk) Автор фильма: Света Рябцева.
 
-ШСЖ 2021-2022, Гродно
+**ШСЖ 2021-2022, Гродно**
