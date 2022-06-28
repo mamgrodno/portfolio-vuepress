@@ -52,6 +52,7 @@ navigation: Проекты
 </div>
 <center>Иллюстрации к Алисе... Кейс Василия Нестерова и Елены Мироновой</center>
 
+
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/esvwNS6"><img src="https://i.imgur.com/esvwNS6.jpg" title="source: imgur.com" /></a>
@@ -64,4 +65,3 @@ navigation: Проекты
 **ШСЖ 2021-2022, Гродно**
 
 Узнайте больше об Илье Гелее на [helei_photo](https://www.instagram.com/helei_photo/)
-  
