@@ -93,8 +93,8 @@ navigation: Проекты
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/ccdohrM"><img src="https://i.imgur.com/ccdohrM.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/Kqysjq9"><img src="https://i.imgur.com/Kqysjq9.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/bS7UlAC"><img src="https://i.imgur.com/bS7UlAC.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/ymTqFTE"><img src="https://i.imgur.com/ymTqFTE.jpg" title="source: imgur.com" /></a>  
 </div>
 <center>Так увидела Лену Лиза Мокридина</center>
 
@@ -102,22 +102,14 @@ navigation: Проекты
 
 **Настя. Чаще всего, я иду**
 
-<div class="gallery2">
-<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/1NZ5PB4"><img src="https://i.imgur.com/1NZ5PB4.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/tXSFoWG"><img src="https://i.imgur.com/tXSFoWG.jpg" title="source: imgur.com" /></a>
-</div>
+![Imgur](https://i.imgur.com/X9PrDh2.jpg)
 <center>Так увидела Настю Лиза Мокридина</center>
 
 **Настя** _Образ на грани... Для меня – это в какой-то степени отказать самому себе в смелом решении, бояться этого решения, ведь мы не знаем, к чему придём по итогу. Я все понимаю, но рациональность включается позже. Чаще всего – иду. Сегодня мы все на грани, как в бизнесе, так и в жизни. Я руководитель театра огня Ergo Bibamus (Так выпьем же, песня которая нас объединила в коллектив). Создаю огненные спектакли. Театр, он тоже на грани,  как бы не обжигалась, знаешь, что каждый раз, выходя рискуешь снова обгореть._
 
 **Лена. Пра сябе я наогул нічога не ведаю**
 
-<div class="gallery2">
-<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/WtISbyk"><img src="https://i.imgur.com/WtISbyk.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/PReKqwI"><img src="https://i.imgur.com/PReKqwI.jpg" title="source: imgur.com" /></a>
-</div>
+![Imgur](https://i.imgur.com/PReKqwI.jpg)
 <center>убачыла Алену Надзея Вішнеўская</center>
 
 **Надзея пра Лену:** _У Лены 21 запіс у працоўнай кніжцы. “Затое няма страху страціць працу”. Усё жыццё Лены звязана з музыкай, агулам 8 гадоў яна працавала музычным кіраўніком у дзіцячых садках. “Дзіцячы ад”, – жартуе яна і дадае, што насамрэч пекла там – праз кіраўніцтва і ўсю сістэму, дзеці не вінаватыя. Паводле адукацыі Лена акампаніятар, настаўніца музыкі і музычны кіраўнік, культуролаг і палітолаг-юрыст. А хацела вучыцца на праграміста, але бацькі не падтрымалі.
