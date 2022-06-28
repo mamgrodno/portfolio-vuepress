@@ -117,7 +117,7 @@ navigation: Проекты
 
 **Лена. Пра сябе я наогул нічога не ведаю**
 
-div class="gallery2">
+<div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/WtISbyk"><img src="https://i.imgur.com/WtISbyk.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/PReKqwI"><img src="https://i.imgur.com/PReKqwI.jpg" title="source: imgur.com" /></a>
@@ -153,3 +153,5 @@ div class="gallery2">
 **Геннадий**: _Любовь к автомобилям пришла с детства, вместе с отцом ремонтировали велосипеды, мопеды. Собрать все детали автомобиля и услышать гул его мотора – повод для гордости. В свободное время меняю гаечный ключ на объектив: фотографирую друзей и знакомых. Путь в фотографию решил случай, который оказался совсем не случайным._
 
 Проект [Фотоистория в разных форматах](https://www.mamgrodno.com/projects/photostories.html) в рамках Школы современной журналистики 2021-2022, Гродно.
+
+Узнайте больше о Кате Гордеевой на [gordeeva.portraits] (https://www.instagram.com/gordeeva.portraits/)
