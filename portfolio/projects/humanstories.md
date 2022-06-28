@@ -22,9 +22,9 @@ navigation: Проекты
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/wRBXysK"><img src="https://i.imgur.com/wRBXysK.jpg" title="source: imgur.com" /></a> 
-<a href="https://imgur.com/8KVCgsM"><img src="https://i.imgur.com/8KVCgsM.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/pZnHSV1"><img src="https://i.imgur.com/pZnHSV1.jpg" title="source: imgur.com" /></a>
 </div>
-<center>На фото в галерее: 1.Катерина Гордеева. 2.Пример фото из серии в жанре human stories, лидер группы tochka K, Евгений Кучмейно. Автор фото: Катерина Гордеева</center>
+<center>На фото в галерее: 1.Катерина Гордеева. 2.Пример фото ив жанре human stories, художница Татьяна Очковская. Автор фото: Катерина Гордеева</center>
 
 **8 лайфхаков от Катерины Гордеевой**
 
