@@ -42,6 +42,8 @@ navigation: Проекты
 
 8.Портрет – это авторская интерпретация, фотографа в нем не меньше чем человека, который смотрит с фотографии.
 
+Узнайте больше о Кате Гордеевой на [gordeeva.portraits] (https://www.instagram.com/gordeeva.portraits/)
+
 **Татьяна. Я - воин, и я себя отстояла**
 
 ![Imgur](https://i.imgur.com/LpfaHRP.jpg)
@@ -154,4 +156,3 @@ navigation: Проекты
 
 Проект [Фотоистория в разных форматах](https://www.mamgrodno.com/projects/photostories.html) в рамках Школы современной журналистики 2021-2022, Гродно.
 
-Узнайте больше о Кате Гордеевой на [gordeeva.portraits] (https://www.instagram.com/gordeeva.portraits/)
