@@ -42,7 +42,7 @@ navigation: Проекты
 
 8.Портрет – это авторская интерпретация, фотографа в нем не меньше чем человека, который смотрит с фотографии.
 
-Узнайте больше о Кате Гордеевой на [gordeeva.portraits] (https://www.instagram.com/gordeeva.portraits/)
+Узнайте больше о Кате Гордеевой на [gordeeva.portraits](https://www.instagram.com/gordeeva.portraits/)
 
 **Татьяна. Я - воин, и я себя отстояла**
 
