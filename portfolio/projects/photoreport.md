@@ -62,4 +62,6 @@ navigation: Проекты
 <center>Кейс Ксении Чернушевич</center>
 
 **ШСЖ 2021-2022, Гродно**
+
+Узнайте больше об Илье Гелее на [helei_photo](https://www.instagram.com/helei_photo/)
   
