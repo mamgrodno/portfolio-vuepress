@@ -104,7 +104,7 @@ navigation: Сегодня
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/8P5i4Cj"><img src="https://i.imgur.com/8P5i4Cj.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/8P5i4Cj"><img src="https://i.imgur.com/8P5i4Cj.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/f2qetuY"><img src="https://i.imgur.com/f2qetuY.jpg" title="source: imgur.com" /></a>
 </div>
 <center>На фото: Музей современного искусства МО, Вильнюс. Городской автовокзал, Каунас.</center>  
 
