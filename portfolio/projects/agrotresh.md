@@ -48,7 +48,7 @@ navigation: Сегодня
 
 Дизайн малых форм (скульптуры, вывески, реклама, скамейки и т.п.)  формирует экстерьер города, но, незаметно и прочно он проникает в сердце своей повседневной многоликостью. Пусть временный, но заменимый на такое же...
   
-<div class="gallery4">
+<div class="gallery8">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/BtNL4Ln"><img src="https://i.imgur.com/BtNL4Ln.jpg" title="source: imgur.com" /></a>  
 <a href="https://imgur.com/0AQGkJM"><img src="https://i.imgur.com/0AQGkJM.jpg" title="source: imgur.com" /></a>
