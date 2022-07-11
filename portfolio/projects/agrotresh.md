@@ -49,13 +49,11 @@ navigation: Сегодня
 
 <div class="gallery4">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/BtNL4Ln"><img src="https://i.imgur.com/BtNL4Ln.jpg" title="source: imgur.com" /></a>  
-<a href="https://imgur.com/0AQGkJM"><img src="https://i.imgur.com/0AQGkJM.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/dbuZnj6"><img src="https://i.imgur.com/dbuZnj6.jpg" title="source: imgur.com" /></a>  
 <a href="https://imgur.com/ub29cAc"><img src="https://i.imgur.com/ub29cAc.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/t87xjhb"><img src="https://i.imgur.com/t87xjhb.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/e9ek6Dg"><img src="https://i.imgur.com/e9ek6Dg.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/4Pxt7c5"><img src="https://i.imgur.com/4Pxt7c5.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/miDBIdR"><img src="https://i.imgur.com/miDBIdR.jpg" title="source: imgur.com" /></a>  
+</div>
+<a href="https://imgur.com/dbuZnj6"><img src="https://i.imgur.com/dbuZnj6.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/miDBIdR"><img src="https://i.imgur.com/miDBIdR.jpg" title="source: imgur.com" /></a>
 </div>
 
 …Толстые стены квартиры на Мостовой не пропускают звуки улицы. Мы надёжно отгорожены от реальности. Уютно пьём кофе среди продуманного гранж-хаоса из штативов, книжек, старых кирпичей и антиквариата. Под нами – фундаменты и подвалы кармелитского монастыря. За окнами – «затылок» фальшфасада «Приорбанка», и огромные пластиковые жёлтые буквы «ГРОДНО» с оленем-клумбой на склоне.
