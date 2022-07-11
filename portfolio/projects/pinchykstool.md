@@ -36,7 +36,6 @@ navigation: Кто
 <a href="https://imgur.com/mV7bja3"><img src="https://i.imgur.com/mV7bja3.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/8CnikU0"><img src="https://i.imgur.com/8CnikU0.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/TKKpmzR"><img src="https://i.imgur.com/TKKpmzR.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/vBiO90N"><img src="https://i.imgur.com/vBiO90N.jpg" title="source: imgur.com" /></a>
 </div>  
 
 В газете (выходила она до 1905 года) печатали частные объявления, письма в редакцию, рекламу и некрологи, криминальные новости, биржевые котировки, экономические обзоры, критические статьи, эссе о ситуации в провинциях.
