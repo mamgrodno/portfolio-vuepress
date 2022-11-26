@@ -23,7 +23,7 @@ navigation: Кто
 
 Историю про «Грустный суп», когда супу скучно и он вот-вот скиснет, придумала молодая детская писательница и переводчик из Беларуси Ольга Гапеева. Сценарий для «Сумнага супа» гродненцы написали на беларуском языке. Кроме актеров (их трое: Александр с дочкой и Настасья Сухоносик), участвуют игрушки.
 
-<div class="gallery2">
+<div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/TtHsJjs"><img src="https://i.imgur.com/TtHsJjs.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/b7jx18i"><img src="https://i.imgur.com/b7jx18i.jpg" title="source: imgur.com" /></a>
@@ -35,6 +35,12 @@ navigation: Кто
 Посмотреть **«Сумны суп»**, послушать мову можно здесь: 
 
 <div><iframe class="youtube" src="https://www.youtube.com/embed/KzEy67EGtZk"></div>
+  
+Вернулась к творчеству и Настасья. Буквально на днях, после двух лет перерыва, возобновила свои «Нетривиальные чтения» на ютубе для взрослых и для деток. На русском и беларуском: послушать сказки и не только можно здесь: 
+  
+<div><iframe class="youtube" src="https://www.youtube.com/embed/ hUI0Y7a8iw8"></div>
+  
+  
   
   
 
