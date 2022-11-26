@@ -6,7 +6,7 @@ description: Посмотрели, чему учат на кафедре Изо�
 thumbnail: upload/photo_2021-10-09_12-08-38.jpg
 date: 2020-01-09
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
