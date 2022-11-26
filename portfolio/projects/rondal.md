@@ -27,8 +27,15 @@ navigation: Кто
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/TtHsJjs"><img src="https://i.imgur.com/TtHsJjs.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/b7jx18i"><img src="https://i.imgur.com/b7jx18i.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/3WnceRp"><img src="https://i.imgur.com/3WnceRp.jpg" title="source: imgur.com" /></a>
 </div>
 
+Логично, Настасья и Александр много лет играли ведущие роли в гродненском театре кукол. А Катя Енжиевская создала и развивает бренд деревянной игрушки: [любо-дорого](http://www.lybodorogo.com/), так что именно в её рондалі (кастрюльке), перемешиваются игра, видео и мультик. Сыплются фанерные аппетитные морковка, грибы, укроп, лук. И от такой поддержки суп больше не хочет грустить.
 
+Посмотреть **«Сумны суп»**, послушать мову можно здесь: 
+
+<div><iframe class="youtube" src="https://www.youtube.com/embed/KzEy67EGtZk"></div>
   
+  
+
   
