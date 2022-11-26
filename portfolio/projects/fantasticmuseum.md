@@ -9,7 +9,7 @@ description: 'Продолжаем бывать там, где нас нет. Н
 thumbnail: upload/photo_2022-07-11_15-59-07.jpg
 date: 2021-01-23
 height: 
-hide: false
+hide: true
 navigation: Проекты
 
 ---
