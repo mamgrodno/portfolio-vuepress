@@ -88,9 +88,9 @@ navigation: Кто
 
 _Конструкторы Монтесори предполагают определенные стандарты, но всегда есть трансформация. Я люблю стилизацию: делать стилизованных животных, пусть это будет каталочка, медведи в национальных костюмах, матрешка. Обожаю матрешек. Абсолютно изумительная игрушка сейчас подвергается репрессиям и гонениям, продажи упали, вот до какого доходит. На уровне истерии я понимаю причины, надо подождать, но это угнетает._
 
-<div class="gallery4">
+<div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/kCmhlmR"><img src="https://i.imgur.com/kCmhlmR.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/K181Fya"><img src="https://i.imgur.com/K181Fya.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/CUBaV7G"><img src="https://i.imgur.com/CUBaV7G.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/9EfyqYR"><img src="https://i.imgur.com/9EfyqYR.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/FtcyqnP"><img src="https://i.imgur.com/FtcyqnP.jpg" title="source: imgur.com" /></a>  
