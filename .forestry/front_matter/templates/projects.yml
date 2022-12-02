@@ -73,6 +73,7 @@ fields:
   label: navigation
 pages:
 - portfolio/projects/agrotresh.md
+- portfolio/projects/beerart.md
 - portfolio/projects/boldakovart.md
 - portfolio/projects/buka.md
 - portfolio/projects/club-mam.md
