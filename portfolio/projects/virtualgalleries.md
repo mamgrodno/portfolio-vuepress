@@ -7,7 +7,7 @@ description: 5 виртуальных выставок современного 
 thumbnail: upload/Без названия.jpg
 date: 2020-08-29
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
