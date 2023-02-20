@@ -41,8 +41,7 @@ _Тут у нас нет рассвета потому, что «Азот» ря
 
 Проект: Территория. Башни. Часть первая. [**Юрий Яковенко. Время**](https://www.mamgrodno.com/projects/timeyakovenko.html)
   
-Проект: Территория. Башни. Часть вторая. [**Иван Русачек.Дом**]
-(https://www.mamgrodno.com/projects/homerusachek.html)
+Проект: Территория. Башни. Часть вторая. [**Иван Русачек.Дом**](https://www.mamgrodno.com/projects/homerusachek.html)
 
 Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
   
