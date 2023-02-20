@@ -3,7 +3,7 @@ size: 2
 title: timeyakovenko
 heading: Территория. Башни. Часть 1-я. Юрий Яковенко. Время
 description: 'Любой художник заперт в капсуле времени, и все же пытается поймать бесконечность '
-thumbnail: upload/2023_vezhy_yakovenko-0220.jpg
+thumbnail: upload/2023_vezhy-0254.jpg
 date: 2023-01-26
 height: 
 hide: false
