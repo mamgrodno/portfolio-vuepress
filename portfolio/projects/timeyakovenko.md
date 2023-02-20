@@ -36,6 +36,17 @@ navigation: Коллекции
   
 Неформальная история Башен + видео: [**Как Кася  и Бася оказались в тупике**](https://www.mamgrodno.com/projects/vejahistory.html)  
   
+Проект: Территория. Башни. Часть первая. [**Юрий Яковенко. Время**](https://www.mamgrodno.com/projects/timeyakovenko.html)
+  
+Проект: Территория. Башни. Часть вторая. [**Иван Русачек.Дом**]
+(https://www.mamgrodno.com/projects/homerusachek.html)
+
+Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
+
+Проект: Территория. Башни. Часть третья [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
+  
+Проект: Территория. Башни. Часть четвертая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)  
+  
 Автор текста: **Инна МАКСИМЧИК**
   
 Автор фото: **Катерина ГОРДЕЕВА**
