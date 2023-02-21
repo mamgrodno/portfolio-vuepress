@@ -45,8 +45,12 @@ _Тут у нас нет рассвета потому, что «Азот» ря
 
 Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
   
+Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)  
+  
 Автор текста: **Инна МАКСИМЧИК**
   
 Автор фото: **Катерина ГОРДЕЕВА, Инна МАКСИМЧИК**
   
 Ещё статьи о Валентине Шобе [Работаю, когда темно. Днем я не знаю, что с собой делать](https://www.mamgrodno.com/projects/shoba_village.html) ,[Художественный проект "Многоточие"](https://www.mamgrodno.com/projects/collection_shoba.html) [Проект:10 панорам гродненского стрит-арта](https://mamgrodno.netlify.app/panorama/pano4.html)
+[Страница в инстаграм](https://www.instagram.com/valentinashoba/)
+  
