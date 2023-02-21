@@ -44,7 +44,7 @@ navigation: Коллекции
 
 Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
 
-Проект: Территория. Башни. Часть третья [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
+Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
   
 Автор текста: **Инна МАКСИМЧИК**
   
