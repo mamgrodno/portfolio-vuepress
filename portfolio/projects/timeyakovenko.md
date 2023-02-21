@@ -36,18 +36,18 @@ navigation: Коллекции
   
 Неформальная история Башен + видео: [**Как Кася  и Бася оказались в тупике**](https://www.mamgrodno.com/projects/vejahistory.html)  
   
-Проект: Территория. Башни. Часть первая. [**Юрий Яковенко. Время**](https://www.mamgrodno.com/projects/timeyakovenko.html)
-  
 Проект: Территория. Башни. Часть вторая.[**Иван Русачек.Дом**](https://www.mamgrodno.com/projects/homerusachek.html)
 
 Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
 
-Проект: Территория. Башни. Часть третья [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
+Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
   
-Проект: Территория. Башни. Часть четвертая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)  
+Проект: Территория. Башни. Часть пятая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)  
   
 Автор текста: **Инна МАКСИМЧИК**
   
 Автор фото: **Катерина ГОРДЕЕВА**
 
 Больше статей о Юрии Яковенко: [**Заверните в пакетик 200 граммов гарпий**](https://www.mamgrodno.com/projects/yakovenko200.html) [**Откровенность старых матриц**](https://www.mamgrodno.com/projects/yakovenko.html)
+
+  Ещё больше о [Юрии Яковенко](https://www.instagram.com/jurijakovenko_art/)
