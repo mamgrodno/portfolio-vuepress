@@ -41,7 +41,13 @@ _Когда я пришел в башню мне показалось? что е
   
 Неформальная история Башен + видео: [**Как Кася  и Бася оказались в тупике**](https://www.mamgrodno.com/projects/vejahistory.html)
 
-Проект Территория. Башни. Часть первая. [**Юрий Яковенко. Время**](https://www.mamgrodno.com/projects/timeyakovenko.html)  
+Проект Территория. Башни. Часть первая. [**Юрий Яковенко. Время**](https://www.mamgrodno.com/projects/timeyakovenko.html)
+  
+Проект: Территория. Башни. Часть третья [**Александр Болдаков. Вода**](https://www.mamgrodno.com/projects/waterboldakov.html)
+  
+Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)  
+  
+Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)    
   
 Автор текста: **Инна МАКСИМЧИК**
   
