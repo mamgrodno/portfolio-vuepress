@@ -46,6 +46,8 @@ navigation: Коллекции
 
 Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
   
+Праект: Тэрыторыя. Башні. Часть шостая[Сяргей Грыневіч. Сувязі](https://www.mamgrodno.com/projects/collectiongrinevitch.html)  
+  
 Автор текста: **Инна МАКСИМЧИК**
   
 Автор фото: **Катерина ГОРДЕЕВА**
