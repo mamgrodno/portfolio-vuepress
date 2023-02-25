@@ -59,8 +59,10 @@ _Каб асобна для душы намаляваць прыгажосць, 
 
 Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)
   
-Проект: Территория. Башни. Часть пятая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)    
+Проект: Территория. Башни. Часть пятая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)
+  
+[Ўвесь пракет на беларускай мове](https://www.mamgrodno.com/projects/belvezyall.html)
   
 Аўтар текста: **Іна МАКСІМЧЫК**
   
-Аўтар відэа: **Кацярына ГАРДЗЕЕВА**    
+Аўтар відэа: **Кацярына ГАРДЗЕЕВА**
