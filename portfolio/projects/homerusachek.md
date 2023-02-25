@@ -47,7 +47,9 @@ _Когда я пришел в башню мне показалось? что е
   
 Проект: Территория. Башни. Часть четвертая [**Валентина Шоба. Дружба.**](https://www.mamgrodno.com/projects/friendshsiphoba.html)  
   
-Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)    
+Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)
+  
+Праект: Тэрыторыя. Башні. Часть шостая [**Сяргей Грыневіч. Сувязі**](https://www.mamgrodno.com/projects/collectiongrinevitch.html)  
   
 Автор текста: **Инна МАКСИМЧИК**
   
