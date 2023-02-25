@@ -60,6 +60,7 @@ fields:
   config:
     required: true
 pages:
+- portfolio/works/connectgrinevitch.md
 - portfolio/works/criptoart_mamrodno.md
 - portfolio/works/fotoistoria.md
 - portfolio/works/graffitigrodno.md
