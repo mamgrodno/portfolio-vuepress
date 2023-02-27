@@ -49,10 +49,12 @@ _Когда я пришел в башню мне показалось? что е
   
 Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)
   
-Праект: Тэрыторыя. Башні. Часть шостая [**Сяргей Грыневіч. Сувязі**](https://www.mamgrodno.com/projects/collectiongrinevitch.html)  
+Праект: Тэрыторыя. Башні. Часть шостая [**Сяргей Грыневіч. Сувязі**](https://www.mamgrodno.com/projects/collectiongrinevitch.html)
+  
+Увесь праект на беларускай мове [**тут**](https://www.mamgrodno.com/projects/belvezyall.html)  
   
 Автор текста: **Инна МАКСИМЧИК**
   
-Автор фото: **Катерина ГОРДЕЕВА**
+Автор фото и видео: **Катерина ГОРДЕЕВА**
   
 [**Узнайте больше о художнике Иване Русачеке**](https://www.instagram.com/ivanrusachek/)
