@@ -47,11 +47,15 @@ _Тут у нас нет рассвета потому, что «Азот» ря
   
 Проект: Территория. Башни. Часть пятая [Владимир Пантелеев. Семья](https://www.mamgrodno.com/projects/familypanteleev.html)
   
-[Сяргей Грыневіч. Сувязі](https://www.mamgrodno.com/projects/collectiongrinevitch.html)  
+[Сяргей Грыневіч. Сувязі](https://www.mamgrodno.com/projects/collectiongrinevitch.html)
+  
+Увесь праект на беларускай мове [**тут**](https://www.mamgrodno.com/projects/belvezyall.html)  
   
 Автор текста: **Инна МАКСИМЧИК**
   
-Автор фото: **Катерина ГОРДЕЕВА, Инна МАКСИМЧИК**
+Автор фото, видео: **Катерина ГОРДЕЕВА**
   
 Ещё статьи о Валентине Шобе [Работаю, когда темно. Днем я не знаю, что с собой делать](https://www.mamgrodno.com/projects/shoba_village.html) ,[Художественный проект "Многоточие"](https://www.mamgrodno.com/projects/collection_shoba.html) [Проект:10 панорам гродненского стрит-арта](https://mamgrodno.netlify.app/panorama/pano4.html)
 [Страница в инстаграм](https://www.instagram.com/valentinashoba/)
+  
+**Необходимо разрешение от авторов на перепечатку в медиа**   
