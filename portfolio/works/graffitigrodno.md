@@ -1,9 +1,9 @@
 ---
 title: graffitigrodno
 navigation: Сегодня
-heading: 'Ворон на стенке больше не живет, а девочка с котенком осталась '
-description: Светлана Нестеренко 10 лет снимает гродненские граффити, многие из них
-  уже исчезли навсегда. Заглянули в архивы фотографа, и вот что там увидели
+heading: 'А ВОРОН УЛЕТЕЛ... '
+description: Светлана Нестеренко 10 лет снимает гродненские граффити, многие из них  исчезли
+  навсегда. Заглянули в архивы фотографа, и вот что там увидели
 thumbnail: upload/граффити ворон.JPG
 categories: []
 year: 2023
@@ -36,13 +36,27 @@ date: 2023-02-09 21:00:00 +0000
 
 – _Очень жалко, когда исчезает красота.  Ворон на трансформаторной будке в глубине двора между Советской и Свердлова никому не мешал. Девочка с лестницей на заброшенном здании разрушена вместе с ним. А во дворе дома на Павловского жильцы сохранили сохранили свою девочку с котиком, несмотря на то что прошел ремонт. Что-то просто не выдержало сырости, как трое в лодке в подземном переходе на Буденного,_ – рассказывает Светлана Нестеренко, – _нельзя сказать, что в Гродно совсем ничего не осталось. Есть и относительно новые муралы. Но не хватает системности, что я наблюдаю в других городах. Стрит арт может занимать целые кварталы, возвышая разрушенное или ветхое, переделывает современные районы в арт пространство. Или художник просто обыгрывает обычный водопроводный кран_.
 
-![Imgur](https://i.imgur.com/c6thbS0.jpg)
-<center>Граффити под Старым мостом</center>
+<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<a href="https://imgur.com/c6thbS0"><img src="https://i.imgur.com/c6thbS0.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/IxY5y1l"><img src="https://i.imgur.com/IxY5y1l.jpg" title="source: imgur.com" /></a>
+</div>  
+<center>Граффити под Старым мостом, и на трасформаторной будке - закрашены</center>
 
 Вместе с работами исчезают имена авторов,и часть городского ландшафта. Листаем альбом дальше...
 
-<div class="gallery3"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду --> <a href="https://imgur.com/32srvSM"><img src="https://i.imgur.com/32srvSM.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/pOTzjh0"><img src="https://i.imgur.com/pOTzjh0.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/bakyeN7"><img src="https://i.imgur.com/bakyeN7.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/jY4Gf7E"><img src="https://i.imgur.com/jY4Gf7E.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/vaIk5r7"><img src="https://i.imgur.com/vaIk5r7.jpg" title="source: imgur.com" /></a> </div> <center>Примеры гродненских граффити</center>
+<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду --> 
+<a href="https://imgur.com/32srvSM"><img src="https://i.imgur.com/32srvSM.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/pOTzjh0"><img src="https://i.imgur.com/pOTzjh0.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/bakyeN7"><img src="https://i.imgur.com/bakyeN7.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/vaIk5r7"><img src="https://i.imgur.com/vaIk5r7.jpg" title="source: imgur.com" /></a>
+</div>
+<center>Примеры гродненских граффити</center>
 
-<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду --> <a href="https://imgur.com/EUT3qMR"><img src="https://i.imgur.com/EUT3qMR.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/8V4woEV"><img src="https://i.imgur.com/8V4woEV.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/nhRef62"><img src="https://i.imgur.com/nhRef62.jpg" title="source: imgur.com" /></a> <a href="https://imgur.com/w4j4nQr"><img src="https://i.imgur.com/w4j4nQr.jpg" title="source: imgur.com" /></a> </div>
+<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<a href="https://imgur.com/EUT3qMR"><img src="https://i.imgur.com/EUT3qMR.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/8V4woEV"><img src="https://i.imgur.com/8V4woEV.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/nhRef62"><img src="https://i.imgur.com/nhRef62.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/w4j4nQr"><img src="https://i.imgur.com/w4j4nQr.jpg" title="source: imgur.com" /></a>
+</div>
 
 Фотографии: из коллекции Светланы Нестеренко
