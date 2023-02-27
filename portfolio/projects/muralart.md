@@ -43,7 +43,7 @@ navigation: Сегодня
 </div>  
 <center>Граффити под Старым мостом, и на трасформаторной будке - закрашены</center>
 
-div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/EUT3qMR"><img src="https://i.imgur.com/EUT3qMR.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/8V4woEV"><img src="https://i.imgur.com/8V4woEV.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/nhRef62"><img src="https://i.imgur.com/nhRef62.jpg" title="source: imgur.com" /></a>
