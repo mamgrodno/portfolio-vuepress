@@ -44,12 +44,16 @@ navigation: Коллекции
   
 Проект: Территория. Башни. Часть пятая [**Владимир Пантелеев. Семья**](https://www.mamgrodno.com/projects/familypanteleev.html)
   
-Праект: Тэрыторыя. Башні. Часть шостая [**Сяргей Грыневіч. Сувязі**](https://www.mamgrodno.com/projects/collectiongrinevitch.html)  
+Праект: Тэрыторыя. Башні. Часть шостая [**Сяргей Грыневіч. Сувязі**](https://www.mamgrodno.com/projects/collectiongrinevitch.html)
+  
+Увесь праект на беларускай мове [**тут**](https://www.mamgrodno.com/projects/belvezyall.html)  
   
 Автор текста: **Инна МАКСИМЧИК**
   
-Автор фото: **Катерина ГОРДЕЕВА**
+Автор видео, фото: **Катерина ГОРДЕЕВА**
 
 Больше статей о Юрии Яковенко: [**Заверните в пакетик 200 граммов гарпий**](https://www.mamgrodno.com/projects/yakovenko200.html) [**Откровенность старых матриц**](https://www.mamgrodno.com/projects/yakovenko.html)
 
-  Ещё больше о [Юрии Яковенко](https://www.instagram.com/jurijakovenko_art/)
+Ещё больше о [Юрии Яковенко](https://www.instagram.com/jurijakovenko_art/)
+  
+**Необходимо разрешение от авторов на перепечатку в медиа**  
