@@ -7,7 +7,7 @@ description: Фотограф Светлана Нестеренко 10 лет с
 thumbnail: upload/граффити ворон.JPG
 date: 2023-01-09
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
