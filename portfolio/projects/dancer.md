@@ -3,7 +3,7 @@ size: 2
 title: Dancer
 heading: "«Смеялась в начале ковида, пустующие залы, а я всё танцую»"
 description: Дарья Иванова о контактной импровизации в зуме и телесности кинотанца.
-thumbnail: upload/mamvid.gif
+thumbnail: https://imgur.com/g3cI3tQ.jpeg
 date: 2021-05-20
 height: 
 hide: false
