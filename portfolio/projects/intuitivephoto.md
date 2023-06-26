@@ -21,7 +21,7 @@ navigation: Сегодня
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/WsSvUW7"><img src="https://i.imgur.com/WsSvUW7.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/zKSDacA"><img src="https://i.imgur.com/zKSDacA.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/T6GmwC8"><img src="https://i.imgur.com/T6GmwC8.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/g8vFFYh"><img src="https://i.imgur.com/g8vFFYh.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/938vFqH"><img src="https://i.imgur.com/938vFqH.jpg" title="source: imgur.com" /></a>
