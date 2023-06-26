@@ -33,7 +33,7 @@ navigation: Сегодня
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/UEFJVH5"><img src="https://i.imgur.com/UEFJVH5.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/DgjUCFa"><img src="https://i.imgur.com/DgjUCFa.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/KQ7Q8D9"><img src="https://i.imgur.com/KQ7Q8D9.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/1HLajkV"><img src="https://i.imgur.com/1HLajkV.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/FC9bfVp"><img src="https://i.imgur.com/FC9bfVp.jpg" title="source: imgur.com" /></a>
 </div>
@@ -53,10 +53,10 @@ navigation: Сегодня
 
 <div class="gallery4">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/BReIf9B"><img src="https://i.imgur.com/BReIf9B.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/YZ9vmfh"><img src="https://i.imgur.com/YZ9vmfh.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/Kou0D3A"><img src="https://i.imgur.com/Kou0D3A.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/OGAJm5e"><img src="https://i.imgur.com/OGAJm5e.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/T2EnNDZ"><img src="https://i.imgur.com/T2EnNDZ.jpg" title="source: imgur.com" /></a>
 </div>
 
-Автор идеи: **МедиаСтарт, Гродно, 2023**
+Автор идеи: **Катерина Гордеева**, участники **МедиаСтарт, Гродно, 2023**
