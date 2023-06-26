@@ -3,7 +3,7 @@ size: 2
 title: intuitivephoto
 heading: Где тебе хорошо
 description: Искали с Катей Гордеевой места силы в Гродно. Посмотрите, как интуитивная съёмка превращает фотосессию в личную историю
-thumbnail: (https://i.imgur.com/JQKF1GZ.jpg)
+thumbnail: ![Imgur](https://i.imgur.com/JQKF1GZ.jpg)
 date: 2023-06-06
 height: 
 hide: false
