@@ -6,7 +6,7 @@ description: маски смерти в творчестве художницы 
 thumbnail: upload/Маскі .jpg
 date: 2023-03-02
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
