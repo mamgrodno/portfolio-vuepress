@@ -87,6 +87,8 @@ _«В город выбираемся кофе выпить, а так по по
 
 Текст: **Инна Максимчик**
 
+Прачытаць тэкст па беларуску можна[**тут](https://www.mamgrodno.com/journal/romashovbel.html)
+
 Фото, видео предоставлены [Kinoproby](https://kino-proby.com/)
 
 Узнайте больше о [Евгении Ромашове](https://www.instagram.com/evgenij_romashov/) и [Эмиле Зенько](https://www.instagram.com/emilzenko/)
