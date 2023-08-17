@@ -7,7 +7,7 @@ description: "Последняя свободная мастерская в юж
 thumbnail: https://i.imgur.com/JJ8Monh.jpg
 date: 2023-01-10
 hide: false
-navigation: коллекции
+navigation: Коллекции
 
 ---
 
