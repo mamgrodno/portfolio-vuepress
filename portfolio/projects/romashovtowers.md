@@ -23,7 +23,8 @@ navigation: Коллекции
 Застать новых владельцев в Гродно проблематично, сегодня снимают Эмиля в муравейнике в лесу. Завтра – фотосессия  в Париже  для  [**Kinoproby**](https://kino-proby.com/commercial) Водоворот событий далеко вовне, не внутри толстых стен мастерской.
 
 ![enter image description here](https://i.imgur.com/6LuN5uj.jpg)
-<center>Ольга Ромашова, Эмиль Зенько, Евгений Ромашов. Шесть лет назад Женя уехал в Париж «поработать на стройке», а запустил с женой  во Франции визуальный продакшн Kinoproby. Эмиль пишет музыку. В клиентах побывали Adidas, The Attico, The Kooples, Dior , работы публиковали Vogue Paris, Harper's Bazaar</center> 
+<center>Ольга Ромашова, Эмиль Зенько, Евгений Ромашов.
+Шесть лет назад Женя уехал в Париж «поработать на стройке», а запустил с женой  во Франции визуальный продакшн Kinoproby. Эмиль пишет музыку. В клиентах побывали Adidas, The Attico, The Kooples, Dior , работы публиковали Vogue Paris, Harper's Bazaar</center> 
 
 Летом Башня так и осталась пустовать. Работали для Kinoproby. У Эмиля  в июне вышел новый музыкальный альбом: [**VHS**](https://distrokid.com/hyperfollow/emilzenko/vhs?fbclid=PAAaaB2eZ7RLhqd8YLK1U29TXefAmMKajqsRYjC7vHQ2HS6x70Hr2wFjrQ5O8_aem_th_AX6x57s3qij4VIBrw2jtMnF52H-kNufCniN1Fm2cI-edy1gNQ3Ttxh0bWeDUit6k1_I)
 
