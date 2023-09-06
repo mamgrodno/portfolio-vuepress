@@ -1,6 +1,7 @@
 ---
 size: 6
-title: vejaart
+height: 60
+title: vejaart.md
 heading: Территория. Башни.
 description: 'Новая коллекция mamgrodno.com Проект: ТЕРРИТОРИЯ. БАШНИ. Они, как школьницы
 после выпускного бала: кружевные, накрашенные, но уже потрепанные бессонницей. Нелепые
@@ -9,7 +10,6 @@ description: 'Новая коллекция mamgrodno.com Проект: ТЕРР
 живое'. Полную коллекцию смотрите здесь(текст на русском языке).
 thumbnail: upload/вежы.jpg
 date: 2032-02-28
-height: 60
 hide: false
 navigation: Коллекции
 
