@@ -1,10 +1,10 @@
 ---
-size: 2
+size: 3
 title: Sil
 heading: Пиктограммы небесного кода
-description: Ангелы Александра Сильвановича в первой виртуальной коллекции mam.
+description: Ангелы Александра Сильвановича в виртуальной коллекции mam.
 thumbnail: upload/80-80-2018.jpg
-date: 2020-12-30
+date: 2023-12-30
 height: 
 hide: false
 navigation: Сегодня
