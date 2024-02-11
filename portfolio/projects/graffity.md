@@ -1,10 +1,10 @@
 ---
 size: 3
-title:graffity
-heading:Ворон на стенке больше не живет
+title: graffity
+heading: Ворон здесь больше не живет
 description: Светлана Нестеренко 10 лет снимает гродненские граффити, многие из них уже исчезли навсегда. Заглянули в архивы фотографа, и вот что там увидели
-thumbnail: upload/20230219_vezhy-1379.jpg
-date: 2023-12-12
+thumbnail: https://i.imgur.com/kjLYi1F.jpg
+date: 2023-12-28
 height: 
 hide: false
 navigation: Коллекции
