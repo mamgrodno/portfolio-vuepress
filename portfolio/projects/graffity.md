@@ -45,7 +45,7 @@ navigation: Коллекции
 
 Вместе с работами исчезают имена авторов,и часть городского ландшафта. Листаем альбом дальше...
 
-<div class="gallery2"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду --> 
+<div class="gallery4"> <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду --> 
 <a href="https://imgur.com/32srvSM"><img src="https://i.imgur.com/32srvSM.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/pOTzjh0"><img src="https://i.imgur.com/pOTzjh0.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/bakyeN7"><img src="https://i.imgur.com/bakyeN7.jpg" title="source: imgur.com" /></a>
