@@ -4,7 +4,7 @@ title: Sil
 heading: Пиктограммы небесного кода
 description: Ангелы Александра Сильвановича в виртуальной коллекции mam.
 thumbnail: upload/80-80-2018.jpg
-date: 2023-12-30
+date: 2023-10-30
 height: 
 hide: false
 navigation: Сегодня
