@@ -4,7 +4,7 @@ title: graffity
 heading: А ворон улетел
 description: Светлана Нестеренко 10 лет снимает гродненские граффити, многие из них  за это время остались только в архивах фотографа
 thumbnail: https://i.imgur.com/kjLYi1F.jpg
-date: 2023-12-28
+date:2023-12-28
 height: 
 hide: false
 navigation:Сегодня
