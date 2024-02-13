@@ -6,7 +6,8 @@ description: Светлана Нестеренко 10 лет снимает гр
 thumbnail: upload/граффити ворон.JPG
 categories: projects
 year: 2023
-date: 2023-02-09 
+date: 2023-02-09
+hide: true
 
 ---
 # **Ворон на стенке больше не живет, а девочка с котенком осталась**
