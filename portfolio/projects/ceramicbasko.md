@@ -3,10 +3,10 @@ size: 3
 title: ceramicbasko
 heading: Пока мы шли к Рембранту…
 description: Чувственная, тактильная и легкая, несмотря на объём, керамика Татьяны Башко живет где-то между ремеслом и искусством, между утилитарным предметом и концептуальным объектом. Как гончарный круг превратил бизнес-леди в скульптора керамиста
-thumbnail: https://i.imgur.com/nLFg6US.jpg
+thumbnail: https://i.imgur.com/pYE23Wo.jpg
 date: 2024-01-07
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
