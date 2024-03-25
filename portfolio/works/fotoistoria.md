@@ -6,7 +6,7 @@ description: 'О тонкостях human stories, редкий фотосет �
 thumbnail: upload/саенко.jpg
 date: 2020-09-30
 height: 
-hide: `true`
+hide: "true"
 navigation: Сегодня
 
 ---
