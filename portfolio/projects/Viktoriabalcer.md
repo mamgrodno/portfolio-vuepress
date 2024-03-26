@@ -34,8 +34,6 @@ navigation: Кто
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/NfqD2IK"><img src="https://i.imgur.com/NfqD2IK.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/MYFg5hE"><img src="https://i.imgur.com/MYFg5hE.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/xjnemLl"><img src="https://i.imgur.com/xjnemLl.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/qyeYZlc"><img src="https://i.imgur.com/qyeYZlc.jpg" title="source: imgur.com" /></a>  
 </div>
 
 [Жертвы долга](https://shcherbinska.com/theatre.html) по пьесе одного из основателей театра абсурда **Эжена Ионеско** с гродненскими актерами получились в удивительном синтезе с костюмами и пластикой. Это был микс движения и речитатива, гнева, покорности и разложения. Но без привычных для гродненской драмы кричалок, скорее, проговаривание и отстраненность, препарирование причин. Действие, где актеры и зрители находятся друг напротив друга, но все же наблюдают за происходящим как бы со стороны: «Ведь это же все происходит не со мной, да?».
@@ -52,9 +50,9 @@ navigation: Кто
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/VKpeytm"><img src="https://i.imgur.com/VKpeytm.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/4LhBA7E"><img src="https://i.imgur.com/4LhBA7E.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/VcpUBil"><img src="https://i.imgur.com/VcpUBil.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/VKpeytm"><img src="https://i.imgur.com/VKpeytm.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/qyeYZlc"><img src="https://i.imgur.com/qyeYZlc.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/2Y1tJiF"><img src="https://i.imgur.com/2Y1tJiF.jpg" title="source: imgur.com" /></a>
 </div>
 
@@ -70,12 +68,11 @@ navigation: Кто
 
 «_Теперь мне нужен актер. Как Вася Минич (гродненский актер живет теперь в Литве. Прим. Ред.). Он умел быть естественным, никого не наигрывал, это великое свойство. Буду искать. Прикольно жить этим всем»_, – говорит Виктория. 
 
-<div class="gallery4">
+<div class="gallery3">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
 <a href="https://imgur.com/d63nQrU"><img src="https://i.imgur.com/d63nQrU.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/erz3ERo"><img src="https://i.imgur.com/erz3ERo.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/NnMcZv9"><img src="https://i.imgur.com/NnMcZv9.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/wlAma2L"><img src="https://i.imgur.com/wlAma2L.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/oSxlayY"><img src="https://i.imgur.com/oSxlayY.jpg" title="source: imgur.com" /></a>  
 </div>
 
 ### **«Я думала, кто это устроил, точно человек дягилевского разлива, но галерею прикрыли почти сразу»**
@@ -106,16 +103,23 @@ _Глаз мой настроен на балет с детства. Меня н
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/oC6ZChZ"><img src="https://i.imgur.com/oC6ZChZ.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/4STE1uf"><img src="https://i.imgur.com/4STE1uf.jpg" title="source: imgur.com" /></a>
 <a href="https://imgur.com/hFvYC55"><img src="https://i.imgur.com/hFvYC55.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/VWhaNVs"><img src="https://i.imgur.com/VWhaNVs.jpg" title="source: imgur.com" /></a>
 </div>
 
 "_Сколько жизней я уже прожила_, – **улыбается Вика**, – _и вот открываются новые пути_. 
 На тренировке у Виктории стиль на преодоление: «Это самый верный способ дойти к цели. Конечно через разумное. Это не про пилатес, но я вижу в людях странный взгляд, и мне это нравится. Умные, адекватные подбираются, притягиваются. Уже начали юморить. Балет – тот же фитнес, но в эстетическом ключе. Тело укрепляется не хуже железок, круче железок, ведь это такая работа в мышцах. Начиная с того, чтобы встать в первую позицию, нужно втянуть все: от пяток до пупка, и ты уже мокрый. Но мне же ещё нужно передать и нематериальное».
 
-![Imgur](https://i.imgur.com/tvcn86j.jpg)
+![Imgur](https://i.imgur.com/VWhaNVs.jpg)
+
+Больше о Виктории можно узнать : [здесь](https://www.instagram.com/vik.toriya8/)
+
+Спектакли танцтеатра "Галерея" : [Когда...](https://www.youtube.com/watch?si=BGJkAj8ttFJdN0gZ&v=hOOKhoF5eu0&feature=youtu.be) , [XXL](https://www.youtube.com/watch?si=h6WdYAtrMFTDUki4&v=rMiHIsHxHaU&feature=youtu.be), [Гипотенуза круга](https://www.youtube.com/watch?si=vzBy5RjRhafHSAmN&v=nqiGJCB3y6A&feature=youtu.be) ,[Неоконченная пьеса](https://www.youtube.com/watch?si=_7XBdtISuBXFq-5w&v=PQEsJ_fyixo&feature=youtu.be)
+
+Автор видео, фото: [Катерина Гордеева](https://www.instagram.com/katti.gordeeva/)
+
+Автор текста: Инна Максимчик, [mamgrodno](https://t.me/mamgrodno)
+
 
 
 
