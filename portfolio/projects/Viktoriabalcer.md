@@ -6,7 +6,7 @@ description: Как поставить из Гродно спектакль в �
 thumbnail: https://i.imgur.com/GauBsyt.jpg
 date: 2024-03-07
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
