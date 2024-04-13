@@ -6,7 +6,7 @@ description: Гродненская художница рисует скетчи
 thumbnail: https://i.imgur.com/biElwCK.jpg
 date: 2024-03-10
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
