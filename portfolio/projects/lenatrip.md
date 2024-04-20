@@ -4,7 +4,7 @@ title: lenatrip
 heading: 'Путь листа'
 description: 'В проекте «Босиком», наша история о современном кочевнике Лене Майсюк. Попробовали понять: многократно начинать с нуля – это личный перфоманс
 или эскапизм, перезагрузка или способ стереть прошлое'
-thumbnail: https://i.imgur.com/UhLldPa.jpg
+thumbnail: https://i.imgur.com/BF2Mwvp.jpg
 date: 2024-03-10
 height: 
 hide: true
