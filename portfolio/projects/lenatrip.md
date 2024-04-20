@@ -51,7 +51,6 @@ navigation: Кто
 <img src="https://i.imgur.com/BO9TKAD.jpg" title="source: imgur.com" />
 <img src="https://i.imgur.com/qjs8jBy.jpg" title="source: imgur.com" />
 <img src="https://i.imgur.com/Fvmjh0w.jpg" title="source: imgur.com" /> 
-<img src="https://i.imgur.com/NfCQgzl.jpg" title="source: imgur.com" />
 </div>
 
 «_Мой род – обычная советская семья: стенка, хрусталь, ковер, книжки по талонам. Я же всегда жила без накопления вещей, мне это было не нужно. На первой съемной квартире из мебели стоял стол, сделанный из трех плинтусов, столешница на шинах, которые я в тот момент продавала. И фотостудия. Это здорово - когда ты можешь все свои вещи загрузить в одну машину_».
