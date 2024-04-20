@@ -45,6 +45,15 @@ navigation: Кто
 «_Заканчивается виза, беру сапборд и езжу по озерам. На время доска становится домом, есть сидение и все необходимое - как всегда в рюкзачке_». 
 Шкафчики на кухне забиты травами, растительными сборами. Зеленые смеси Лена тоже превратила в искусство. Можно посушить, смолоть и добавить в еду зерна авокадо или ферментировать крапиву. Или питаться только [одуванчиком](https://www.instagram.com/p/B_pMpKvHyJI/) и радоваться: «_У него все части полезные и цветы, стебли, корни». Каждый камень, шишка – это новая история, информация, опыт_.»
 
+<div class="gallery2">
+<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<a href="https://imgur.com/4UhBWfY"><img src="https://i.imgur.com/4UhBWfY.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/BO9TKAD"><img src="https://i.imgur.com/BO9TKAD.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/qjs8jBy"><img src="https://i.imgur.com/qjs8jBy.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/NfCQgzl"><img src="https://i.imgur.com/NfCQgzl.jpg" title="source: imgur.com" /></a>
+</div>
+
+
 
 
 
