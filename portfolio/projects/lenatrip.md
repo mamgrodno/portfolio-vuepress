@@ -47,10 +47,10 @@ navigation: Кто
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<a href="https://imgur.com/4UhBWfY"><img src="https://i.imgur.com/4UhBWfY.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/BO9TKAD"><img src="https://i.imgur.com/BO9TKAD.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/qjs8jBy"><img src="https://i.imgur.com/qjs8jBy.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/NfCQgzl"><img src="https://i.imgur.com/NfCQgzl.jpg" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/4UhBWfY.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/BO9TKAD.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/qjs8jBy.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/NfCQgzl.jpg" title="source: imgur.com" />
 </div>
 
 «_Мой род – обычная советская семья: стенка, хрусталь, ковер, книжки по талонам. Я же всегда жила без накопления вещей, мне это было не нужно. На первой съемной квартире из мебели стоял стол, сделанный из трех плинтусов, столешница на шинах, которые я в тот момент продавала. И фотостудия. Это здорово - когда ты можешь все свои вещи загрузить в одну машину_».
