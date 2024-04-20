@@ -53,6 +53,17 @@ navigation: Кто
 <a href="https://imgur.com/NfCQgzl"><img src="https://i.imgur.com/NfCQgzl.jpg" title="source: imgur.com" /></a>
 </div>
 
+«_Мой род – обычная советская семья: стенка, хрусталь, ковер, книжки по талонам. Я же всегда жила без накопления вещей, мне это было не нужно. На первой съемной квартире из мебели стоял стол, сделанный из трех плинтусов, столешница на шинах, которые я в тот момент продавала. И фотостудия. Это здорово - когда ты можешь все свои вещи загрузить в одну машину_».
+
+<div class="gallery2">
+<!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
+<a href="https://imgur.com/apvmTdH"><img src="https://i.imgur.com/apvmTdH.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/DHZ78Mb"><img src="https://i.imgur.com/DHZ78Mb.jpg" title="source: imgur.com" /></a>
+</div>
+
+Как [фотограф](https://www.instagram.com/p/CRMo6qurnR2/) Лена Майсюк фиксирует [моменты путешествий](https://www.youtube.com/@lenamaisiuk). Её работы насыщены цветом и практически без людей. Утонувшие во времени: раннее утро, старая телега, туман и озеро в Чечне.  Цветочная долина в Дюссельдорфе. Заросшая тропинка к дому хоббита в Нюрнберге. Пластика гор в Касселе. Отдельное увлечение – [макросъемка](https://www.instagram.com/p/3GMZizibLS/). Можно не брать палатку и обойтись москитной сеткой, но [макрообъектив](https://www.instagram.com/p/Bg1wTfUhiTH/) будет в рюкзаке обязательно.
+
+
 
 
 
