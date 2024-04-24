@@ -90,9 +90,24 @@ navigation: Кто
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<img src="https://i.imgur.com/OOVCwx3.jpg" title="source: imgur.com" />
+<img src="https://i.imgur.com/xO8plnf.jpg" title="source: imgur.com" />
 <img src="https://i.imgur.com/TWEX2QH.jpg" title="source: imgur.com" />  
 </div>
+
+Больш пра Алёну можна даведацца [тут](https://www.instagram.com/halubka_na_visni/)
+
+Аўтар фота, відэа: [Кацярына Гардзеева](https://www.instagram.com/katti.gordeeva/)
+
+Аўтар тэкста: Іна Максімчык [mamgrodno](https://t.me/mamgrodno)
+
+Аўтар музыкі к відэа: [Яўгені Кучмейна](https://www.instagram.com/tochka_k/)
+
+Проект "Босиком". Часть 1. Виктория Бальцер: [Чтобы не оказаться в пустоте](https://www.mamgrodno.com/projects/Viktoriabalcer.html)
+
+Проект "Босиком". Часть 2. Ника Гончар: [Скелет обязательно станцует](https://www.mamgrodno.com/projects/nikagonchar.html)
+
+Проект "Босиком" Часть 3. Лена Майсюк [Путь листа](https://www.mamgrodno.com/projects/lenatrip.html)
+
 
 
 
