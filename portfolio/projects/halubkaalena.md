@@ -6,7 +6,7 @@ description: 'Нібыта не ў Гародні нарадзілася і ся
 thumbnail: https://i.imgur.com/UdVnLV6.jpg
 date: 2024-03-15
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
