@@ -90,8 +90,8 @@ navigation: Кто
 
 <div class="gallery2">
 <!-- Смените gallery2 на gallery3 или gallery4, цифра определяет количество картинок в одном ряду -->
-<https://i.imgur.com/xO8plnf.jpg />
-<https://i.imgur.com/TWEX2QH.jpg />
+![Imgur](https://i.imgur.com/xO8plnf.jpg) 
+![Imgur](https://i.imgur.com/TWEX2QH.jpg)
 </div>
 
 
