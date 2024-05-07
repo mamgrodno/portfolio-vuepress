@@ -90,8 +90,7 @@ navigation: Кто
 
 <div class="gallery3">
 <img src="https://i.imgur.com/k9wIPOk.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/iFBOqB4.jpeg" alt="Описание второго изображения">
-<img src="https://i.imgur.com/QcCioB9.jpeg" alt="Описание третьего изображения">    
+<img src="https://i.imgur.com/1Gc9JUQ.jpeg" alt="Описание второго изображения">
 </div>
 
 
