@@ -88,11 +88,27 @@ navigation: Кто
 
 «_В сложные времена человек ищет опору. Мы её искали, нашли, она есть, останется в фотографиях. Всегда можно вернуться, заземлиться. Сложнее всего участницам оказалось написать тексты-признания. В том числе тем, чем страшно делиться, не хочется. Но из откровенности получаются удивительные вещи, если человек по-настоящему этого желает_». 
 
-<div class="gallery3">
-<img src="https://i.imgur.com/k9wIPOk.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/1Gc9JUQ.jpeg" alt="Описание второго изображения">
-</div>
+![Imgur](https://i.imgur.com/1Gc9JUQ.jpg)
 
+Автор видео и фото: [Катерина Гордеева](https://www.instagram.com/katti.gordeeva/)
+Автор текста: [Инна Максимчик](https://t.me/mamgrodno)
+
+Переходите по ссылкам в статье, чтобы посмотреть примеры работ Натальи Салама
+Больше о Yаталье Салама можно узнать:[здесь](https://www.instagram.com/salama_natalia/)
+
+Примеры мультиэкспозиции: [здесь](https://www.instagram.com/p/C3Vd8VsIzSv/) 
+
+Ролик "Контакт", [еще один](https://www.instagram.com/p/B8cAOdwHAfj/)  
+
+["Любовь"](https://www.instagram.com/p/Cs8hnkqI30v/)
+
+Проект "Босиком". Часть 1. Виктория Бальцер: [Чтобы не оказаться в пустоте](https://www.mamgrodno.com/projects/Viktoriabalcer.html)
+
+Проект "Босиком". Часть 2. Ника Гончар: [Скелет обязательно станцует](https://www.mamgrodno.com/projects/nikagonchar.html)
+
+Проект "Босиком" Часть 3. Лена Майсюк [Путь листа](https://www.mamgrodno.com/projects/lenatrip.html)
+
+Проект "Босиком" часть 4.Алена Клімава:[Шляхам птушкі з Новага Свету](https://www.mamgrodno.com/projects/halubkaalena.html)
 
 
 
