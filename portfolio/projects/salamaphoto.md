@@ -6,7 +6,7 @@ description: 'Гродненская фотограф Наталья Салам�
 thumbnail: https://ik.imagekit.io/soulgenesis/mam/tr:q-50,ar-16-9,w-700/VN20240503_172735.1.gif
 date: 2024-03-20
 height: 
-hide: false
+hide: true
 navigation: Кто
 
 ---
