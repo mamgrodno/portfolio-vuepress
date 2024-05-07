@@ -94,7 +94,7 @@ navigation: Кто
 Автор текста: [Инна Максимчик](https://t.me/mamgrodno)
 
 Переходите по ссылкам в статье, чтобы посмотреть примеры работ Натальи Салама
-Больше о Yаталье Салама можно узнать:[здесь](https://www.instagram.com/salama_natalia/)
+Больше о Наталье Салама можно узнать:[здесь](https://www.instagram.com/salama_natalia/)
 
 Примеры мультиэкспозиции: [здесь](https://www.instagram.com/p/C3Vd8VsIzSv/) 
 
