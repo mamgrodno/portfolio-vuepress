@@ -6,7 +6,7 @@ description: 'Интервью с художником-графиком Андр
 thumbnail: https://i.imgur.com/hhcGybu.jpg
 date: 2024-08-02
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
