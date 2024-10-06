@@ -111,5 +111,5 @@ _Я считаю себя человеком не эмпатичным, мне �
 
 **Текст**: Инна Максимчик
 
-**Андреq Ярошевич** в инстаграм - [здесь](https://www.instagram.com/andreyyaroshevich77/) , [фейсбук](https://www.facebook.com/andrey.yarashevich)
+**Андрей Ярошевич** в инстаграм - [здесь](https://www.instagram.com/andreyyarashevich/) , [фейсбук](https://www.facebook.com/andrey.yarashevich)
 
