@@ -3,7 +3,7 @@ size: 3
 title: basanoz
 heading: БОСИКОМ
 description: «Босиком» - шесть женских фото и видео историй. Шесть способов трансформации личности и творчества в моменте. Попытались поймать, найти чувствительные точки, открывающие завтра, где бы ты не был.Собрали весь проект в одном материале 
-thumbnail: https://ik.imagekit.io/soulgenesis/mam/video.gif?updatedAt=1718978320696
+thumbnail: https://ik.imagekit.io/soulgenesis/mam/output_compressed.gif
 date: 2024-05-05
 height: 
 hide: false
