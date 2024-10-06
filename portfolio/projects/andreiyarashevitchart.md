@@ -46,11 +46,14 @@ _Но сейчас, когда с новыми мозгами приехал, к
 
 _У меня были разные прощупывания этой темы. Когда стал чувствовать себя уверенно, пошла одна линия, думаю в ближайшие годы ее продолжать. А может… стану заниматься мерчем, не буду рисовать вообще._
 
-<div class="gallery4">
+<div class="gallery2">
 <img src="https://i.imgur.com/MbDAb7L.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/U1zMHXn.jpeg" alt="Описание второго изображения"> 
-<img src="https://i.imgur.com/wo4UVaA.jpeg" alt="Описание третьего изображения">
-<img src="https://i.imgur.com/e7ViK9C.jpeg" alt="Описание четвертого изображения"> 
+</div>
+
+<div class="gallery2">
+<img src="https://i.imgur.com/wo4UVaA.jpeg" alt="Описание первого изображения">
+<img src="https://i.imgur.com/e7ViK9C.jpeg" alt="Описание второго изображения"> 
 </div>
 <center>Kapalini, jai maa, Devamata, Abhaya</center>
 
