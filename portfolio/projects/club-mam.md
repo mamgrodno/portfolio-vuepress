@@ -3,7 +3,7 @@ size: 2
 title: Club MAM
 heading: Клуб МАМ
 description: Сообщество, готовое поддержать и развивать современное искусство.
-thumbnail: "/upload/joi.png" https://i.imgur.com/OIQIwmX.jpg
+thumbnail: https://i.imgur.com/OIQIwmX.jpg
 date: 2020-11-24
 height: 
 hide: true
