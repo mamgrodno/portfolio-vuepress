@@ -1,5 +1,5 @@
 ---
-size: 2
+size: 3
 height: 
 title: vejaart.md
 heading: Территория. Башни. Полная коллекция
