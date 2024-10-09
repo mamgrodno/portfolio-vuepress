@@ -4,7 +4,7 @@
   "logo": "https://ik.imagekit.io/soulgenesis/mam/mam_logo.jpg",
   "footer": "Ⓒ MAM Grodno",
   "footer_text": "МАМ — Modern Art Museum, Гродно.  Проекты на различных плоскостях и поверхностях, которые позволят в свободном формате без цензуры  проводить выставки, перфомансы, фестивали, творческие акции. МАМ — это еще общение, интервью, рецензии, обзоры, образование, актуальная информация о событиях в арт-пространстве Гродно, тенденциях в искусстве. Информация защищена авторским правом. Ссылка на сайт mamgrodno.com обязательна.",
-  "favicon": "/upload/favicon.ico",
+  "favicon": "https://ik.imagekit.io/soulgenesis/mam/favicon.ico",
   "keywords": "mamgrodno, mam, grodno, art museum, modern art museum, музей современного искусства, мам, мам гродно",
   "media": [
     {
