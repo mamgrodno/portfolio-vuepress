@@ -7,7 +7,7 @@ thumbnail: https://ik.imagekit.io/soulgenesis/mam/output_compressed.gif
 date: 2024-09-20
 height: 
 hide: false
-navigation: Кто
+navigation: Проекты
 
 ---
 # **Босиком**
