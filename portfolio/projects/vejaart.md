@@ -1,5 +1,5 @@
 ---
-size: 3
+size: 2
 height: 60
 title: vejaart.md
 heading: ""
