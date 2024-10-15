@@ -1,5 +1,5 @@
 ---
-size: 3
+size: 2
 title: luminariumboldakov
 heading: Александр Болдаков. LUMINARIUM
 description: 'Новый виртуальный зал mamgrodno. Что есть свет? Откуда он появляется
