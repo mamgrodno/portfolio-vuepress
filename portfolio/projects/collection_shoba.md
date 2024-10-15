@@ -1,5 +1,5 @@
 ---
-size: 3
+size: 2
 title: collection_shoba
 heading: 'Валентина Шоба, Гродно. Художественный проект mamgrodno: «Многоточие или
   покинутые деревни». '
