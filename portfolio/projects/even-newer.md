@@ -1,16 +1,13 @@
 ---
 size: 2
-height: 
-title: MAM collection second
-heading: 10 панорам гродненского стрит-арта, часть 2
-description: 'Путеводитель по проекту «Галереи, которых нет», часть 2  '
+title: even-newer
+heading: '10 панорам гродненского стрит-арта, часть 2'
+description: 'Путеводитель по проекту «Галереи, которых нет»: Сергей Гриневич, Валентина Шоба, Наталья Ляпкина.'  
 thumbnail: "/upload/liapkina_massacra1i_01_v7-min.jpg"
-categories:
-- today
-navigation: Проекты
-year: 2020
 date: 2020-12-09
+height: 
 hide: false
+navigation: Проекты
 
 ---
 ## **Коллекция mam**
