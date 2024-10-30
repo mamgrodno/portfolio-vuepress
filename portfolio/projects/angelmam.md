@@ -8,7 +8,7 @@ description: 'Как Светлана Нестеренко писала книг
 thumbnail: https://i.imgur.com/pRAZdvG.jpg
 date: 2024-09-30
 height: 
-hide: true
+hide: false
 navigation: Сегодня
 
 ---
