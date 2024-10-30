@@ -108,6 +108,8 @@ navigation: Сегодня
 
 ![Imgur](https://i.imgur.com/0CJAGLk.jpg)
 
+Фото из архива Светланы Нестеренко
+
 Больше о Светлане Нестеренко узнаете [здесь](https://www.facebook.com/profile.php?id=100009599209644)
 
 Автор текста: Инна Максимчик
