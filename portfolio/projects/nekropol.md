@@ -4,7 +4,7 @@ title: nekropol
 heading: 'Ломали ветки, рисовали пирамиды'
 description: 'О чем рассказывают знаки на памятниках. На Дзяды печатаем фрагменты из книги "Гродненские ангелы"'
 thumbnail: https://i.imgur.com/0kaUspm.jpg
-date: 2024-11-01
+date: 2024-10-10
 height: 
 hide: false
 navigation: Сегодня
