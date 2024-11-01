@@ -85,7 +85,7 @@ navigation: Сегодня
 
 <div class="gallery2">
 <img src="https://i.imgur.com/DhE24rP.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/CXfyHte.jpeg" alt="Описание второго изображения"> 
+<img src="https://i.imgur.com/VLAOq6r.jpeg" alt="Описание второго изображения"> 
 </div>
 
 ... Спит вечным сном здесь целый город, больше чем город: "я уже дома, а ты еще в гостях"
