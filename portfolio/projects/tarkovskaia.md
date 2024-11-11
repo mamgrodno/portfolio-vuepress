@@ -22,7 +22,7 @@ navigation: Кто
 
 <div class="gallery2">
 <img src="https://i.imgur.com/uluDBhf.jpeg" alt="Описание первого изображения"> 
-<img src="https://https://i.imgur.com/ORHXDcL.jpeg" alt="Описание второго изображения"> 
+<img src="https://i.imgur.com/ORHXDcL.jpeg" alt="Описание второго изображения"> 
 </div>
 
 Основная мастерская находится в деревне Мешетники, в Мостовском районе. Старый дом хранит долгую историю семьи. Усадьбу построил дедушка Анны, здесь родились:
