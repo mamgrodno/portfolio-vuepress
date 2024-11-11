@@ -21,11 +21,6 @@ navigation: Кто
 Для своих работ ей не нужно покупать заготовки, растения Анна Тарковская или выращивает сама, или собирает в окрестностях семейной усадьбы.
 
 <div class="gallery2">
-<img src="https://i.imgur.com/jysUfZe.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/pBrpYdZ.jpeg" alt="Описание второго изображения"> 
-</div>
-
-<div class="gallery2">
 <img src="https://i.imgur.com/uluDBhf.jpeg" alt="Описание первого изображения"> 
 <img src="https://https://i.imgur.com/ORHXDcL.jpeg" alt="Описание второго изображения"> 
 </div>
