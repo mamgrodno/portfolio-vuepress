@@ -182,7 +182,7 @@ _Мая вясельная кашуля даволі простая, трошк�
 
 Аўтар тэксту: Іна Максімчык
 
-Аутары фота: [Ірына Варкулевич](https://www.instagram.com/irinavarkulevich/), [malvina_art_photo](https://www.instagram.com/malvina_art_photo/), шлюбныя фота Дзіяны: [Кацярына Гардзеева](https://www.instagram.com/gordeeva.portraits/)
+Аутары фота: [Ірына Варкулевич](https://www.instagram.com/irinavarkulevich/), [malvina_art_photo](https://www.instagram.com/malvina_art_photo/), шлюбныя фота Дзіяны і Антося: [Кацярына Гардзеева](https://www.instagram.com/gordeeva.portraits/)
 
 Больш пра Дзіяну Галынскую можна ўбачіць [тут](https://www.instagram.com/marcin_szyje/)
 
