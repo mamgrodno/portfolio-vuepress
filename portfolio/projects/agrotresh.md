@@ -9,7 +9,7 @@ description: Прогулка по гродненскому агротрэшу �
 thumbnail: upload/img_20220607_163900.jpg
 date: 2022-07-02
 height: 
-hide: false
+hide: true
 navigation: Сегодня
 
 ---
