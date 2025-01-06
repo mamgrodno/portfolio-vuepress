@@ -50,11 +50,13 @@ _**Чайка Джонатан Ливингстон** (Jonathan Livingston Seagu
 <img src="https://i.imgur.com/0bk6TmX.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/Z1Hvwfz.jpeg" alt="Описание второго изображения"> 
 </div>
+<center>"В движении" (слева), "Блаженство"</center>
 
 <div class="gallery2">
 <img src="https://i.imgur.com/PF59qpG.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/CZWJHjW.jpeg" alt="Описание второго изображения"> 
+<img src="https://i.imgur.com/OtO5ly1.jpeg" alt="Описание второго изображения"> 
 </div>
+<center>Минотавр.</center>
 
 
 
