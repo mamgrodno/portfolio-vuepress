@@ -112,7 +112,7 @@ navigation: Кто
 
 Январь. Для заметок.
 
-![Imgur](https://i.imgur.com/tzXDQey.jpg) 
+![Imgur](https://i.imgur.com/l4qHDTC.jpg) 
 
 
 
