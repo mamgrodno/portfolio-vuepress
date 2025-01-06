@@ -95,11 +95,11 @@ navigation: Кто
 
 Обложка: **Юрий Яковенко. Любовь. Акварель.**
 
-[Imgur](https://i.imgur.com/BVqwByY.jpg)
+![Imgur](https://i.imgur.com/BVqwByY.jpg)
 
 Январь. Марк Максимович. "Парк", вытинанка.
 
-[Imgur](https://i.imgur.com/e9P8dZn.jpg)
+![Imgur](https://i.imgur.com/e9P8dZn.jpg)
 
 Марк Максимович. "Тишина", масло, холст.
 
