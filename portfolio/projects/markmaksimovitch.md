@@ -53,7 +53,7 @@ navigation: Кто
 
 <div class="gallery2">
 <img src="https://i.imgur.com/C9qDrIY.jpeg" alt="Описание первого изображения">
-<img src="https://https://i.imgur.com/Z7xdyZi.jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/Z7xdyZi.jpeg" alt="Описание второго изображения">
 </div>
 
 **Галерея – это же узурпация искусства. Они позакрывали его в стенах, сделали каким-то избранным**
