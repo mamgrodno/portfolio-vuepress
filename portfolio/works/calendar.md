@@ -6,8 +6,7 @@ description:
 thumbnail: https://i.imgur.com/zIWj14i.jpg 
 categories: []
 year: 2025
-date: 2025-01-02
-21:00:00 +0000
+date: 2025-01-02 21:00:00 +0000
 
 ---
 # **Календарь, 2025**
