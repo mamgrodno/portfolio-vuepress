@@ -110,7 +110,7 @@ _**Чайка Джонатан Ливингстон** (Jonathan Livingston Seagu
 
 Работы Вадима Лагуна – это протяженная во времени головоломка. Сравните свои ассоциации и то, о чем думал автор.
 
-<div class="gallery4">
+<div class="gallery2">
 <img src="https://i.imgur.com/CZWJHjW.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/ymt2Tg9.jpeg" alt="Описание второго изображения"> 
 <img src="https://i.imgur.com/AXAFrQE.jpeg" alt="Описание третьего изображения">
