@@ -41,11 +41,14 @@ _**Чайка Джонатан Ливингстон** (Jonathan Livingston Seagu
 
 Концептуальный примитивизм скрывает в себе целые истории, о которых можно догадываться по эмоциям, что они вызывают, а в арт-объекты можно превратить даже самые примитивне предметы.
 
-<div class="gallery4">
+<div class="gallery2">
 <img src="https://i.imgur.com/RyGkEhF.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/Ycuwjlr.jpeg" alt="Описание второго изображения"> 
-<img src="https://i.imgur.com/BmuoLM3.jpeg" alt="Описание третьего изображения">
-<img src="https://i.imgur.com/vbmAA4x.jpeg" alt="Описание четвертого изображения">  
+</div>
+
+<div class="gallery2">
+<img src="https://i.imgur.com/BmuoLM3.jpeg" alt="Описание первого изображения">
+<img src="https://i.imgur.com/vbmAA4x.jpeg" alt="Описание второго изображения">  
 </div>
 
 – _Скульптура делается без внутреннего напряжения, графика требует большей энергии_. 
