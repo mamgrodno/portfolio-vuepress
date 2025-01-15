@@ -145,13 +145,13 @@ navigation: Сегодня
 
 <div><iframe class="youtube" src="https://www.youtube.com/embed/fUT6h_EuD-I"></div> 
 
-  Авто текста: Инна Максимчик
-  
-  Автор фото: [Катерина Гордеева](https://www.instagram.com/gordeeva.portraits/?locale=ru)
+Автор текста: Инна Максимчик 
+
+Автор фото: [Катерина Гордеева](https://www.instagram.com/gordeeva.portraits/?locale=ru)
  
-  Старинные фото предоставил: [Андрей Вашкевич](https://www.instagram.com/vaskevicandrej/?locale=ru)
+Старинные фото предоставил: [Андрей Вашкевич](https://www.instagram.com/vaskevicandrej/?locale=ru)
   
-  Автор реконструкции-видео: [Ольга Дудник](https://www.instagram.com/bricks_rb/?locale=ru)
+Автор реконструкции-видео: [Ольга Дудник](https://www.instagram.com/bricks_rb/?locale=ru)
 
 
 
