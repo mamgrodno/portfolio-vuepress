@@ -19,6 +19,7 @@ navigation: Сегодня
 <img src="https://i.imgur.com/2hPn0aB.jpeg" alt="Описание второго изображения"> 
 </div>
 
+<div class="gallery2">
 <iframe frameborder="0" class="juxtapose" width="100%" height="null" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1d2ed3b0-d31b-11ef-9397-d93975fe8866"></iframe>
-
+</div>
 
