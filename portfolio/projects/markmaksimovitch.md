@@ -113,7 +113,9 @@ navigation: Кто
 
 Январь. Для заметок.
 
-![Imgur](https://i.imgur.com/l4qHDTC.jpg) 
+![Imgur](https://i.imgur.com/S2BmAox.jpg)
+
+**Февраль. Вадим Лагун** - [здесь](https://www.mamgrodno.com/projects/lagunart.html)
 
 
 
