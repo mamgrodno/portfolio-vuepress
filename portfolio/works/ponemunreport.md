@@ -71,7 +71,7 @@ date: 2025-01-10 21:00:00 +0000
 <img src="https://i.imgur.com/EP8KUcK.gif" alt="Описание второго изображения"> 
 </div>
 
-![Imgur](https://i.imgur.com/EP8KUcK.gifv)
+![Imgur](https://i.imgur.com/EP8KUcK.gif)
 
 **Подавать на стол местное, считалось хорошим тоном**
 
