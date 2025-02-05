@@ -88,11 +88,25 @@ navigation: Кто
 
 Жыццё ў весцы таксама добры паратунак для мастака: "_Летам печку растапіць люблю, камін – гэта не цяжка. Адно задавальненне. Траву пакасіць, зрабіць нешта карыснае, і атрымаеш маральнае задавальненне ад жыцця. Мне ў гэтым сэнсе лепей.  Калі няма ідэй, каб нешта стварыць, заўсёды фізічная праца дапамагае. Альбо Раберціка малюю (унука)"_, – усміхаецца.
 
-<div class="gallery3">
+<div class="gallery2">
 <img src="https://i.imgur.com/MlQoRlJ.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/fYQJcYf.jpeg" alt="Описание второго изображения"> 
 <img src="https://i.imgur.com/tU6p5my.jpeg" alt="Описание третьего изображения">
+<img src="https://i.imgur.com/d5nvMXx.jpeg" alt="Описание четвертого изображения">
 </div>
 
+**Больш пра Сяргея Грыневіча можна даведацца** [тут](https://www.instagram.com/grinevichsergey/)
 
+**КАЛЯНДАР MAMGRODNO 2025**
 
+СЯРГЕЙ ГРЫНЕВІЧ. САКАВІК
+
+![Imgur](https://i.imgur.com/OrCBlwT.jpg)
+
+![Imgur](https://i.imgur.com/0uMt6qh.jpg)
+
+![Imgur](https://i.imgur.com/ycP6FyB.jpg)
+
+Увесь каляндар глядзець [тут](https://www.mamgrodno.com/works/calendar.html)
+
+Аўтар: Іна Максімчык, фота: Іна Максімчык і  з архіва сяргея Грыневіча 
