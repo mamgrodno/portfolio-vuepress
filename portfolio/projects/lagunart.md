@@ -147,7 +147,7 @@ _**Чайка Джонатан Ливингстон** (Jonathan Livingston Seagu
 
 **Для заметок**
 
-![Imgur](https://i.imgur.com/gBAFHhk.jpg)
+![Imgur](https://i.imgur.com/LXp2eoS.jpg)
 
 
 
