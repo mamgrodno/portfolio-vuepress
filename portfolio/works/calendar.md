@@ -29,7 +29,7 @@ date: 2025-01-02 21:00:00 +0000
 
 Январь. Для заметок.
 
-![Imgur](https://i.imgur.com/l4qHDTC.jpg) 
+![Imgur](https://i.imgur.com/S2BmAox.jpg)
 
 ФЕВРАЛЬ. Вадим Лагун. "Рассада", бумага, акрил.
 
@@ -39,7 +39,7 @@ date: 2025-01-02 21:00:00 +0000
 
 **Февраль Для заметок**
 
-![Imgur](https://i.imgur.com/gBAFHhk.jpg)
+![Imgur](https://i.imgur.com/LXp2eoS.jpg)
 
 Продолжение следует
 
