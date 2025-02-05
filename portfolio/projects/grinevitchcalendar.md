@@ -70,7 +70,7 @@ navigation: Кто
 <div class="gallery2">
 <img src="https://i.imgur.com/bQBqz8s.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/REoToVS.jpeg" alt="Описание второго изображения"> 
-</div
+</div>
   
  
 
