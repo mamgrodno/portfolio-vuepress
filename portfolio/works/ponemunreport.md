@@ -66,12 +66,11 @@ date: 2025-01-10 21:00:00 +0000
 <img src="https://i.imgur.com/9SAfciL.jpeg" alt="Описание второго изображения"> 
 </div>
 
-<div class="gallery2">
+<div class="gallery3">
 <img src="https://i.imgur.com/URffCPG.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/EP8KUcK.gif" alt="Описание второго изображения"> 
+<img src="https://i.imgur.com/dOvj6Xt.jpeg" alt="Описание третьего изображения"> 
 </div>
-
-![Imgur](https://i.imgur.com/EP8KUcK.gif)
 
 **Подавать на стол местное, считалось хорошим тоном**
 
