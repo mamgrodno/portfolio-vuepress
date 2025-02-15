@@ -13,7 +13,7 @@ date: 2025-01-02 21:00:00 +0000
 
 #### Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.
 
-Художественный календарь включает работы беларусских художниках и статьи о них. Если напечатать последовательно все странички, получится горизонтальный буклет, 36 страниц. А статьи можно прочитать на mamgrodno. Январь:[Марк Максимович](https://www.mamgrodno.com/projects/markmaksimovitch.html). Февраль. [Вадим Лагун](https://www.mamgrodno.com/projects/lagunart.html) . Сакавік: [Сяргей Грыневіч](https://www.mamgrodno.com/projects/grinevitchcalendar.html)
+Художественный календарь включает работы беларусских художниках и статьи о них. Если напечатать последовательно все странички, получится горизонтальный буклет, 36 страниц. А статьи можно прочитать на mamgrodno. Январь:[Марк Максимович](https://www.mamgrodno.com/projects/markmaksimovitch.html). Февраль. [Вадим Лагун](https://www.mamgrodno.com/projects/lagunart.html) . Сакавік (март): [Сяргей Грыневіч](https://www.mamgrodno.com/projects/grinevitchcalendar.html) Апрель:[Эмиль Зенко](https://www.mamgrodno.com/projects/zenkoart.html)
 
 Обложка: Юрий Яковенко. Конец сезона, акварель, карандаш.
 
@@ -52,6 +52,14 @@ date: 2025-01-02 21:00:00 +0000
 Сакавік. Нататкі.
 
 ![Imgur](https://i.imgur.com/ycP6FyB.jpg)
+
+Апрель. Эмиль Зенко. Structure
+
+![Imgur](https://i.imgur.com/HLbvByp.jpg)
+
+![Imgur](https://i.imgur.com/nriynSQ.jpg)
+
+![Imgur](https://i.imgur.com/xD6OZCU.jpg)
 
 Продолжение следует
 
