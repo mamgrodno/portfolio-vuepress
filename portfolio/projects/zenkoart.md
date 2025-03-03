@@ -4,7 +4,7 @@ title: zenkoart
 heading: 'Погружаемся в утопии Эмиля Зенко'
 description: 'Сюрреалистический трэш greenhouse совмещает безмятежность природы и мир прекрасных, зловещих видений. Видеоклипы в Париже – полны провокаций. Овцы организовались в структуру, и попали в календарь mam на апрель.'
 thumbnail: https://i.imgur.com/HLbvByp.jpg
-date: 2024-12-30
+date: 2025-02-28
 height: 
 hide: false
 navigation: Кто
