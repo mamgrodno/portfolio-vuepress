@@ -102,7 +102,7 @@ navigation: Кто
 
 ![Imgur](https://i.imgur.com/HLbvByp.jpg)
 
-![Imgur](https://i.imgur.com/nriynSQ.jpg)
+![Imgur](https://i.imgur.com/olkWcQo.jpg)
 
 ![Imgur](https://i.imgur.com/xD6OZCU.jpg)
 
