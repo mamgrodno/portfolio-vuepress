@@ -71,7 +71,7 @@ date: 2025-01-02 21:00:00 +0000
 
 ![Imgur](https://i.imgur.com/NWDc7xA.jpg)
 
-[Imgur](https://i.imgur.com/Iw2QnLp.jpg)
+![Imgur](https://i.imgur.com/Iw2QnLp.jpg)
 
 Продолжение следует
 
