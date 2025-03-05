@@ -7,7 +7,7 @@ description: 'Заглянули в тайную комнату Анны Сил�
 thumbnail: https://i.imgur.com/K1pMDM1.jpg
 date: 2054-03-03
 height: 
-hide: true
+hide: false
 navigation: Кто
 
 ---
