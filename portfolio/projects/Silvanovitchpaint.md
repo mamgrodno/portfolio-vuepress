@@ -83,11 +83,11 @@ _Я сижу, рисую, что-то говорю, не просто показ
 
 Работа **"Русалка"**, Александр Сильванович. 
 
-![Imgur](https://i.imgur.com/1PQ2gV1.jpg)
+![Imgur](https://i.imgur.com/RLADjiZ.jpg)
 
 Работа. **"Зодиакальный круг"** Александр Сильванович
 
-![Imgur](https://i.imgur.com/aRYR9aB.jpg)
+![Imgur](https://i.imgur.com/cuxfHE6.jpg)
 
 ![Imgur](https://i.imgur.com/qGCVAiB.jpg)
 
