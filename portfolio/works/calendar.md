@@ -73,6 +73,16 @@ date: 2025-01-02 21:00:00 +0000
 
 ![Imgur](https://i.imgur.com/Iw2QnLp.jpg)
 
+Июнь. Александр Сильванович. **"Русалка"**, . 
+
+![Imgur](https://i.imgur.com/1PQ2gV1.jpg)
+
+Александр Сильванович. **"Зодиакальный круг"** 
+
+![Imgur](https://i.imgur.com/aRYR9aB.jpg)
+
+![Imgur](https://i.imgur.com/qGCVAiB.jpg)
+
 Продолжение следует
 
 **mamgrodno**
