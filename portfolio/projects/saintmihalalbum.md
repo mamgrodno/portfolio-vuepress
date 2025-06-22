@@ -48,7 +48,7 @@ _Гэтым чынам мы запрашаем святога дапамагчы
 
 ## "Theatrum orbis terrarium circa Navagradak . Аnno 1654."
 
-[Imgur](https://imgur.com/5ts6wsN.jpg)
+![Imgur](https://imgur.com/5ts6wsN.jpg)
 
 Выгляд міра зямного з ваколіцы Наваградка. У год 1654. Гравюра Паўла Татарнікава  
 
