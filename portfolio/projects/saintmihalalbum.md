@@ -3,7 +3,7 @@ size: 3
 title: saintmihalalbum
 heading: 'Хочацца выказацца з мінімумам візуальнага шуму'
 description: 'Стварылі віртуальны мастацкі альбом калекцыі касцёла святога Міхала Арханёла у Навагрудку. Больш за 100 палотнаў, гравюр, скульптур, інсталяцый сучасных беларускіх мастакоў.'
-thumbnail:https://i.imgur.com/1N7l2A1.jpeg 
+thumbnail: https://i.imgur.com/1N7l2A1.jpeg 
 date: 2025-05-10
 height: 
 hide: false
