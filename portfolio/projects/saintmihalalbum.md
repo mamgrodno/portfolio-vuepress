@@ -6,7 +6,7 @@ description: 'Стварылі віртуальны мастацкі альбо�
 thumbnail: https://i.imgur.com/KJHdzgN.jpg
 date: 2025-05-10
 height: 
-hide:true
+hide: true
 navigation: Коллекция
 
 ---
