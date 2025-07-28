@@ -13,7 +13,7 @@ date: 2025-01-02 21:00:00 +0000
 
 #### Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.
 
-Художественный календарь включает работы беларусских художниках и статьи о них. Если напечатать последовательно все странички, получится горизонтальный буклет, 36 страниц. А статьи можно прочитать на mamgrodno. Январь:[Марк Максимович](https://www.mamgrodno.com/projects/markmaksimovitch.html). Февраль. [Вадим Лагун](https://www.mamgrodno.com/projects/lagunart.html) . Сакавік (март): [Сяргей Грыневіч](https://www.mamgrodno.com/projects/grinevitchcalendar.html) Апрель:[Эмиль Зенко](https://www.mamgrodno.com/projects/zenkoart.html) Май: [Анна Силивончик](https://www.mamgrodno.com/projects/silivonchik.html), Июнь. [Александр Сильванович](https://www.mamgrodno.com/projects/silvanovitchpaint.html)
+Художественный календарь включает работы беларусских художниках и статьи о них. Если напечатать последовательно все странички, получится горизонтальный буклет, 36 страниц. А статьи можно прочитать на mamgrodno. Январь:[Марк Максимович](https://www.mamgrodno.com/projects/markmaksimovitch.html). Февраль. [Вадим Лагун](https://www.mamgrodno.com/projects/lagunart.html) . Сакавік (март): [Сяргей Грыневіч](https://www.mamgrodno.com/projects/grinevitchcalendar.html) Апрель:[Эмиль Зенко](https://www.mamgrodno.com/projects/zenkoart.html) Май: [Анна Силивончик](https://www.mamgrodno.com/projects/silivonchik.html), Июнь. [Александр Сильванович](https://www.mamgrodno.com/projects/silvanovitchpaint.html) Июль: [Ника Гончар](https://www.mamgrodno.com/projects/nikapaint.html)
 
 Календарь можно распечатать самостоятельно, и прожить каждый месяц с разными художниками. Статьи помогут узнать больше об участниках и артпространстве Гродно и Беларуси.
 
