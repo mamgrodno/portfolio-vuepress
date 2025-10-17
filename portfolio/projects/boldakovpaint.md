@@ -84,7 +84,7 @@ _Проект создан на стыке концепт-арта и дизай
 
 Для записей. Александр Болдаков. Проект "Летуценні".
 
-[Imgur](https://i.imgur.com/nUOwKsF.jpg)
+![Imgur](https://i.imgur.com/nUOwKsF.jpg)
 
 **Больше о художнике** можно узнать здесь - [Страница Александра Болдакова в instagram](https://www.instagram.com/flobus_art/)
 
