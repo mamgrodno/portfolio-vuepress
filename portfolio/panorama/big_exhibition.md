@@ -2,7 +2,6 @@
 title: big_exhibition
 heading: 'Эмоции спрятаны в символы, откровенность запуталась в ню...'
 description: Виртуальный тур по выставке «Метафары мастацтва».
-  несмотря ни на что.
 thumbnail: upload/lt27.jpg
 categories: [true]
 year: 2020
