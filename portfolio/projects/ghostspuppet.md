@@ -7,7 +7,7 @@ thumbnail: https://i.imgur.com/fTYUmxI.jpg
 date: 2025-11-25
 height: 
 hide: false
-navigation: Сегодняф
+navigation: Сегодня
 
 ---
 # Рокабили подвинул нуар
