@@ -18,4 +18,4 @@ project4_text: ''
 
 <ClientOnly> <WorksList /> </ClientOnly>
 
-<div style="margin: 0 5vw"> <p style="font-size: clamp(1rem, 2.5vw, 1.5rem); color:#7b808a; margin: 15vh auto; text-align: start; max-width:800px">«Отражения», герои нового проекта mamgrodno cовмещают современное искусство с традициями беларуских ремесел, изучают влияние событий из прошлого на нашу жизнь сегодня. Исследуем взаимодействие символов, переходы между смыслом, значением и формой. Адлюстраванне – спалучэнне сучаснага і традыцыйнага ў мастацтве, гісторыі, спадчыне і жыцці. </p> </div><ClientOnly> <ProjectList /> </ClientOnly> 
+<div style="margin: 0 5vw"> <p style="font-size: clamp(1rem, 2.5vw, 1.5rem); color:#7b808a; margin: 15vh auto; text-align: start; max-width:800px">Домоткань. Так называют полотно ручной работы. Нитки для основы – всегда крепче и скручены сильнее остальных, ведь они держат связь и всё изображение.  Домоткань – истории о взаимодействии с людьми и обществом через художественные практики. </p> </div><ClientOnly> <ProjectList /> </ClientOnly> 
