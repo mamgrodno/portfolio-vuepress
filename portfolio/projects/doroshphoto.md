@@ -6,7 +6,7 @@ description: 'Как Наталья Дорош управляла предмет
 thumbnail: https://i.imgur.com/hfIzRJ8.jpg
 date: 2026-01-10
 height: 
-hide: true
+hide: false
 navigation: Коллекции 
 
 ---
