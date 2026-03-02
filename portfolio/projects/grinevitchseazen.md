@@ -6,7 +6,7 @@ description: 'Он рисует не то, что вы видите, а то, ч
 thumbnail: https://i.imgur.com/XwuzYGx.jpg
 date: 2026-03-02
 height: 
-hide:true
+hide: True
 navigation: Кто
 
 ---
