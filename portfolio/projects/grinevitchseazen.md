@@ -7,7 +7,7 @@ thumbnail: https://i.imgur.com/XwuzYGx.jpg
 date: 2026-03-02
 height: 
 hide: True
-navigation: Коллекция
+navigation: Коллекции
 
 ---
 # **О внутренней истине**
