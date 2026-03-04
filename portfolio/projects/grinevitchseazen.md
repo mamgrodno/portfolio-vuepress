@@ -3,7 +3,7 @@ size: 2
 title: grinevitchseazen
 heading: О внутренней истине
 description: 'Он рисует не то, что вы видите... Работы Сергея Гриневича – это встречи: со светом, со временем, с тем, что мы обычно упускаем из виду. Seazen. Швейцария.' 
-thumbnail: https://i.imgur.com/XwuzYGx.jpg
+thumbnail: https://i.imgur.com/PDlucOn.jpg
 date: 2026-03-02
 height: 
 hide: false
