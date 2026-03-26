@@ -3,7 +3,7 @@ size: 3
 title: Annkohanovska
 heading: 'Анна Кохановская: убить самозванца'
 description: 'как шоу с золотыми блестками стало пропуском в парижский Гранд Пале, где «взрывали» искусство Дали и Пикассо.'
-thumbnail: https://i.imgur.com/jQcCmoa.gifv
+thumbnail: https://i.imgur.com/jQcCmoa.gif  
 date: 2026-03-25
 height: 
 hide: false
