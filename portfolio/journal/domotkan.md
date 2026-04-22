@@ -1,6 +1,6 @@
 ---
 title: domotkan
-excerpt: projectmam
+excerpt: domotkan
 date: 
 
 ---
