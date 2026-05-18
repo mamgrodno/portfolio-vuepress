@@ -33,5 +33,5 @@ navigation: Сегодня
 
 <div class="gallery2">
 <img src="https://i.imgur.com/FVq4TsS.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/BeJ13lT..jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/BeJ13lT.jpeg" alt="Описание второго изображения">
 </div>
