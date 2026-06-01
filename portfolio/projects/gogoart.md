@@ -28,3 +28,18 @@ navigation: Сегодня
 <div class="gallery2">
 <img src="https://i.imgur.com/s5ThxBq.jpeg" alt="Описание первого изображения"> 
 </div>
+
+# Финальная цель – это продавать свои работы
+
+#### Как художнику показать себя во Франции. Элина Полякова, медиа-редактор, автор журнала о современном искусстве FVTVRIST (Париж/Мадрид) - ссылка, куратор выставок, арт-менеджер. 
+
+<div class="gallery2">
+<img src="https://i.imgur.com/w8VGNcj.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/VkGyTOO.jpeg" alt="Описание второго изображения">
+</div>
+
+<div class="gallery2">
+<img src="https://i.imgur.com/WdDEfLH.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/UKB6k3C.jpeg" alt="Описание второго изображения">
+</div>
+
