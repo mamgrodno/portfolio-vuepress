@@ -25,4 +25,6 @@ navigation: Кто
 
 <div><iframe class="youtube" src="https://www.youtube.com/embed/GUSo2XXXPDY"></div>
 
-![Imgur](https://i.imgur.com/s5ThxBq.jpg)
+<div class="gallery2">
+<img src="https://i.imgur.com/s5ThxBq.jpeg" alt="Описание первого изображения"> 
+</div>
