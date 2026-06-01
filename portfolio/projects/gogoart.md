@@ -5,7 +5,7 @@ heading: 'Сокрушительность иллюзий'
 description: 'как стать видимым в арт-пространстве, показывать себя не только на домашних выставках спросили у художника из Минска, Анны Силивончик и медиа эксперта из Парижа Элины Поляковой.
 Поговорили о тонкостях open call, отличиях в резиденциях и опасных заблуждениях'
 thumbnail: https://i.imgur.com/n7ca55H.jpg
-date: 2026-01-06
+date: 2026-06-06
 height: 
 hide: false
 navigation: Сегодня
@@ -43,3 +43,10 @@ navigation: Сегодня
 <img src="https://i.imgur.com/UKB6k3C.jpeg" alt="Описание второго изображения">
 </div>
 
+Узнать больше про Анну Силивончик - [«Дыши через раз. Через рот. Чересчур.»](https://www.mamgrodno.com/projects/silivonchik.html) и здесь - [инстаграм](https://www.mamgrodno.com/projects/silivonchik.html)
+
+Узнать больше о тонкостях open call  портфолио, продвижении - блог [Ольги Клип](https://www.instagram.com/olgaklip/)
+
+Open call для художников в Беларуси проводят -  галереи и арт-пространства [Farba galary](https://www.instagram.com/farba.gallery/), конкурс [viva cola art](https://www.instagram.com/vivakola_art/), Осенний салон с Белгазпромбанком, [Art Belarus](https://www.instagram.com/artbelarus.by/), Off museum, [ярмарка современного искусства]( https://www.instagram.com/off_museum/), арт центр [Кайрос (Kairos)](https://www.instagram.com/artcenter_kairos/)  
+
+**mamgrodno, 2026**
