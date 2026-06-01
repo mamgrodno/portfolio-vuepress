@@ -8,7 +8,7 @@ thumbnail: https://i.imgur.com/n7ca55H.jpg
 date: 2026-01-06
 height: 
 hide: false
-navigation: Кто
+navigation: Сегодня
 
 ---
 # Сокрушительность иллюзий
