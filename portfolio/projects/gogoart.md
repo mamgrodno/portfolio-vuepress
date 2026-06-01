@@ -17,7 +17,7 @@ navigation: Кто
 Поговорили о тонкостях open call, отличиях в резиденциях и опасных заблуждениях
 
 <div class="gallery2">
-<img src="https://i.imgur.com/Y3pO4YT.jjpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/Y3pO4YT.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/WoEYpRA.jpeg" alt="Описание второго изображения">
 </div>
 
