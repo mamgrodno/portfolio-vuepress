@@ -17,8 +17,8 @@ navigation: Сегодня
 Поговорили о тонкостях open call, отличиях в резиденциях и опасных заблуждениях
 
 <div class="gallery2">
-<img src="https://i.imgur.com/Y3pO4YT.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/WoEYpRA.jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/vVCunJa.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/83GqItp.jpeg" alt="Описание второго изображения">
 </div>
 
 Медиа-арт сегодня стал одним из основных пропусков в мир open call соревнований. Анна Силивончик пользуется этой возможностью, создавая бесконечный метафоричный сериал.
@@ -26,24 +26,24 @@ navigation: Сегодня
 <div><iframe class="youtube" src="https://www.youtube.com/embed/GUSo2XXXPDY"></div>
 
 <div class="gallery2">
-<img src="https://i.imgur.com/s5ThxBq.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/4Lq9Jsk.jpeg" alt="Описание первого изображения"> 
 </div>
 
 # Финальная цель – это продавать свои работы
 
-#### Как художнику показать себя во Франции. Элина Полякова, медиа-редактор, автор журнала о современном искусстве [FVTVRIST](https://www.fvtvrist.com/) (Париж/Мадрид)- ссылка, куратор выставок, арт-менеджер. 
+#### Как художнику показать себя во Франции. Элина Полякова, медиа-редактор, автор журнала о современном искусстве [FVTVRIST](https://www.fvtvrist.com/) (Париж/Мадрид), куратор выставок, арт-менеджер. 
 
 <div class="gallery2">
-<img src="https://i.imgur.com/w8VGNcj.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/VkGyTOO.jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/YxKO3Wr.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/tx5yw9Y.jpeg" alt="Описание второго изображения">
 </div>
 
 <div class="gallery2">
-<img src="https://i.imgur.com/WdDEfLH.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/UKB6k3C.jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/KloIClh.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/RC6nkmF.jpeg" alt="Описание второго изображения">
 </div>
 
-Узнать больше про Анну Силивончик - [«Дыши через раз. Через рот. Чересчур.»](https://www.mamgrodno.com/projects/silivonchik.html) и здесь - [инстаграм](https://www.mamgrodno.com/projects/silivonchik.html)
+Узнать больше про Анну Силивончик - [«Дыши через раз. Через рот. Чересчур.»](https://www.mamgrodno.com/projects/silivonchik.html) и здесь - [инстаграм](https://www.mamgrodno.com/projects/silivonchik.html) , страница [youtube](https://www.youtube.com/@%D0%90%D0%BD%D0%BD%D0%B0%D0%A1%D0%B8%D0%BB%D0%B8%D0%B2%D0%BE%D0%BD%D1%87%D0%B8%D0%BA-%D1%881%D1%8C)
 
 Узнать больше о тонкостях open call  портфолио, продвижении - блог [Ольги Клип](https://www.instagram.com/olgaklip/)
 
