@@ -39,8 +39,8 @@ navigation: Сегодня
 </div>
 
 <div class="gallery2">
-<img src="https://i.imgur.com/KDZLLO8.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/GFfAVNE.jpeg" alt="Описание второго изображения">
+<img src="https://i.imgur.com/q0lEQXq.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/1rcAJPx.jpeg" alt="Описание второго изображения">
 </div>
 
 Узнать больше про Анну Силивончик - [«Дыши через раз. Через рот. Чересчур.»](https://www.mamgrodno.com/projects/silivonchik.html) и здесь - [инстаграм](https://www.mamgrodno.com/projects/silivonchik.html) , страница [youtube](https://www.youtube.com/@%D0%90%D0%BD%D0%BD%D0%B0%D0%A1%D0%B8%D0%BB%D0%B8%D0%B2%D0%BE%D0%BD%D1%87%D0%B8%D0%BA-%D1%881%D1%8C)
