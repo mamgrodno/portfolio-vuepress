@@ -28,6 +28,7 @@ date: 2026-06-21 21:00:00 +0000
 
 ![Imgur](https://i.imgur.com/CBh034M.jpg)
 
+
 <div class="gallery2">
 <img src="https://i.imgur.com/BWTIkZU.jpeg" alt="Описание первого изображения"> 
 <img src="https://i.imgur.com/AHFuKWW.jpeg" alt="Описание второго изображения"> 
@@ -35,5 +36,26 @@ date: 2026-06-21 21:00:00 +0000
 
 <div class="gallery2">
 <img src="https://i.imgur.com/To3Os4i.jpeg" alt="Описание первого изображения"> 
-<img src="https://i.imgur.com/glcvrZc.com/AHFuKWW.jpeg" alt="Описание второго изображения"> 
+<img src="https://i.imgur.com/glcvrZc.jpeg" alt="Описание второго изображения"> 
 </div>
+
+![Imgur](https://i.imgur.com/Wh9A262.jpg)
+
+![Imgur](https://i.imgur.com/R0hJfpW.jpg)
+
+![Imgur](https://i.imgur.com/Cvf7Vyp.jpg)
+
+![Imgur](https://i.imgur.com/0N4wWdx.jpg)
+
+<div class="gallery2">
+<img src="https://i.imgur.com/aGm77yT.jpeg" alt="Описание первого изображения"> 
+<img src="https://i.imgur.com/UR70MUj.jpeg" alt="Описание второго изображения"> 
+</div>
+
+![Imgur](https://i.imgur.com/B7XH4P0.jpg)
+
+Фота: **Наталля Салама**
+
+**mamgrodna, 2026**
+
+
