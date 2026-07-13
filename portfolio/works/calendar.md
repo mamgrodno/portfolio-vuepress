@@ -23,8 +23,6 @@ date: 2025-01-02 21:00:00 +0000
 
 ![Imgur](https://i.imgur.com/uhNZMxJ.jpg)
 
-![Imgur](https://i.imgur.com/4PFqyBE.jpg)
-
 ![Imgur](https://i.imgur.com/Ig8vFQm.jpg)
 
 ![Imgur](https://i.imgur.com/WlUiaUu.jpg)
