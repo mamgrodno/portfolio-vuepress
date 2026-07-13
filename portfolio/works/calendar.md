@@ -3,7 +3,7 @@ title: calendar
 navigation: Кто
 heading: 'Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.'
 description: 
-thumbnail: https://i.imgur.com/my40QqU.jpg
+thumbnail:https://i.imgur.com/8DHVZpZ.jpg 
 categories: []
 year: 2025
 date: 2025-01-02 21:00:00 +0000
