@@ -71,9 +71,9 @@ date: 2025-01-02 21:00:00 +0000
 
 Июнь: **Александр Сильванович**[Хочу повозиться со стихиями](https://www.mamgrodno.com/projects/Silvanovitchpaint.html).
 
-![Imgur](https://i.imgur.com/VWGMt8L.jpg)
+![Imgur](https://i.imgur.com/P2tJ7kB.jpg)
 
-![Imgur](https://i.imgur.com/QAonLkh.jpg)
+![Imgur](https://i.imgur.com/8DHVZpZ.jpg)
 
 ![Imgur](https://i.imgur.com/MuXDKHl.jpg)
 
