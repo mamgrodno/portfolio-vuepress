@@ -1,7 +1,7 @@
 ---
 title: calendar
 navigation: Кто
-heading: 'Календарь. Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.'
+heading: 'Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.'
 description: 
 thumbnail: https://i.imgur.com/my40QqU.jpg
 categories: []
@@ -13,145 +13,145 @@ date: 2025-01-02 21:00:00 +0000
 
 #### Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.
 
-Художественный календарь включает работы беларусских художниках и статьи о них. Если напечатать последовательно все странички, получится горизонтальный буклет, 36 страниц. А статьи можно прочитать на mamgrodno. Январь:**Марк Максимович**[Каждому путешественнику я должен дать дорогу. И, когда это сделаю, вы будете разговаривать с ним, а не со мной](https://www.mamgrodno.com/projects/markmaksimovitch.html). Февраль. **Вадим Лагун**[С отрицательными эмоциями я не работаю](https://www.mamgrodno.com/projects/lagunart.html) . Сакавік (март): **Сяргей Грыневіч**[Цікава была перапрацаваць супергерояў у нешта больш трапнае](https://www.mamgrodno.com/projects/grinevitchcalendar.html) Апрель:Эмиль Зенко[Погружаемся в утопии Эмиля Зенко](https://www.mamgrodno.com/projects/zenkoart.html) Май: **Анна Силивончик**[Дыши через раз. Через рот. Чересчур](https://www.mamgrodno.com/projects/silivonchik.html), Июнь: **Александр Сильванович**[Хочу повозиться со стихиями](https://www.mamgrodno.com/projects/Silvanovitchpaint.html). Июль. **Ника Гончар**[Сейчас я нахожусь в стадии подзарядки батарейки](https://www.mamgrodno.com/projects/nikapaint.html) Август. **Виктория Ильина**[Старушка вытряхивает перину с летним ветром](https://www.mamgrodno.com/projects/ilinapaint.html). Сентябрь. **Наталья Ляпкина**[Достаточно просто проснуться и оставаться в пробуждении](https://www.mamgrodno.com/projects/liapkinaart.html), Октябрь. **Александр Болдаков** [На краю времени](https://www.mamgrodno.com/projects/boldakovpaint.html) Ноябрь. **Александр Демидов** [Для внутреннего пользования](https://www.mamgrodno.com/projects/demidovart.html), Декабрь.
-**Юрий Яковенко** [Для гравюры нужны мозги, руки и хорошие ягодицы](https://www.mamgrodno.com/projects/jakovenkoart.html) 
-
-Автор идеи, контент: Инна Максимчик 
+Подготовили 12 статей о современных художников Беларуси. Каждый месяц года связан с определенной историей. Сформировали буклет - для созерцания. Подробнее о работах и статьи можно почитать по ссылкам ниже.
 
 Статьи помогут узнать больше об участниках и артпространстве Гродно и Беларуси.
 
-Январь. Марк Максимович. "Парк", вытинанка.
+Январь:**Марк Максимович**[Каждому путешественнику я должен дать дорогу. И, когда это сделаю, вы будете разговаривать с ним, а не со мной](https://www.mamgrodno.com/projects/markmaksimovitch.html).
 
-![Imgur](https://i.imgur.com/VOc1Rio.jpg)
+[Imgur](https://i.imgur.com/7A6kVSL.jpg)
 
-Марк Максимович. "Тишина", масло, холст.
+![Imgur](https://i.imgur.com/uhNZMxJ.jpg)
 
 ![Imgur](https://i.imgur.com/4PFqyBE.jpg)
 
-Январь. Для заметок.
+![Imgur](https://i.imgur.com/Ig8vFQm.jpg)
 
-![Imgur](https://i.imgur.com/S2BmAox.jpg)
+![Imgur](https://i.imgur.com/WlUiaUu.jpg)
 
-ФЕВРАЛЬ. Вадим Лагун. "Рассада", бумага, акрил.
+Февраль. **Вадим Лагун**[С отрицательными эмоциями я не работаю](https://www.mamgrodno.com/projects/lagunart.html) .
+
+![Imgur](https://i.imgur.com/4HD68mz.jpg)
+
+![Imgur](https://i.imgur.com/jkVeQRI.jpg)
+
+![Imgur](https://i.imgur.com/h6XpDJY.jpg)
 
 ![Imgur](https://i.imgur.com/kLZGgup.jpg)
 
-![Imgur](https://i.imgur.com/xiHAkIv.jpg)
+Сакавік (март): **Сяргей Грыневіч**[Цікава была перапрацаваць супергерояў у нешта больш трапнае](https://www.mamgrodno.com/projects/grinevitchcalendar.html) 
 
-**Февраль Для заметок**
+![Imgur](https://i.imgur.com/W0wKu8P.jpg)
 
-![Imgur](https://i.imgur.com/LXp2eoS.jpg)
+![Imgur](https://i.imgur.com/TGBQk6S.jpg)
 
-Сакавік (март). Сяргей Грыневіч. Адліга не Нёмане
+![Imgur](https://i.imgur.com/1J7E78x.jpg)
 
-![Imgur](https://i.imgur.com/OrCBlwT.jpg)
+![Imgur](https://i.imgur.com/2kUyTx1.jpg)
 
-Сяргей Грыневіч. "Канцэрт у стадоле"
+![Imgur](https://i.imgur.com/sBG6hcX.jpg)
 
-![Imgur](https://i.imgur.com/0uMt6qh.jpg)
-
-Сакавік. Нататкі.
-
-![Imgur](https://i.imgur.com/ycP6FyB.jpg)
-
-Апрель. Эмиль Зенко. Structure
+Апрель:**Эмиль Зенко**[Погружаемся в утопии Эмиля Зенко](https://www.mamgrodno.com/projects/zenkoart.html)
 
 ![Imgur](https://i.imgur.com/HLbvByp.jpg)
 
-![Imgur](https://i.imgur.com/olkWcQo.jpg)
+![Imgur](https://i.imgur.com/piy46EI.jpg)
 
-![Imgur](https://i.imgur.com/xD6OZCU.jpg)
+![Imgur](https://i.imgur.com/2c8aqwY.jpg)
 
-Май. Анна Силивончик. Обнаженное сердце
+![Imgur](https://i.imgur.com/3bkZFEB.jpg)
 
-![Imgur](https://i.imgur.com/QkVYDuT.jpg)
+Май: **Анна Силивончик**[Дыши через раз. Через рот. Чересчур](https://www.mamgrodno.com/projects/silivonchik.html)
 
-Анна Силивончик. Воронье гнездо
+![Imgur](https://i.imgur.com/K1pMDM1.jpg)
 
-![Imgur](https://i.imgur.com/lGjPddn.jpg)
+![Imgur](https://i.imgur.com/C7KYzla.jpg)
 
-![Imgur](https://i.imgur.com/Iw2QnLp.jpg)
+![Imgur](https://i.imgur.com/gqdSCBx.jpg)
 
-Июнь. Александр Сильванович. **"Русалка"**, . 
+![Imgur](https://i.imgur.com/0bQXsHH.jpg)
 
-![Imgur](https://i.imgur.com/RLADjiZ.jpg)
+Июнь: **Александр Сильванович**[Хочу повозиться со стихиями](https://www.mamgrodno.com/projects/Silvanovitchpaint.html).
 
-Александр Сильванович. **"Зодиакальный круг"** 
+![Imgur](https://i.imgur.com/VWGMt8L.jpg)
 
-![Imgur](https://i.imgur.com/cuxfHE6.jpg)
+![Imgur](https://i.imgur.com/QAonLkh.jpg)
 
-![Imgur](https://i.imgur.com/qGCVAiB.jpg)
+![Imgur](https://i.imgur.com/MuXDKHl.jpg)
 
-Июль.  Ника Гончар. **Триптих "Темная ночка"**
+![Imgur](https://i.imgur.com/1thG82K.jpg)
 
-![Imgur](https://i.imgur.com/vslx0nL.jpg)
+![Imgur](https://i.imgur.com/qypQqDS.jpg)
 
-Ника Гончар. Работа **"Встреча с единорогом"**
+Июль. **Ника Гончар**[Сейчас я нахожусь в стадии подзарядки батарейки](https://www.mamgrodno.com/projects/nikapaint.html)
 
-![Imgur](https://i.imgur.com/CAz8TxO.jpg)
+![Imgur](https://i.imgur.com/6QoSAFg.jpg)
 
-![Imgur](https://i.imgur.com/y6MieW4.jpg)
+![Imgur](https://i.imgur.com/9W5eTLm.jpg)
 
-Август. Виктория Ильина.  **"Летняя улица"**
+![Imgur](https://i.imgur.com/PyoGIsz.jpg)
 
-![Imgur](https://i.imgur.com/VEA6S6h.jpg)
+![Imgur](https://i.imgur.com/ddsnQfr.jpg)
 
-Виктория Ильина. Картина **"Летний вечер"**
+![Imgur](https://i.imgur.com/6c08cOp.jpg)
 
-![Imgur](https://i.imgur.com/3NF1hOq.jpg)
+Август. **Виктория Ильина**[Старушка вытряхивает перину с летним ветром](https://www.mamgrodno.com/projects/ilinapaint.html). 
 
-Для записок
+![Imgur](https://i.imgur.com/CLiMzlG.jpg)
 
-![Imgur](https://i.imgur.com/h9aizb6.jpg)
+![Imgur](https://i.imgur.com/VUwh9Wg.jpg)
 
-Сентябрь. Наталья Ляпкина.  **Сонечка.**
+![Imgur](https://i.imgur.com/6brc6Mh.jpg)
 
-![Imgur](https://i.imgur.com/tqhChop.jpg)
+![Imgur](https://i.imgur.com/Lucygmb.jpg)
 
-Наталья Ляпкина. **"Зайчики в трамвайчике"**
+![Imgur](https://i.imgur.com/TAngHuD.jpg)
 
-![Imgur](https://i.imgur.com/pZzk86r.jpg)
+Сентябрь. **Наталья Ляпкина**[Достаточно просто проснуться и оставаться в пробуждении](https://www.mamgrodno.com/projects/liapkinaart.html)
 
-Наталья Ляпкина.**"Пчела"**
+![Imgur](https://i.imgur.com/520bVC9.jpg)
 
-Октябрь. Александр Болдаков. **Проект "Культтовары"**
+![Imgur](https://i.imgur.com/3lNjTBa.jpg)
 
-![Imgur](https://i.imgur.com/QTGmVWE.jpg)
+![Imgur](https://i.imgur.com/z99DtU2.jpg)
 
-Александр Болдаков. **Intermedia**
+![Imgur](https://i.imgur.com/40tjyBU.jpg)
 
-![Imgur](https://i.imgur.com/eG9qyfp.jpg)
+![Imgur](https://i.imgur.com/olYOp5M.jpg)
 
-Для записей. Александр Болдаков. Проект "Летуценні".
+![Imgur](https://i.imgur.com/3uTLaQ7.jpg)
 
-![Imgur](https://i.imgur.com/nUOwKsF.jpg)
+Октябрь. **Александр Болдаков** [На краю времени](https://www.mamgrodno.com/projects/boldakovpaint.html)
 
-![Imgur](https://i.imgur.com/WxEWfWH.jpg)
+![Imgur](https://i.imgur.com/M2kBYsl.jpg)
 
-Ноябрь. Александр Демидов. **"Равновесие. Гармония"** 
+![Imgur](https://i.imgur.com/vDSaTZt.jpg)
+
+![Imgur](https://i.imgur.com/Vupqgzb.jpg)
+
+ Ноябрь. **Александр Демидов** [Для внутреннего пользования](https://www.mamgrodno.com/projects/demidovart.html)
 
 ![Imgur](https://i.imgur.com/ez7YWYz.jpg)
 
-Александр Демидов. Ноябрь. **"Кормление рыб"**
+![Imgur](https://i.imgur.com/BQtNfKL.jpg)
 
-![Imgur](https://i.imgur.com/DVcihDZ.jpg)
+![Imgur](https://i.imgur.com/OGECefp.jpg)
 
-Александр Демидов. Ноябрь. **"Натюрморт с гранатом".** 
-
-![Imgur](https://i.imgur.com/Vqyr7PP.jpg)
+![Imgur](https://i.imgur.com/Uf7h8fV.jpg)
 
 Декабрь. Юрий Яковенко.**"Плантация"."Арабески."**
 
 ![Imgur](https://i.imgur.com/jygZRWI.jpg)
 
-Юрий Яковенко. Декабрь. Серия "Сад", "Зима. Метель".
+**Юрий Яковенко** [Для гравюры нужны мозги, руки и хорошие ягодицы](https://www.mamgrodno.com/projects/jakovenkoart.html) 
 
-![Imgur](https://i.imgur.com/dIq5mzb.jpg)
+![Imgur](https://i.imgur.com/xdtd4sE.jpg)
 
-Юрий Яковенко. Серия "Аргонавты и Ясон", фрагмент.
+![Imgur](https://i.imgur.com/3B2MZqp.jpg)
 
-![Imgur](https://i.imgur.com/YYP9DC8.jpg)
+![Imgur](https://i.imgur.com/yR5c1jG.jpg)
 
+![Imgur](https://i.imgur.com/0j7tscR.jpg)
 
 **mamgrodno- 2025**
 
