@@ -1,8 +1,8 @@
 ---
 title: calendar
 navigation: Кто
-heading: 'Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.'
-description: Сформировали буклет - для созерцания. 
+heading:'Двенадцать современных художников из Гродно и Беларуси. Двенадцать историй на mamgrodno.'
+description: 'Сформировали буклет - для созерцания.' 
 thumbnail: https://i.imgur.com/8DHVZpZ.jpg 
 categories: []
 year: 2025
