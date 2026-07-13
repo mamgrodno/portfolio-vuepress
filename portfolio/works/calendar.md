@@ -19,7 +19,7 @@ date: 2025-01-02 21:00:00 +0000
 
 Январь:**Марк Максимович**[Каждому путешественнику я должен дать дорогу. И, когда это сделаю, вы будете разговаривать с ним, а не со мной](https://www.mamgrodno.com/projects/markmaksimovitch.html).
 
-[Imgur](https://i.imgur.com/7A6kVSL.jpg)
+![Imgur](https://i.imgur.com/7A6kVSL.jpg)
 
 ![Imgur](https://i.imgur.com/uhNZMxJ.jpg)
 
